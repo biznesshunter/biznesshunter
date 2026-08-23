@@ -1,0 +1,167 @@
+﻿[
+    {
+        "opportunity":  "Réservation à la demande de services domestiques locaux",
+        "original_category":  "Marketplace de services à domicile",
+        "gap_score":  64,
+        "verdict":  "PROMISING GAP",
+        "company_count":  6,
+        "article_count":  43,
+        "replication":  91,
+        "competition_gap":  75,
+        "geographic_gap":  85
+    },
+    {
+        "opportunity":  "Marketplace de petits travaux domestiques réservables en ligne",
+        "original_category":  "Marketplace de petits travaux et entretien du logement",
+        "gap_score":  60,
+        "verdict":  "PROMISING GAP",
+        "company_count":  6,
+        "article_count":  8,
+        "replication":  91,
+        "competition_gap":  75,
+        "geographic_gap":  85
+    },
+    {
+        "opportunity":  "Entretien automobile mobile à domicile",
+        "original_category":  "Entretien automobile mobile à domicile",
+        "gap_score":  51,
+        "verdict":  "WATCH",
+        "company_count":  10,
+        "article_count":  9,
+        "replication":  49,
+        "competition_gap":  75,
+        "geographic_gap":  85
+    },
+    {
+        "opportunity":  "Réservation de réparation automobile",
+        "original_category":  "Réservation de réparation automobile",
+        "gap_score":  50,
+        "verdict":  "WATCH",
+        "company_count":  10,
+        "article_count":  4,
+        "replication":  49,
+        "competition_gap":  75,
+        "geographic_gap":  85
+    },
+    {
+        "opportunity":  "Réservation en ligne de services automobiles locaux",
+        "original_category":  "Marketplace de services automobiles",
+        "gap_score":  50,
+        "verdict":  "WATCH",
+        "company_count":  10,
+        "article_count":  4,
+        "replication":  49,
+        "competition_gap":  75,
+        "geographic_gap":  85
+    },
+    {
+        "opportunity":  "Marketplace de garde et soins pour animaux",
+        "original_category":  "Marketplace de garde et soins pour animaux",
+        "gap_score":  48,
+        "verdict":  "LOW",
+        "company_count":  36,
+        "article_count":  42,
+        "replication":  52,
+        "competition_gap":  60,
+        "geographic_gap":  55
+    },
+    {
+        "opportunity":  "Marketplace de stockage chez des particuliers",
+        "original_category":  "Marketplace de stockage local",
+        "gap_score":  47,
+        "verdict":  "LOW",
+        "company_count":  89,
+        "article_count":  90,
+        "replication":  33,
+        "competition_gap":  30,
+        "geographic_gap":  55
+    },
+    {
+        "opportunity":  "Marketplace de réparateurs locaux",
+        "original_category":  "Marketplace de réparateurs locaux",
+        "gap_score":  46,
+        "verdict":  "LOW",
+        "company_count":  19,
+        "article_count":  11,
+        "replication":  56,
+        "competition_gap":  60,
+        "geographic_gap":  70
+    },
+    {
+        "opportunity":  "Réparation automobile à la demande",
+        "original_category":  "Réparation automobile à la demande",
+        "gap_score":  46,
+        "verdict":  "LOW",
+        "company_count":  19,
+        "article_count":  4,
+        "replication":  56,
+        "competition_gap":  60,
+        "geographic_gap":  70
+    },
+    {
+        "opportunity":  "Réparation de smartphones à la demande",
+        "original_category":  "Réparation de smartphones à la demande",
+        "gap_score":  46,
+        "verdict":  "LOW",
+        "company_count":  19,
+        "article_count":  8,
+        "replication":  56,
+        "competition_gap":  60,
+        "geographic_gap":  70
+    },
+    {
+        "opportunity":  "Services vétérinaires à la demande",
+        "original_category":  "Services vétérinaires à la demande",
+        "gap_score":  43,
+        "verdict":  "LOW",
+        "company_count":  36,
+        "article_count":  6,
+        "replication":  52,
+        "competition_gap":  60,
+        "geographic_gap":  55
+    },
+    {
+        "opportunity":  "Location de matériel et équipements",
+        "original_category":  "Location de matériel et équipements",
+        "gap_score":  43,
+        "verdict":  "LOW",
+        "company_count":  200,
+        "article_count":  77,
+        "replication":  32,
+        "competition_gap":  15,
+        "geographic_gap":  40
+    },
+    {
+        "opportunity":  "Marketplace de location d\u0027équipements entre particuliers",
+        "original_category":  "Marketplace de location entre particuliers",
+        "gap_score":  43,
+        "verdict":  "LOW",
+        "company_count":  200,
+        "article_count":  103,
+        "replication":  32,
+        "competition_gap":  15,
+        "geographic_gap":  40
+    },
+    {
+        "opportunity":  "Marketplace locale de garde d\u0027enfants à la demande",
+        "original_category":  "Marketplace de garde d\u0027enfants",
+        "gap_score":  39,
+        "verdict":  "LOW",
+        "company_count":  86,
+        "article_count":  78,
+        "replication":  5,
+        "competition_gap":  30,
+        "geographic_gap":  55
+    },
+    {
+        "opportunity":  "Location de véhicules entre particuliers",
+        "original_category":  "Location de véhicules entre particuliers",
+        "gap_score":  39,
+        "verdict":  "LOW",
+        "company_count":  200,
+        "article_count":  13,
+        "replication":  32,
+        "competition_gap":  15,
+        "geographic_gap":  40
+    }
+]
