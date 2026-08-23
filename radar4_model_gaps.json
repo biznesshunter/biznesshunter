@@ -1,0 +1,299 @@
+﻿[
+    {
+        "business":  "This on-demand vehicle service and repair startup registered Rs 4 Cr revenue in first year of operation - YourStory.com",
+        "model":  "Mobile vehicle repair / service",
+        "gap_score":  40,
+        "verdict":  "WATCH",
+        "strong_markets":  2,
+        "moderate_markets":  1,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  29,
+                              "presence":  "STRONG",
+                              "examples":  "Faire cohabiter atelier mobile et carrosserie fixe, l???exemple de Flash Repair ?? Orl??ans - Auto Infos || Cette soci??t?? veut transformer la location de voiture sur la C??te d\u0027Azur - Tribuca.net || Ecolave distingu??e ?? Meilleure Enseigne en Franchise 2026 ?? par Le Figaro - Toute la Franchise ||  || Join Cargolux\u0027s aircraft mechanic apprenticeship program! - Aerocontact.com"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  10,
+                              "presence":  "MODERATE",
+                              "examples":  " || Europe Car Rental Market Size, Share \u0026 Growth Report, 2034 - Market Data Forecast || Regine Sixt, Executive vicepresident of Sixt Group - Fleet People || LED headlights are now legal in Spain: Everything you need to know about making the switch - Murcia Today || FixTech wins Spain Prestige Awards 2025/26 in computer repair category - Murcia Today"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  20,
+                              "presence":  "STRONG",
+                              "examples":  "Neue Kooperation: ZDK und Mobile.de b??ndeln Daten und Branchenwissen - autoservicepraxis.de || Nio: Premium mit System - autohaus.de || Hyundai testet mobilen Service der zum Auto kommt ??? wie bei Tesla und Rivian - SmartDroid || Die besten Caravan- und Reisemobilh??ndler 2025 - AUTOBILD.DE || Familienauto, B??ro und Camper in einem: Xiaomi pr??sentiert den Full-Service-SUV - autohaus.de"
+                          }
+                      ]
+    },
+    {
+        "business":  "Avride is the Latest Tech Startup to Launch Food Delivery Robots in the U.S. - Food On Demand",
+        "model":  "Food delivery robots",
+        "gap_score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  80,
+                              "presence":  "STRONG",
+                              "examples":  "Les robots livreurs autonomes ont d??sormais le droit de rouler en France - Korben || Cor??e du Sud : Les premiers robots livreurs autonomes circulent dans les rues de S??oul - Ouest-France || Manche : un robot embauch?? comme serveur dans un restaurant - franceinfo || La France acc??l??re sur la livraison du dernier kilom??tre par v??hicule autonome - France Routes || La France ouvre la route aux robots de livraison autonomes - iGeneration"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  21,
+                              "presence":  "STRONG",
+                              "examples":  "Abre en Espa??a la primera pizzer??a operada por robots - Digital de Le??n || Los robots aut??nomos de Goggo Network ya reparten pedidos de Dia en Alcobendas - diacorporate.com || La crisis silenciosa de Telepizza: la pionera del delivery en Espa??a ha entrado en n??meros rojo en plena era del delivery - Xataka || Los jugadores de Pok??mon Go han estado entrenando robots sin saberlo - Independent en Espa??ol || Amazon anuncia ocho innovaciones para ofrecer mejores env??os a los clientes, apoyar a los empleados y retribuir a las comunidades en todo el mundo - About Amazon"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  40,
+                              "presence":  "STRONG",
+                              "examples":  "Pok??mon-Go-Spieler haben unbemerkt Lieferroboter trainiert - ??ber 30 Milliarden Scans genutzt - Buffed || Automatisierung: Kommt die Robolution? - food-service.de || Food Logistics: TGW Automates Picnic Distribution Center for 200,000 Households - Logistik Heute || Starship \u0026 foodora: First robot delivery service in Prague - VISION mobility || Robo delivery service: Starship \u0026 Foodora launch in Prague - TRANSPORT - die Zeitung f??r den G??terverkehr"
+                          }
+                      ]
+    },
+    {
+        "business":  "Historic Dayton Arcade welcomes new marketplace soon, sparking retail growth - WKEF",
+        "model":  "Local physical marketplace",
+        "gap_score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  60,
+                              "presence":  "STRONG",
+                              "examples":  "?? Franchement ??a n???a pas chang?? grand-chose ?? : cette plateforme locale de vente en ligne peine ?? convaincre un an apr??s - Ouest-France || Voici le Top 10 des marketplaces qui dominent le e-commerce fran??ais aujourd???hui - Si??cle Digital || Microsoft et Mistral renforcent leur partenariat strat??gique pour offrir aux organisations davantage de choix, de contr??le et de flexibilit?? dans le d??ploiement d???une IA de pointe - Microsoft Source || Le nouveau magasin d\u0027AliExpress en Europe en images - LSA || "
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  22,
+                              "presence":  "STRONG",
+                              "examples":  "La revoluci??n de TikTok Shop en Espa??a: ventas de 200 millones y un 2% cuota en solo un a??o - El Economista || Rakuten abre en Espa??a su nuevo marketplace para competir con Amazon - Expansi??n || Shein abre su marketplace a marcas espa??olas - FashionUnited ||  || Microsoft opens its first cloud region in Spain to accelerate the development of the AI Economy - Microsoft Source"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  56,
+                              "presence":  "STRONG",
+                              "examples":  "Das Bissendorfer Unternehmen B??nte Marketplace ist verkauft - noz.de || Microsoft Foundry Local: Lokale KI-L??sung ist offiziell verf??gbar - Microsoft || Melodic Marketplace gab Konzert in Theresienkirche - Mittelbayerische Zeitung || Whey Protein Test: Wir haben 10 Produkte durchprobiert ??? das sind die Sieger - GQ Germany || GTA 6: Vorbestellung ab sofort m??glich ??? Ultimate Edition kostet 99,99 ??? (Update) - GamesWirtschaft.de"
+                          }
+                      ]
+    },
+    {
+        "business":  "15-Minute Grocery Delivery Startup Tiggy Rapidly Expanding into New Markets in Canada: Interview - retail-insider.com",
+        "model":  "Rapid grocery delivery",
+        "gap_score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  2,
+        "moderate_markets":  1,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  24,
+                              "presence":  "STRONG",
+                              "examples":  "Pourquoi la marque 7-Eleven ne s???implante pas en France ? - L???Express Franchise || JoyExpress, le service de livraison le jour m??me du Chinois JoyBuy, arrive en France pour concurrencer Amazon - RMC || La restauration rapide monte en gamme - www.cci-paris-idf.fr || Livraison en 15 minutes : ces start-up qui veulent transformer vos courses - Ouest-France || Avec Carrefour Sprint, Uber Eats prend une longueur d\u0027avance sur la livraison de courses en moins de 15 min - Zepros Restauration"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  8,
+                              "presence":  "MODERATE",
+                              "examples":  "Entender a los compradores online para acelerar el crecimiento del ecommerce - Kantar ||  || Brasil y M??xico encabezan los SL Design, Digital Craft, Film Craft e Industry Craft - LatinSpots.com || Panorama de la telefon??a e Internet en Espa??a - YouGov"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  41,
+                              "presence":  "STRONG",
+                              "examples":  "Gr????e, Anteil und Trend des Fast-Food-Marktes 2035 - Business Research Insights || Expansion of Delivery Area: Flink Reaches 2.3 Million New Households - Logistik Heute || Delivery: Warum Chinas Drohnen Deutschland abh??ngen - food-service.de || Juicy Bite: Czech Online Grocery Startup Rohlik Raises EUR 190m to Fuel European Expansion - trendingtopics.eu || After warehouse expansion - Online supermarket Gurkerl wants to expand again - Kronen Zeitung"
+                          }
+                      ]
+    },
+    {
+        "business":  "Indian e-bike rental startup Yulu raises $93 mln to help fund expansion - Reuters",
+        "model":  "E-bike rental / sharing",
+        "gap_score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  25,
+                              "presence":  "STRONG",
+                              "examples":  "La mobilit?? bouge au CERN ??? Home - Home | CERN || Pourquoi les loueurs de v??los de la presqu?????le de Gu??rande d??stockent tout ?? la fin de l?????t?? - Ouest-France || DOSSIER. Engouement pour le v??lo : un business florissant dans la r??gion - Midi Libre || Le v??lo public explose : voici ce que disent vraiment les ??tudes - Weelz! || Municipales en France : ?? Paris, Emmanuel Gr??goire triomphe ?? v??lo - Le Soir"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  39,
+                              "presence":  "STRONG",
+                              "examples":  "Rental Bike Summit 2026: el punto de encuentro definitivo para el alquiler de bicicletas - Ciclosfera || Rental Bike Summit: el alquiler de bicicletas celebra su primer gran encuentro profesional - Ciclosfera || Tiendas de bicis imprescindibles para amantes de las dos ruedas - Time Out Worldwide || El \u0027cad??ver de chatarra\u0027 que recuerda por qu?? las bicis compartidas no funcionan en Espa??a - El Confidencial || Niche Mobility busca mejorar los trayectos en bicicleta el??ctrica con su nueva soluci??n - Innovaspain"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  112,
+                              "presence":  "STRONG",
+                              "examples":  "Tipps f??r das Fahrradfahren in Amsterdam - Europ??isches Verbraucherzentrum || Are cities putting a stop to rental bikes and e-scooters? - Die Sachsen News || Vok Bike launches cargo bike rental in London: Less traffic, more speed - Logistra.de || Bikesharing - ADFC || Bikesharing boomt: ??ber 200.000 Mietr??der in Deutschland - BikeX"
+                          }
+                      ]
+    },
+    {
+        "business":  "Alpha Controls Launches Equipment Rental Program, Expanding Access to Instrumentation, Calibration \u0026 Validation Solutions - The Manila Times",
+        "model":  "Equipment rental",
+        "gap_score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  0,
+        "moderate_markets":  3,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  10,
+                              "presence":  "MODERATE",
+                              "examples":  "Avec une demande d?????conomie d???usage en progression, Case accompagne ses concessionnaires ?? se diversifier vers la location - Le Moniteur Mat??riels || France arrests alleged Chinese spies living in small village???four arrests so far - intelNews.org || Lokki l??ve 6,3 millions d???euros pour ses solutions B2B et B2C de location d?????quipements - L\u0027Usine Digitale || 5 lieux o?? emprunter des outils ?? Paris - Ville de Paris || Donn??es sur la location de courte dur??e : une Europe super-saisonni??re bat des records en juillet et ao??t, mais reste ?? la tra??ne par rapport aux ??tats-Unis - RSU by PriceLabs"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  17,
+                              "presence":  "MODERATE",
+                              "examples":  "Mijas police arrest five for stealing machinery from companies and construction sites - Sur in English || Juan Carlos Azcona, nuevo director general de Hertz Alquiler de Maquinaria - Interempresas Media || Property for rent in Andaluc??a, Spain: 12.650 Homes and houses - Fotocasa || 48 Flats, penthouses and duplexes for rent in Calpe / Calp, Spain - Fotocasa || El Banco de Espa??a crea Mi CarpetaBE: nueva app para tr??mites - El Diario de Madrid"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  19,
+                              "presence":  "MODERATE",
+                              "examples":  "Marktgr????e, Marktanteil und Trends f??r die Vermietung von Baumaschinen 2034 - Fortune Business Insights || Intax outfits the Dacia Duster for taxi use. - Taxi Heute || Charterway: Rent the electric truck eActros 600 for long-haul transport now - TRANSPORT - die Zeitung f??r den G??terverkehr || Europcar: New Mobility App Combines Rental Cars with Miles and Dott Sharing - VISION mobility || American Express meets SIXT ??? dank Platinum Card(s) extra smooth in Fahrt kommen - American Express"
+                          }
+                      ]
+    },
+    {
+        "business":  "Local shop owners rebuild with new marketplace at same location after Painted Tree shutdown - KARK",
+        "model":  "Local physical marketplace",
+        "gap_score":  20,
+        "verdict":  "WEAK",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  60,
+                              "presence":  "STRONG",
+                              "examples":  "?? Franchement ??a n???a pas chang?? grand-chose ?? : cette plateforme locale de vente en ligne peine ?? convaincre un an apr??s - Ouest-France || Voici le Top 10 des marketplaces qui dominent le e-commerce fran??ais aujourd???hui - Si??cle Digital || Microsoft et Mistral renforcent leur partenariat strat??gique pour offrir aux organisations davantage de choix, de contr??le et de flexibilit?? dans le d??ploiement d???une IA de pointe - Microsoft Source || Le nouveau magasin d\u0027AliExpress en Europe en images - LSA || "
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  22,
+                              "presence":  "STRONG",
+                              "examples":  "La revoluci??n de TikTok Shop en Espa??a: ventas de 200 millones y un 2% cuota en solo un a??o - El Economista || Rakuten abre en Espa??a su nuevo marketplace para competir con Amazon - Expansi??n || Shein abre su marketplace a marcas espa??olas - FashionUnited ||  || Microsoft opens its first cloud region in Spain to accelerate the development of the AI Economy - Microsoft Source"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  56,
+                              "presence":  "STRONG",
+                              "examples":  "Das Bissendorfer Unternehmen B??nte Marketplace ist verkauft - noz.de || Microsoft Foundry Local: Lokale KI-L??sung ist offiziell verf??gbar - Microsoft || Melodic Marketplace gab Konzert in Theresienkirche - Mittelbayerische Zeitung || Whey Protein Test: Wir haben 10 Produkte durchprobiert ??? das sind die Sieger - GQ Germany || GTA 6: Vorbestellung ab sofort m??glich ??? Ultimate Edition kostet 99,99 ??? (Update) - GamesWirtschaft.de"
+                          }
+                      ]
+    },
+    {
+        "business":  "Shop the OBX marketplace seeks new local vendors following launch - Island Free Press",
+        "model":  "Local physical marketplace",
+        "gap_score":  20,
+        "verdict":  "WEAK",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  60,
+                              "presence":  "STRONG",
+                              "examples":  "?? Franchement ??a n???a pas chang?? grand-chose ?? : cette plateforme locale de vente en ligne peine ?? convaincre un an apr??s - Ouest-France || Voici le Top 10 des marketplaces qui dominent le e-commerce fran??ais aujourd???hui - Si??cle Digital || Microsoft et Mistral renforcent leur partenariat strat??gique pour offrir aux organisations davantage de choix, de contr??le et de flexibilit?? dans le d??ploiement d???une IA de pointe - Microsoft Source || Le nouveau magasin d\u0027AliExpress en Europe en images - LSA || "
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  22,
+                              "presence":  "STRONG",
+                              "examples":  "La revoluci??n de TikTok Shop en Espa??a: ventas de 200 millones y un 2% cuota en solo un a??o - El Economista || Rakuten abre en Espa??a su nuevo marketplace para competir con Amazon - Expansi??n || Shein abre su marketplace a marcas espa??olas - FashionUnited ||  || Microsoft opens its first cloud region in Spain to accelerate the development of the AI Economy - Microsoft Source"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  56,
+                              "presence":  "STRONG",
+                              "examples":  "Das Bissendorfer Unternehmen B??nte Marketplace ist verkauft - noz.de || Microsoft Foundry Local: Lokale KI-L??sung ist offiziell verf??gbar - Microsoft || Melodic Marketplace gab Konzert in Theresienkirche - Mittelbayerische Zeitung || Whey Protein Test: Wir haben 10 Produkte durchprobiert ??? das sind die Sieger - GQ Germany || GTA 6: Vorbestellung ab sofort m??glich ??? Ultimate Edition kostet 99,99 ??? (Update) - GamesWirtschaft.de"
+                          }
+                      ]
+    },
+    {
+        "business":  "Pet Care Startup Supertails Brings Fear Free Certified Care to India\u0027s Growing Pet Healthcare Sector with its First Clinic Launch - ANI News",
+        "model":  "Pet care service",
+        "gap_score":  10,
+        "verdict":  "WEAK",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "weak_markets":  0,
+        "no_signal_markets":  0,
+        "countries":  [
+                          {
+                              "country":  "France",
+                              "code":  "FR",
+                              "hits":  182,
+                              "presence":  "STRONG",
+                              "examples":  "[CES 2026] Un Care Companion au service du bien-??tre et de la s??curit?? de toute la famille - samsung.com || Polluants ??ternels : pourquoi l???usine Deuerer Petcare de Villeneuve-sur-Lot, sp??cialis??e dans la fabrication d???aliments pour animaux de compagnie, va devoir analyser ses boues - PetitBleu.fr || Choisir les produits pour son animal : Mars Petcare s???appuie sur l???IA chez Carrefour et Intermarch?? - La Revue du Digital || Ceva Sant?? Animale : une nouvelle gouvernance pour continuer de grandir - Le Journal des Entreprises || Hantavirus : le CHU d???Angers pr??t ?? d??ployer sa cellule d???isolement - Ouest-France"
+                          },
+                          {
+                              "country":  "Spain",
+                              "code":  "ES",
+                              "hits":  113,
+                              "presence":  "STRONG",
+                              "examples":  "Los 22 mejores hoteles de Espa??a para viajar con perros - Glamour || Mars logra una reducci??n r??cord de emisiones de carbono - Mars, Incorporated || Mars figura en la lista World???s Best Companies 2025 de la revista TIME | Mars Espa??a - Mars, Incorporated || El v??nculo humano-animal, un motor de bienestar social - PMFarma || Desarmados ante la peor pandemia animal de la historia: la peste porcina africana irrumpe en Espa??a sin ninguna vacuna a la vista - EL PA??S"
+                          },
+                          {
+                              "country":  "Germany",
+                              "code":  "DE",
+                              "hits":  80,
+                              "presence":  "STRONG",
+                              "examples":  "Fiskars: 375 Jahre Schneidkompetenz: Gartenscheren, Astscheren, PetCare-Serie - Beschaffungsdienst GaLaBau || Vitakraft pet care GmbH \u0026 Co. KG (Bremen) im Ranking der deutschen Top-Unternehmen - Die Deutsche Wirtschaft || Xiaomi Smart Pet Care Air Purifier im Check. - CHIP || Die Medizinische Hochschule Hannover weiht ein hochmodernes Ganzk??rper-PET/CT-System ein, um die klinische Bildgebung und translationale Forschung zu unterst??tzen | Corporate - EQS News || Total-Body-PET/CT: detaillierte Ganzk??rperbilder in einem Schritt - healthcare-in-europe.com"
+                          }
+                      ]
+    }
+]

@@ -1,0 +1,145 @@
+﻿[
+    {
+        "source":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  69,
+        "confidence":  "MOYENNE",
+        "demand":  25,
+        "proof":  9,
+        "copyability":  12,
+        "simplicity":  7,
+        "automation":  8,
+        "capital":  8,
+        "commercial_opportunity":  32,
+        "problem":  40,
+        "customer":  20,
+        "copycat_concept":  "Service simple d\u0027audit et de maintenance SEO et structured data pour petites entreprises.",
+        "rejection_reasons":  [
+
+                              ]
+    },
+    {
+        "source":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  68,
+        "confidence":  "MOYENNE",
+        "demand":  25,
+        "proof":  8,
+        "copyability":  12,
+        "simplicity":  7,
+        "automation":  8,
+        "capital":  8,
+        "commercial_opportunity":  22,
+        "problem":  40,
+        "customer":  20,
+        "copycat_concept":  "Service de niche utilisant les agents IA pour automatiser une tâche précise.",
+        "rejection_reasons":  [
+
+                              ]
+    },
+    {
+        "source":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  63,
+        "confidence":  "MOYENNE",
+        "demand":  25,
+        "proof":  9,
+        "copyability":  12,
+        "simplicity":  7,
+        "automation":  5,
+        "capital":  5,
+        "commercial_opportunity":  32,
+        "problem":  40,
+        "customer":  35,
+        "copycat_concept":  "Version simplifiée de gestion et synchronisation de connaissances pour petites équipes utilisant des agents IA.",
+        "rejection_reasons":  [
+                                  "Forte dépendance à une expertise technique"
+                              ]
+    },
+    {
+        "source":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  61,
+        "confidence":  "FAIBLE",
+        "demand":  25,
+        "proof":  7,
+        "copyability":  6,
+        "simplicity":  7,
+        "automation":  8,
+        "capital":  8,
+        "commercial_opportunity":  30,
+        "problem":  40,
+        "customer":  20,
+        "copycat_concept":  "Identifier la fonction commerciale principale puis construire une version beaucoup plus étroite et simple.",
+        "rejection_reasons":  [
+
+                              ]
+    },
+    {
+        "source":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  59,
+        "confidence":  "FAIBLE",
+        "demand":  25,
+        "proof":  8,
+        "copyability":  9,
+        "simplicity":  7,
+        "automation":  5,
+        "capital":  5,
+        "commercial_opportunity":  34,
+        "problem":  40,
+        "customer":  35,
+        "copycat_concept":  "Service automatisé de contrôle visuel de sites web pour petites agences et indépendants.",
+        "rejection_reasons":  [
+                                  "Forte dépendance à une expertise technique"
+                              ]
+    },
+    {
+        "source":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  47,
+        "confidence":  "FAIBLE",
+        "demand":  9,
+        "proof":  6,
+        "copyability":  9,
+        "simplicity":  7,
+        "automation":  8,
+        "capital":  8,
+        "commercial_opportunity":  16,
+        "problem":  15,
+        "customer":  20,
+        "copycat_concept":  "Micro-outil utilitaire ultra-ciblé résolvant un problème fréquent.",
+        "rejection_reasons":  [
+
+                              ]
+    },
+    {
+        "source":  "Show HN: A comic and manga viewer component for React",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  34,
+        "confidence":  "FAIBLE",
+        "demand":  0,
+        "proof":  5,
+        "copyability":  12,
+        "simplicity":  7,
+        "automation":  5,
+        "capital":  5,
+        "commercial_opportunity":  0,
+        "problem":  0,
+        "customer":  0,
+        "copycat_concept":  "Identifier la fonction commerciale principale puis construire une version beaucoup plus étroite et simple.",
+        "rejection_reasons":  [
+                                  "Opportunité commerciale faible",
+                                  "Problème insuffisamment démontré",
+                                  "Client cible insuffisamment identifiable",
+                                  "Forte dépendance à une expertise technique"
+                              ]
+    }
+]

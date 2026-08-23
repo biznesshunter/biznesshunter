@@ -1,0 +1,62 @@
+﻿[
+  {
+    "name": "Passionfroot",
+    "country": "Germany",
+    "category": "B2B Creator Marketplace",
+    "demand": 19,
+    "growth": 19,
+    "evidence": 24,
+    "timing": 15,
+    "adaptability": 14,
+    "copy_angle": "Créer une marketplace verticale reliant des créateurs ou experts spécialisés à des entreprises.",
+    "why": "Forte croissance, financement important et expansion internationale."
+  },
+  {
+    "name": "Fleek",
+    "country": "UK",
+    "category": "B2B Marketplace",
+    "demand": 18,
+    "growth": 18,
+    "evidence": 24,
+    "timing": 14,
+    "adaptability": 14,
+    "copy_angle": "Créer une marketplace spécialisée dans un marché fragmenté où acheteurs et fournisseurs ont du mal à se trouver.",
+    "why": "Marché en croissance et forte preuve de traction."
+  },
+  {
+    "name": "Pocket",
+    "country": "USA",
+    "category": "AI Hardware",
+    "demand": 18,
+    "growth": 18,
+    "evidence": 24,
+    "timing": 14,
+    "adaptability": 10,
+    "copy_angle": "Identifier une fonction IA très précise pouvant être transformée en produit simple.",
+    "why": "Fortes ventes et financement, mais reproduction difficile."
+  },
+  {
+    "name": "Naive",
+    "country": "USA",
+    "category": "AI Infrastructure",
+    "demand": 20,
+    "growth": 20,
+    "evidence": 24,
+    "timing": 15,
+    "adaptability": 3,
+    "copy_angle": "Automatiser une tâche opérationnelle complexe grâce à des agents IA.",
+    "why": "Très forte traction mais modèle difficile à reproduire pour un solo entrepreneur."
+  },
+  {
+    "name": "Merchantee",
+    "country": "Europe",
+    "category": "E-commerce Software",
+    "demand": 18,
+    "growth": 17,
+    "evidence": 22,
+    "timing": 15,
+    "adaptability": 14,
+    "copy_angle": "Créer un outil spécialisé autour d'une fonction complexe d'un écosystème marketplace.",
+    "why": "Besoin B2B concret et modèle logiciel relativement adaptable."
+  }
+]

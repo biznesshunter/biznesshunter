@@ -1,0 +1,54 @@
+﻿{
+    "name":  "Passionfroot",
+    "website":  "https://www.passionfroot.me",
+    "country":  "Germany",
+    "founded":  2022,
+    "category":  "B2B Creator Marketing",
+    "business_model":  "Marketplace / SaaS / transaction fees",
+    "description":  "Platform connecting B2B brands with creators and managing creator marketing campaigns.",
+    "traction":  {
+                     "funding_usd":  15000000,
+                     "revenue_growth_yoy":  "13x",
+                     "profitable":  true,
+                     "team_size":  15,
+                     "customers":  [
+                                       "Figma",
+                                       "Replit",
+                                       "ElevenLabs",
+                                       "Framer",
+                                       "Gamma"
+                                   ],
+                     "expansion":  [
+                                       "United States",
+                                       "Brazil"
+                                   ]
+                 },
+    "signals":  [
+                    "15M Series A in July 2026",
+                    "Revenue grew 13x year over year",
+                    "Company reports profitability",
+                    "Expansion to New York and Sao Paulo",
+                    "Major B2B technology customers"
+                ],
+    "sources":  [
+                    "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+                    "https://www.passionfroot.me/",
+                    "https://www.passionfroot.me/partner-stories"
+                ],
+    "evidence_quality":  {
+                             "funding":  3,
+                             "sources":  5,
+                             "profitability":  4,
+                             "customers":  4,
+                             "revenue_growth":  5
+                         },
+    "copy_factors":  {
+                         "technical_complexity":  "medium",
+                         "solo_feasibility":  "medium",
+                         "initial_capital":  "medium",
+                         "network_effect":  "high",
+                         "operational_complexity":  "medium",
+                         "customer_acquisition":  "high",
+                         "regulatory_barriers":  "low"
+                     }
+}

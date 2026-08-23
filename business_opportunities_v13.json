@@ -1,0 +1,86 @@
+﻿[
+    {
+        "source":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "original_score":  80,
+        "copy_score":  97,
+        "simplicity":  17,
+        "automation":  15,
+        "capital":  15,
+        "market_gap":  15,
+        "copy_angle":  "Mémoire décisionnelle simplifiée pour un seul outil de coding agent",
+        "mvp":  "Capture de décisions + validation humaine + fichier de contexte automatiquement mis à jour",
+        "verdict":  "A TESTER"
+    },
+    {
+        "source":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "original_score":  40,
+        "copy_score":  75,
+        "simplicity":  20,
+        "automation":  15,
+        "capital":  15,
+        "market_gap":  0,
+        "copy_angle":  "Micro-outil spécialisé au lieu d\u0027une bibliothèque généraliste",
+        "mvp":  "Une seule catégorie de 10–20 outils réellement utiles avec SEO",
+        "verdict":  "A TESTER"
+    },
+    {
+        "source":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "original_score":  70,
+        "copy_score":  66,
+        "simplicity":  7,
+        "automation":  4,
+        "capital":  5,
+        "market_gap":  15,
+        "copy_angle":  "Mini-audit automatique de landing pages : URL → capture → détection de problèmes visuels/conversion",
+        "mvp":  "Une URL entrée par l\u0027utilisateur, analyse de la page, 5 contrôles fixes, rapport simple",
+        "verdict":  "A ETUDIER"
+    },
+    {
+        "source":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "original_score":  85,
+        "copy_score":  62,
+        "simplicity":  3,
+        "automation":  4,
+        "capital":  5,
+        "market_gap":  15,
+        "copy_angle":  "Version ultra-simple du knowledge layer pour une niche précise",
+        "mvp":  "Une niche + import de documents/site + réponses contrôlées + page publique",
+        "verdict":  "A ETUDIER"
+    },
+    {
+        "source":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "original_score":  25,
+        "copy_score":  55,
+        "simplicity":  20,
+        "automation":  15,
+        "capital":  15,
+        "market_gap":  0,
+        "copy_angle":  "Service automatisé de création/publication de contenu pour agents",
+        "mvp":  "Prompt → vidéo courte → publication automatique sur une destination",
+        "verdict":  "SURVEILLER"
+    },
+    {
+        "source":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "original_score":  20,
+        "copy_score":  21,
+        "simplicity":  7,
+        "automation":  4,
+        "capital":  5,
+        "market_gap":  5,
+        "copy_angle":  "Service autour de la conformité/licence plutôt que créer une nouvelle licence",
+        "mvp":  "Analyse d\u0027un dépôt GitHub et génération d\u0027un rapport de compatibilité",
+        "verdict":  "IGNORER"
+    },
+    {
+        "source":  "Show HN: A comic and manga viewer component for React",
+        "original_score":  0,
+        "copy_score":  14,
+        "simplicity":  10,
+        "automation":  4,
+        "capital":  5,
+        "market_gap":  0,
+        "copy_angle":  "Niche spécialisée dérivée du produit original",
+        "mvp":  "Version minimale répondant à un seul cas d\u0027usage",
+        "verdict":  "IGNORER"
+    }
+]

@@ -1,0 +1,83 @@
+﻿[
+    {
+        "business":  "This on-demand vehicle service and repair startup registered Rs 4 Cr revenue in first year of operation - YourStory.com",
+        "model":  "Mobile vehicle repair / service",
+        "score":  55,
+        "verdict":  "TEST",
+        "strong_markets":  2,
+        "moderate_markets":  1,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "15-Minute Grocery Delivery Startup Tiggy Rapidly Expanding into New Markets in Canada: Interview - retail-insider.com",
+        "model":  "Rapid grocery delivery",
+        "score":  45,
+        "verdict":  "WATCH",
+        "strong_markets":  2,
+        "moderate_markets":  1,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Indian e-bike rental startup Yulu raises $93 mln to help fund expansion - Reuters",
+        "model":  "E-bike rental / sharing",
+        "score":  40,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Avride is the Latest Tech Startup to Launch Food Delivery Robots in the U.S. - Food On Demand",
+        "model":  "Food delivery robots",
+        "score":  40,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Historic Dayton Arcade welcomes new marketplace soon, sparking retail growth - WKEF",
+        "model":  "Local physical marketplace",
+        "score":  40,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Alpha Controls Launches Equipment Rental Program, Expanding Access to Instrumentation, Calibration \u0026 Validation Solutions - The Manila Times",
+        "model":  "Equipment rental",
+        "score":  35,
+        "verdict":  "WATCH",
+        "strong_markets":  0,
+        "moderate_markets":  3,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Shop the OBX marketplace seeks new local vendors following launch - Island Free Press",
+        "model":  "Local physical marketplace",
+        "score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Local shop owners rebuild with new marketplace at same location after Painted Tree shutdown - KARK",
+        "model":  "Local physical marketplace",
+        "score":  30,
+        "verdict":  "WATCH",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    },
+    {
+        "business":  "Pet Care Startup Supertails Brings Fear Free Certified Care to India\u0027s Growing Pet Healthcare Sector with its First Clinic Launch - ANI News",
+        "model":  "Pet care service",
+        "score":  20,
+        "verdict":  "REJECT",
+        "strong_markets":  3,
+        "moderate_markets":  0,
+        "no_signal_markets":  0
+    }
+]

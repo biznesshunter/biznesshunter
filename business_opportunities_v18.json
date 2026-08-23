@@ -1,0 +1,65 @@
+﻿[
+    {
+        "source":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  46,
+        "commercial_opportunity":  32,
+        "problem":  40,
+        "customer":  35
+    },
+    {
+        "source":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "status":  "WATCH",
+        "verdict":  "A SURVEILLER",
+        "opportunity_score":  46,
+        "commercial_opportunity":  34,
+        "problem":  40,
+        "customer":  35
+    },
+    {
+        "source":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  44,
+        "commercial_opportunity":  32,
+        "problem":  40,
+        "customer":  20
+    },
+    {
+        "source":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  42,
+        "commercial_opportunity":  30,
+        "problem":  40,
+        "customer":  20
+    },
+    {
+        "source":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  41,
+        "commercial_opportunity":  22,
+        "problem":  40,
+        "customer":  20
+    },
+    {
+        "source":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  30,
+        "commercial_opportunity":  16,
+        "problem":  15,
+        "customer":  20
+    },
+    {
+        "source":  "Show HN: A comic and manga viewer component for React",
+        "status":  "REJECTED",
+        "verdict":  "REJETER",
+        "opportunity_score":  15,
+        "commercial_opportunity":  0,
+        "problem":  0,
+        "customer":  0
+    }
+]

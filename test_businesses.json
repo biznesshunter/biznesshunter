@@ -1,0 +1,114 @@
+﻿[
+  {
+    "name": "EasyCopy",
+    "category": "Marketplace",
+    "business_model": "Marketplace / transaction fees",
+
+    "traction": {
+      "funding_usd": 500000,
+      "revenue_growth_yoy": "4x",
+      "profitable": true,
+      "team_size": 6,
+      "customers": ["A", "B", "C", "D", "E"],
+      "expansion": ["France", "Spain"]
+    },
+
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "low",
+      "operational_complexity": "medium",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "low",
+      "network_effect": "medium",
+      "solo_feasibility": "high"
+    },
+
+    "signals": [
+      "4x revenue growth",
+      "Profitable",
+      "Growing customer base",
+      "International expansion"
+    ],
+
+    "sources": [
+      "source1",
+      "source2",
+      "source3"
+    ]
+  },
+
+  {
+    "name": "MegaAI",
+    "category": "AI Infrastructure",
+    "business_model": "AI Infrastructure / SaaS",
+
+    "traction": {
+      "funding_usd": 80000000,
+      "revenue_growth_yoy": "10x",
+      "profitable": false,
+      "team_size": 120,
+      "customers": ["Enterprise A", "Enterprise B"],
+      "expansion": ["USA", "UK"]
+    },
+
+    "copy_factors": {
+      "initial_capital": "very_high",
+      "technical_complexity": "very_high",
+      "operational_complexity": "high",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "medium",
+      "network_effect": "high",
+      "solo_feasibility": "very_low"
+    },
+
+    "signals": [
+      "80M funding",
+      "10x growth",
+      "Enterprise customers",
+      "International expansion"
+    ],
+
+    "sources": [
+      "source1",
+      "source2",
+      "source3"
+    ]
+  },
+
+  {
+    "name": "LocalPro",
+    "category": "Local Service",
+    "business_model": "Subscription",
+
+    "traction": {
+      "funding_usd": 0,
+      "revenue_growth_yoy": "60%",
+      "profitable": true,
+      "team_size": 3,
+      "customers": ["A", "B", "C", "D", "E", "F", "G"],
+      "expansion": []
+    },
+
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "low",
+      "operational_complexity": "low",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "low",
+      "network_effect": "none",
+      "solo_feasibility": "very_high"
+    },
+
+    "signals": [
+      "60% revenue growth",
+      "Profitable",
+      "Recurring customers",
+      "No external funding"
+    ],
+
+    "sources": [
+      "source1",
+      "source2"
+    ]
+  }
+]

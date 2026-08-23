@@ -1,0 +1,86 @@
+﻿[
+    {
+        "opportunity":  "Marketplace de services à domicile",
+        "gap_score":  74,
+        "verdict":  "HIGH GAP",
+        "company_count":  12,
+        "article_count":  51,
+        "replication":  91,
+        "competition_gap":  75,
+        "geographic_gap":  85,
+        "source_niches":  "Marketplace de services à domicile | Marketplace de petits travaux et entretien du logement",
+        "best_signal":  "Marketplace de services à domicile"
+    },
+    {
+        "opportunity":  "Plateforme de services automobiles à la demande",
+        "gap_score":  61,
+        "verdict":  "PROMISING GAP",
+        "company_count":  49,
+        "article_count":  21,
+        "replication":  56,
+        "competition_gap":  75,
+        "geographic_gap":  85,
+        "source_niches":  "Entretien automobile mobile à domicile | Réservation de réparation automobile | Marketplace de services automobiles | Réparation automobile à la demande",
+        "best_signal":  "Entretien automobile mobile à domicile"
+    },
+    {
+        "opportunity":  "Marketplace de réparation locale",
+        "gap_score":  54,
+        "verdict":  "WATCH",
+        "company_count":  38,
+        "article_count":  19,
+        "replication":  56,
+        "competition_gap":  60,
+        "geographic_gap":  70,
+        "source_niches":  "Marketplace de réparateurs locaux | Réparation de smartphones à la demande",
+        "best_signal":  "Réparation de smartphones à la demande"
+    },
+    {
+        "opportunity":  "Marketplace de services pour animaux",
+        "gap_score":  52,
+        "verdict":  "WATCH",
+        "company_count":  72,
+        "article_count":  48,
+        "replication":  52,
+        "competition_gap":  60,
+        "geographic_gap":  55,
+        "source_niches":  "Marketplace de garde et soins pour animaux | Services vétérinaires à la demande",
+        "best_signal":  "Marketplace de garde et soins pour animaux"
+    },
+    {
+        "opportunity":  "Marketplace de stockage local",
+        "gap_score":  43,
+        "verdict":  "LOW",
+        "company_count":  89,
+        "article_count":  90,
+        "replication":  33,
+        "competition_gap":  30,
+        "geographic_gap":  55,
+        "source_niches":  "Marketplace de stockage local",
+        "best_signal":  "Marketplace de stockage local"
+    },
+    {
+        "opportunity":  "Marketplace de location entre particuliers",
+        "gap_score":  36,
+        "verdict":  "LOW",
+        "company_count":  600,
+        "article_count":  193,
+        "replication":  32,
+        "competition_gap":  15,
+        "geographic_gap":  40,
+        "source_niches":  "Location de matériel et équipements | Marketplace de location entre particuliers | Location de véhicules entre particuliers",
+        "best_signal":  "Marketplace de location entre particuliers"
+    },
+    {
+        "opportunity":  "Marketplace de garde d\u0027enfants",
+        "gap_score":  33,
+        "verdict":  "LOW",
+        "company_count":  86,
+        "article_count":  78,
+        "replication":  5,
+        "competition_gap":  30,
+        "geographic_gap":  55,
+        "source_niches":  "Marketplace de garde d\u0027enfants",
+        "best_signal":  "Marketplace de garde d\u0027enfants"
+    }
+]

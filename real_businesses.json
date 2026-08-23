@@ -1,0 +1,296 @@
+﻿[
+  {
+    "name": "Passionfroot",
+    "category": "B2B Marketplace",
+    "business_model": "Marketplace / transaction fees",
+    "traction": {
+      "revenue_growth_yoy": "13x",
+      "profitable": true,
+      "team_size": 15,
+      "funding_usd": 15000000
+    },
+    "evidence_quality": {
+      "revenue_growth": 5,
+      "customers": 4,
+      "profitability": 4,
+      "funding": 5,
+      "sources": 5
+    },
+    "copy_factors": {
+      "initial_capital": "medium",
+      "technical_complexity": "medium",
+      "operational_complexity": "medium",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "low",
+      "network_effect": "high",
+      "solo_feasibility": "medium"
+    },
+    "sources": [
+      "TechCrunch"
+    ]
+  },
+
+  {
+    "name": "Whop",
+    "category": "Marketplace",
+    "business_model": "Marketplace / transaction fees",
+    "traction": {
+      "users": 18400000,
+      "sellers": 183628,
+      "gmv_usd": 2670000000
+    },
+    "evidence_quality": {
+      "revenue_growth": 3,
+      "customers": 5,
+      "profitability": 2,
+      "funding": 4,
+      "sources": 4
+    },
+    "copy_factors": {
+      "initial_capital": "medium",
+      "technical_complexity": "medium",
+      "operational_complexity": "medium",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "medium",
+      "network_effect": "high",
+      "solo_feasibility": "low"
+    },
+    "sources": [
+      "Sacra"
+    ]
+  },
+
+  {
+    "name": "Swimply",
+    "category": "Rental Marketplace",
+    "business_model": "Marketplace / commission",
+    "traction": {
+      "funding_usd": 51000000,
+      "revenue_growth_yoy": "4000% in 2020"
+    },
+    "evidence_quality": {
+      "revenue_growth": 4,
+      "customers": 4,
+      "profitability": 2,
+      "funding": 5,
+      "sources": 4
+    },
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "medium",
+      "operational_complexity": "medium",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "medium",
+      "network_effect": "high",
+      "solo_feasibility": "medium"
+    },
+    "sources": [
+      "Swimply",
+      "PitchBook"
+    ]
+  },
+
+  {
+    "name": "Dealt",
+    "category": "Service Marketplace",
+    "business_model": "B2B service platform",
+    "traction": {
+      "funding_eur": 6000000
+    },
+    "evidence_quality": {
+      "revenue_growth": 2,
+      "customers": 4,
+      "profitability": 2,
+      "funding": 5,
+      "sources": 5
+    },
+    "copy_factors": {
+      "initial_capital": "medium",
+      "technical_complexity": "medium",
+      "operational_complexity": "high",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "low",
+      "network_effect": "medium",
+      "solo_feasibility": "low"
+    },
+    "sources": [
+      "TechCrunch"
+    ]
+  },
+
+  {
+    "name": "Hassle.com",
+    "category": "Local Services",
+    "business_model": "Marketplace / commission",
+    "traction": {
+      "acquisition_value_eur": 32000000
+    },
+    "evidence_quality": {
+      "revenue_growth": 3,
+      "customers": 4,
+      "profitability": 3,
+      "funding": 3,
+      "sources": 5
+    },
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "low",
+      "operational_complexity": "medium",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "low",
+      "network_effect": "medium",
+      "solo_feasibility": "medium"
+    },
+    "sources": [
+      "Wired",
+      "Startups.co.uk"
+    ]
+  },
+
+  {
+    "name": "Nuuly",
+    "category": "Fashion Rental",
+    "business_model": "Subscription rental",
+    "traction": {
+      "annual_sales_usd": 568000000,
+      "monthly_active_subscribers": 420000,
+      "subscriber_growth_yoy": "40%",
+      "profit_usd": 35000000
+    },
+    "evidence_quality": {
+      "revenue_growth": 5,
+      "customers": 5,
+      "profitability": 5,
+      "funding": 2,
+      "sources": 5
+    },
+    "copy_factors": {
+      "initial_capital": "high",
+      "technical_complexity": "low",
+      "operational_complexity": "very_high",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "low",
+      "network_effect": "low",
+      "solo_feasibility": "very_low"
+    },
+    "sources": [
+      "Wall Street Journal"
+    ]
+  },
+
+  {
+    "name": "JDM Whipz",
+    "category": "Vehicle Rental",
+    "business_model": "Asset rental",
+    "traction": {
+      "fleet_size": 13,
+      "profitability": true,
+      "profit_level": "six figures"
+    },
+    "evidence_quality": {
+      "revenue_growth": 3,
+      "customers": 4,
+      "profitability": 5,
+      "funding": 1,
+      "sources": 4
+    },
+    "copy_factors": {
+      "initial_capital": "medium",
+      "technical_complexity": "low",
+      "operational_complexity": "medium",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "medium",
+      "network_effect": "low",
+      "solo_feasibility": "high"
+    },
+    "sources": [
+      "Business Insider"
+    ]
+  },
+
+  {
+    "name": "Bannerbear",
+    "category": "Micro-SaaS",
+    "business_model": "SaaS subscription",
+    "traction": {
+      "mrr_usd": 45000,
+      "customers": 500,
+      "team_size": 7
+    },
+    "evidence_quality": {
+      "revenue_growth": 5,
+      "customers": 5,
+      "profitability": 3,
+      "funding": 5,
+      "sources": 5
+    },
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "medium",
+      "operational_complexity": "low",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "low",
+      "network_effect": "none",
+      "solo_feasibility": "high"
+    },
+    "sources": [
+      "Bannerbear"
+    ]
+  },
+
+  {
+    "name": "Carrd",
+    "category": "Micro-SaaS",
+    "business_model": "SaaS subscription",
+    "traction": {
+      "active_domains": 5377
+    },
+    "evidence_quality": {
+      "revenue_growth": 2,
+      "customers": 3,
+      "profitability": 3,
+      "funding": 5,
+      "sources": 3
+    },
+    "copy_factors": {
+      "initial_capital": "low",
+      "technical_complexity": "medium",
+      "operational_complexity": "low",
+      "customer_acquisition": "medium",
+      "regulatory_barriers": "low",
+      "network_effect": "none",
+      "solo_feasibility": "high"
+    },
+    "sources": [
+      "TechnologyChecker"
+    ]
+  },
+
+  {
+    "name": "NAS",
+    "category": "Solopreneur Platform",
+    "business_model": "Platform / subscription / commerce",
+    "traction": {
+      "entrepreneurs": 350000
+    },
+    "evidence_quality": {
+      "revenue_growth": 2,
+      "customers": 5,
+      "profitability": 2,
+      "funding": 3,
+      "sources": 4
+    },
+    "copy_factors": {
+      "initial_capital": "medium",
+      "technical_complexity": "medium",
+      "operational_complexity": "medium",
+      "customer_acquisition": "high",
+      "regulatory_barriers": "low",
+      "network_effect": "medium",
+      "solo_feasibility": "medium"
+    },
+    "sources": [
+      "NAS.com"
+    ]
+  }
+]

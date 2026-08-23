@@ -1,0 +1,98 @@
+﻿[
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
+        "proof":  0,
+        "evidence_count":  0,
+        "evidence":  [
+
+                     ]
+    },
+    {
+        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "url":  "https://github.com/gojiplus/layoutlens",
+        "proof":  5,
+        "evidence_count":  1,
+        "evidence":  [
+                         {
+                             "type":  "customers",
+                             "value":  "users see,",
+                             "source":  "https://github.com/gojiplus/layoutlens",
+                             "quality":  5
+                         }
+                     ]
+    },
+    {
+        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "url":  "https://knowledgelens.ai/",
+        "proof":  15,
+        "evidence_count":  3,
+        "evidence":  [
+                         {
+                             "type":  "customers",
+                             "value":  "customers already use.",
+                             "source":  "https://knowledgelens.ai/",
+                             "quality":  5
+                         },
+                         {
+                             "type":  "customers",
+                             "value":  "customers, prospects, team members ask most,",
+                             "source":  "https://knowledgelens.ai/",
+                             "quality":  5
+                         },
+                         {
+                             "type":  "customers",
+                             "value":  "customers.",
+                             "source":  "https://knowledgelens.ai/",
+                             "quality":  5
+                         }
+                     ]
+    },
+    {
+        "name":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "url":  "https://github.com/Jamedjo/git-hunk/commit/240ac0f7e986fbe783a7de1c220fc047771ee059",
+        "proof":  0,
+        "evidence_count":  0,
+        "evidence":  [
+
+                     ]
+    },
+    {
+        "name":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "url":  "https://meetless.ai",
+        "proof":  0,
+        "evidence_count":  0,
+        "evidence":  [
+
+                     ]
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "url":  "https://agent2creator.vidmoat.com",
+        "proof":  10,
+        "evidence_count":  2,
+        "evidence":  [
+                         {
+                             "type":  "customers",
+                             "value":  "users are AI agents · Vidmoat A Agent2",
+                             "source":  "https://agent2creator.vidmoat.com",
+                             "quality":  5
+                         },
+                         {
+                             "type":  "customers",
+                             "value":  "users are AI agents.",
+                             "source":  "https://agent2creator.vidmoat.com",
+                             "quality":  5
+                         }
+                     ]
+    },
+    {
+        "name":  "Show HN: A comic and manga viewer component for React",
+        "url":  "https://react-comic-viewer.kkweb.io",
+        "proof":  0,
+        "evidence_count":  0,
+        "evidence":  [
+
+                     ]
+    }
+]

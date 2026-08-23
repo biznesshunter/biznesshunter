@@ -1,0 +1,72 @@
+﻿[
+    {
+        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "proof":  15,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  0,
+        "copy_opportunity":  30,
+        "BiznessHunterScore":  45
+    },
+    {
+        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "proof":  5,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  0,
+        "copy_opportunity":  30,
+        "BiznessHunterScore":  35
+    },
+    {
+        "name":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "proof":  0,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  0,
+        "copy_opportunity":  30,
+        "BiznessHunterScore":  30
+    },
+    {
+        "name":  "Show HN: A comic and manga viewer component for React",
+        "proof":  0,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  0,
+        "copy_opportunity":  30,
+        "BiznessHunterScore":  30
+    },
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "proof":  0,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  0,
+        "copy_opportunity":  30,
+        "BiznessHunterScore":  30
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "proof":  10,
+        "capital":  7,
+        "solo":  6,
+        "complexity":  6,
+        "barriers":  0,
+        "copy_opportunity":  19,
+        "BiznessHunterScore":  29
+    },
+    {
+        "name":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "proof":  0,
+        "capital":  10,
+        "solo":  10,
+        "complexity":  10,
+        "barriers":  3,
+        "copy_opportunity":  27,
+        "BiznessHunterScore":  27
+    }
+]

@@ -1,0 +1,58 @@
+﻿[
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
+        "source":  "Hacker News",
+        "business_score":  6,
+        "signals":  "SHOW_HN, tool"
+    },
+    {
+        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "url":  "https://github.com/gojiplus/layoutlens",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "url":  "https://knowledgelens.ai/",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
+        "url":  "https://github.com/Jamedjo/git-hunk/commit/240ac0f7e986fbe783a7de1c220fc047771ee059",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: Hands-Rust MCP/CLI that sees the Windows desktop and clicks real Chrome",
+        "url":  null,
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: Active Source of Truth for Your Coding Agents",
+        "url":  "https://meetless.ai",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "url":  "https://agent2creator.vidmoat.com",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    },
+    {
+        "name":  "Show HN: A comic and manga viewer component for React",
+        "url":  "https://react-comic-viewer.kkweb.io",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN"
+    }
+]

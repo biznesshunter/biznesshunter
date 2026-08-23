@@ -1,0 +1,24 @@
+﻿{
+  "name": "Bannerbear",
+  "category": "Micro-SaaS",
+  "evidence": [
+    {
+      "type": "revenue",
+      "value": "$45k MRR",
+      "source": "Bannerbear",
+      "quality": 5
+    },
+    {
+      "type": "customers",
+      "value": "500+ customers",
+      "source": "Bannerbear",
+      "quality": 5
+    },
+    {
+      "type": "team",
+      "value": "7 people",
+      "source": "Bannerbear",
+      "quality": 5
+    }
+  ]
+}

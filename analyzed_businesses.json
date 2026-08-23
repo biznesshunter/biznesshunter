@@ -1,0 +1,23 @@
+﻿[
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
+        "category":  "Software / AI",
+        "pricing_signal":  "Pricing signal detected",
+        "content_length":  2488
+    },
+    {
+        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "url":  "https://github.com/gojiplus/layoutlens",
+        "category":  "Marketplace",
+        "pricing_signal":  "Pricing signal detected",
+        "content_length":  29023
+    },
+    {
+        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "url":  "https://knowledgelens.ai/",
+        "category":  "Rental / Sharing",
+        "pricing_signal":  "Pricing signal detected",
+        "content_length":  4721
+    }
+]
