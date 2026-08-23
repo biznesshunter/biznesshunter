@@ -2,145 +2,548 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BiznessHunter — Opportunités business</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiznessHunter — Business Opportunity Radar</title>
+
 <style>
-body{font-family:Arial,sans-serif;max-width:1100px;margin:40px auto;padding:0 20px;background:#f6f7f9;color:#171717}
-h1{font-size:38px;margin-bottom:5px}
-.subtitle{color:#666;margin-bottom:35px}
-.stats{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 30px}
-.stat{background:white;border:1px solid #ddd;border-radius:12px;padding:16px 22px}
-.stat b{font-size:26px;display:block}
-.card{background:white;border:1px solid #ddd;border-radius:14px;padding:24px;margin:16px 0;box-shadow:0 2px 8px #00000008}
-.top{display:flex;justify-content:space-between;gap:20px}
-.score{font-size:30px;font-weight:bold}
-.badge{display:inline-block;padding:6px 10px;border-radius:20px;background:#eee;font-size:13px}
-.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:18px;color:#555}
-.why{margin-top:20px}
-.launch{margin-top:16px;padding:14px;background:#f6f7f9;border-radius:10px}
-.loading{text-align:center;padding:60px}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f5f7fb;
+    color: #172033;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 42px 24px 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1.2px;
+}
+
+.logo span {
+    color: #5965f2;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: #748096;
+    font-size: 14px;
+}
+
+.updated {
+    font-size: 13px;
+    color: #8993a5;
+}
+
+.hero {
+    background: #111827;
+    color: white;
+    border-radius: 22px;
+    padding: 34px;
+    margin-bottom: 28px;
+    box-shadow: 0 14px 40px rgba(17,24,39,.12);
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero h1 {
+    margin: 14px 0 10px;
+    font-size: 29px;
+    letter-spacing: -.7px;
+    max-width: 700px;
+}
+
+.hero p {
+    color: #b8c0cf;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.badge {
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.high {
+    background: #d9fbe8;
+    color: #137342;
+}
+
+.watch {
+    background: #fff3d6;
+    color: #966300;
+}
+
+.insufficient {
+    background: #eceef3;
+    color: #697386;
+}
+
+.score {
+    min-width: 130px;
+    text-align: right;
+}
+
+.score-number {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.score-label {
+    color: #9ca6b7;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.action {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .7px;
+    color: #9fa9ff;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.stat {
+    background: white;
+    border: 1px solid #e7eaf0;
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.stat-number {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.stat-label {
+    margin-top: 4px;
+    color: #7d8799;
+    font-size: 12px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 15px;
+}
+
+.toolbar h2 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.filters {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.filter {
+    border: 1px solid #dfe3ea;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.filter.active {
+    background: #172033;
+    color: white;
+    border-color: #172033;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e7eaf0;
+    border-radius: 17px;
+    padding: 21px;
+    transition: .15s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(30,40,60,.08);
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.35;
+}
+
+.card-score {
+    font-size: 25px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.card-meta {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    margin: 14px 0;
+}
+
+.meta {
+    background: #f4f6fa;
+    color: #667085;
+    border-radius: 7px;
+    padding: 6px 8px;
+    font-size: 11px;
+}
+
+.card-why {
+    color: #697386;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.details {
+    display: none;
+    margin-top: 18px;
+    padding-top: 17px;
+    border-top: 1px solid #edf0f4;
+}
+
+.card.open .details {
+    display: block;
+}
+
+.details-title {
+    font-size: 11px;
+    font-weight: 800;
+    color: #8a94a6;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin: 13px 0 7px;
+}
+
+.details-content {
+    font-size: 12px;
+    color: #596579;
+    line-height: 1.6;
+}
+
+.sources a {
+    color: #5965f2;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.empty {
+    padding: 50px;
+    text-align: center;
+    color: #7d8799;
+}
+
+@media(max-width: 800px) {
+    .stats {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-top {
+        flex-direction: column;
+    }
+
+    .score {
+        text-align: left;
+    }
+
+    .toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
 </style>
 </head>
+
 <body>
 
-<h1>BiznessHunter</h1>
-<div class="subtitle">
-Des modèles business validés ailleurs, transformés en opportunités de copycat.
+<div class="container">
+
+<header>
+    <div>
+        <div class="logo">Bizness<span>Hunter</span></div>
+        <div class="subtitle">Business Opportunity Radar</div>
+    </div>
+    <div class="updated">Radar 21 · Final Feed</div>
+</header>
+
+<section id="hero"></section>
+
+<section class="stats">
+    <div class="stat">
+        <div class="stat-number" id="total">—</div>
+        <div class="stat-label">Opportunities detected</div>
+    </div>
+    <div class="stat">
+        <div class="stat-number" id="high">—</div>
+        <div class="stat-label">High Gap</div>
+    </div>
+    <div class="stat">
+        <div class="stat-number" id="watch">—</div>
+        <div class="stat-label">Watch</div>
+    </div>
+    <div class="stat">
+        <div class="stat-number" id="confidence">—</div>
+        <div class="stat-label">Top confidence</div>
+    </div>
+</section>
+
+<div class="toolbar">
+    <h2>Detected opportunities</h2>
+
+    <div class="filters">
+        <button class="filter active" onclick="filterItems('ALL',this)">All</button>
+        <button class="filter" onclick="filterItems('HIGH GAP',this)">High Gap</button>
+        <button class="filter" onclick="filterItems('WATCH',this)">Watch</button>
+        <button class="filter" onclick="filterItems('INSUFFICIENT EVIDENCE',this)">Insufficient</button>
+    </div>
 </div>
 
-<div id="app" class="loading">Chargement des opportunités…</div>
+<div id="grid" class="grid"></div>
+
+</div>
 
 <script>
-fetch("radar17_opportunities.json")
-.then(r=>{
-    if(!r.ok) throw new Error("Fichier introuvable");
-    return r.json();
-})
-.then(data=>{
 
-    const items = Array.isArray(data)
-        ? data
-        : data.opportunities || data.results || [];
+let data = [];
+let currentFilter = "ALL";
 
-    items.sort((a,b)=>
-        Number(b.gap_score||0)-Number(a.gap_score||0)
-    );
+async function loadData() {
+    try {
+        const response = await fetch("radar21_final_feed.json");
+        data = await response.json();
 
-    const strong = items.filter(x =>
-        String(x.verdict||"").includes("HIGH")
-    ).length;
+        if (!Array.isArray(data)) {
+            data = [data];
+        }
 
-    const signals = items.reduce((sum,x)=>
-        sum + Number(x.company_count||0),0);
-
-    document.getElementById("app").innerHTML = `
-
-        <div class="stats">
-            <div class="stat">
-                <b>${items.length}</b>
-                Opportunités détectées
-            </div>
-
-            <div class="stat">
-                <b>${strong}</b>
-                Opportunités fortes
-            </div>
-
-            <div class="stat">
-                <b>${signals}</b>
-                Signaux entreprises
-            </div>
-        </div>
-
-        ${items.map((x,i)=>`
-
-        <div class="card">
-
-            <div class="top">
-
-                <div>
-                    <h2>${esc(x.opportunity || "Opportunité")}</h2>
-
-                    <span class="badge">
-                        ${esc(x.verdict || "WATCH")}
-                    </span>
-                </div>
-
-                <div class="score">
-                    ${Number(x.gap_score||0)}/100
-                </div>
-
-            </div>
-
-            <div class="meta">
-
-                <span>
-                    Entreprises détectées
-                    <b>${Number(x.company_count||0)}</b>
-                </span>
-
-                <span>
-                    Articles
-                    <b>${Number(x.article_count||0)}</b>
-                </span>
-
-                <span>
-                    Réplication
-                    <b>${Number(x.replication||0)}/100</b>
-                </span>
-
-                <span>
-                    Gap concurrence
-                    <b>${Number(x.competition_gap||0)}/100</b>
-                </span>
-
-                <span>
-                    Gap géographique
-                    <b>${Number(x.geographic_gap||0)}/100</b>
-                </span>
-
-            </div>
-
-        </div>
-
-        `).join("")}
-
-    `;
-})
-.catch(e=>{
-    document.getElementById("app").innerHTML =
-    "<div class='card'>Impossible de charger radar17_opportunities.json.<br><br>"+
-    esc(e.message)+"</div>";
-});
-
-function esc(v){
-    return String(v)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;");
+        render();
+    } catch (error) {
+        document.getElementById("grid").innerHTML =
+            '<div class="empty">Impossible de charger radar21_final_feed.json</div>';
+        console.error(error);
+    }
 }
+
+function badgeClass(verdict) {
+    if (verdict === "HIGH GAP") return "high";
+    if (verdict === "WATCH") return "watch";
+    return "insufficient";
+}
+
+function render() {
+
+    const high = data.filter(x => x.verdict === "HIGH GAP").length;
+    const watch = data.filter(x => x.verdict === "WATCH").length;
+
+    document.getElementById("total").textContent = data.length;
+    document.getElementById("high").textContent = high;
+    document.getElementById("watch").textContent = watch;
+
+    document.getElementById("confidence").textContent =
+        data.length ? data[0].confidence + "/100" : "—";
+
+    const top = data[0];
+
+    if (top) {
+        document.getElementById("hero").innerHTML = `
+            <div class="hero">
+                <div class="hero-top">
+                    <div>
+                        <span class="badge high">${top.verdict}</span>
+                        <h1>${top.opportunity}</h1>
+                        <p>${top.why || "Signal détecté par BiznessHunter."}</p>
+                        <div class="action">${top.action}</div>
+                    </div>
+
+                    <div class="score">
+                        <div class="score-number">${top.final_score}</div>
+                        <div class="score-label">FINAL SCORE / 100</div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    const filtered = currentFilter === "ALL"
+        ? data
+        : data.filter(x => x.verdict === currentFilter);
+
+    const grid = document.getElementById("grid");
+
+    if (!filtered.length) {
+        grid.innerHTML = '<div class="empty">Aucune opportunité dans cette catégorie.</div>';
+        return;
+    }
+
+    grid.innerHTML = filtered.map((item,index) => {
+
+        const companies = Array.isArray(item.companies)
+            ? item.companies.slice(0,8).join(", ")
+            : "";
+
+        const countries = Array.isArray(item.countries)
+            ? item.countries.join(", ")
+            : "";
+
+        const articles = Array.isArray(item.source_articles)
+            ? item.source_articles.slice(0,5)
+            : [];
+
+        return `
+        <article class="card" onclick="this.classList.toggle('open')">
+
+            <div class="card-head">
+                <div>
+                    <span class="badge ${badgeClass(item.verdict)}">
+                        ${item.verdict}
+                    </span>
+                    <h3 style="margin-top:10px">${item.opportunity}</h3>
+                </div>
+
+                <div class="card-score">${item.final_score}</div>
+            </div>
+
+            <div class="card-meta">
+                <span class="meta">Confidence ${item.confidence}/100</span>
+<span class="meta">${item.company_count} companies</span>
+<span class="meta">${item.article_count} articles</span>
+<span class="meta">Replication ${item.replication}/100</span>
+            </div>
+
+            <div class="card-why">
+                ${item.why || "Signal à surveiller."}
+            </div>
+
+            <div class="details">
+
+                <div class="details-title">Source cluster</div>
+                <div class="details-content">${item.source_cluster || "—"}</div>
+
+                <div class="details-title">Companies</div>
+                <div class="details-content">${companies || "Aucune preuve directe."}</div>
+
+                <div class="details-title">Countries</div>
+                <div class="details-content">${countries || "—"}</div>
+
+                <div class="details-title">Evidence</div>
+                <div class="details-content">
+                    Market proof: ${item.market_proof ?? "—"}/100<br>
+                    Geographic proof: ${item.geographic_proof ?? "—"}/100<br>
+                    Competition gap: ${item.competition_gap ?? "—"}/100<br>
+                    Geographic gap: ${item.geographic_gap ?? "—"}/100
+                </div>
+
+                ${
+                    articles.length
+                    ? `
+                    <div class="details-title">Sources</div>
+                    <div class="details-content sources">
+                        ${articles.map(a =>
+                            `<a href="${a.url}" target="_blank" onclick="event.stopPropagation()">
+                                ${a.title}
+                            </a>`
+                        ).join("")}
+                    </div>
+                    `
+                    : ""
+                }
+
+            </div>
+
+        </article>
+        `;
+    }).join("");
+}
+
+function filterItems(filter, button) {
+    currentFilter = filter;
+
+    document.querySelectorAll(".filter")
+        .forEach(x => x.classList.remove("active"));
+
+    button.classList.add("active");
+
+    render();
+}
+
+loadData();
+
 </script>
 
 </body>
 </html>
+
+
+
+<style>
+.card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.card-meta .meta {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #f3f4f6;
+    white-space: nowrap;
+}
+</style>
