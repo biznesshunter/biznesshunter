@@ -1,5 +1,5 @@
 ﻿$inputFile = ".\radar8_1_copycats.json"
-$outputFile = ".\radar9_1_clusters.json"
+$outputFile = ".\radar9_2_opportunities.json"
 
 if (!(Test-Path $inputFile)) {
     Write-Host "ERROR: $inputFile not found"
@@ -39,12 +39,11 @@ foreach ($item in $data) {
 
     $cluster = $clusters[$clusterKey]
 
-    # ARTICLE
     $cluster.articles += $item
 
-    # ============================================
-    # ENTREPRISE
-    # ============================================
+    # ============================
+    # COMPANY
+    # ============================
 
     $title = [string]$item.title
     $company = $null
@@ -66,9 +65,9 @@ foreach ($item in $data) {
         $cluster.companies[$company] = $true
     }
 
-    # ============================================
-    # PAYS
-    # ============================================
+    # ============================
+    # COUNTRY
+    # ============================
 
     $lower = $title.ToLower()
     $country = $null
@@ -102,9 +101,9 @@ foreach ($item in $data) {
         $cluster.countries[$country] = $true
     }
 
-    # ============================================
+    # ============================
     # SCORES
-    # ============================================
+    # ============================
 
     $cluster.demand_scores += [int]$item.demand_proof
     $cluster.replication_scores += [int]$item.replication_score
@@ -112,9 +111,9 @@ foreach ($item in $data) {
     $cluster.regulatory_risks += [int]$item.regulatory_risk
 }
 
-# ============================================
+# ============================================================
 # CALCULATE
-# ============================================
+# ============================================================
 
 $results = foreach ($cluster in $clusters.Values) {
 
@@ -138,91 +137,120 @@ $results = foreach ($cluster in $clusters.Values) {
         [math]::Round(($cluster.regulatory_risks | Measure-Object -Average).Average)
     } else { 0 }
 
-    # ============================================
+    # ========================================================
     # VALIDATION
-    # ============================================
+    # ========================================================
 
-    # Entreprises indépendantes
-    $companyValidation = [math]::Min(100, $companyCount * 20)
+    # Plusieurs entreprises = validation forte
+    $companyValidation = [math]::Min(100, $companyCount * 15)
 
-    # Diversité géographique
+    # Plusieurs pays = signal de transférabilité
     $geographicValidation = [math]::Min(100, $countryCount * 30)
 
-    # Volume d'articles
-    $articleValidation = [math]::Min(100, $articleCount * 10)
+    # Plusieurs articles = traction médiatique / activité
+    $articleValidation = [math]::Min(100, $articleCount * 5)
 
-    # ============================================
+    # ========================================================
+    # DEMAND NORMALIZATION
+    # ========================================================
+
+    # Le moteur amont produit actuellement des scores de demande
+    # très faibles. On évite donc qu'ils écrasent complètement
+    # les autres signaux.
+    $demandAdjusted = [math]::Min(100, ($avgDemand * 2))
+
+    # ========================================================
     # OPPORTUNITY SCORE
-    # ============================================
+    # ========================================================
 
     $opportunity = [math]::Round(
-        ($avgDemand * 0.30) +
-        ($avgReplication * 0.25) +
-        ($companyValidation * 0.15) +
-        ($geographicValidation * 0.10) +
-        ($articleValidation * 0.05) +
+        ($companyValidation * 0.30) +
+        ($geographicValidation * 0.15) +
+        ($articleValidation * 0.10) +
+        ($demandAdjusted * 0.10) +
+        ($avgReplication * 0.20) +
         ((100 - $avgCapital) * 0.10) +
         ((100 - $avgRegulation) * 0.05)
     )
 
-    # ============================================
+    # ========================================================
     # PENALTIES
-    # ============================================
+    # ========================================================
 
-    # Très faible preuve de demande
-    if ($avgDemand -lt 20) {
-        $opportunity -= 10
-    }
-
-    # Une seule entreprise
+    # Une seule entreprise = pas encore un vrai marché validé
     if ($companyCount -eq 1) {
+        $opportunity -= 15
+    }
+
+    # Un seul article = signal très faible
+    if ($articleCount -eq 1) {
         $opportunity -= 10
     }
 
-    # Une seule source
-    if ($articleCount -eq 1) {
+    # Aucun pays détecté = validation géographique faible
+    if ($countryCount -eq 0) {
         $opportunity -= 5
     }
 
-    # Limites
-    if ($opportunity -lt 0) {
-        $opportunity = 0
-    }
+    $opportunity = [math]::Max(0, [math]::Min(100, $opportunity))
 
-    if ($opportunity -gt 100) {
-        $opportunity = 100
-    }
-
-    # ============================================
+    # ========================================================
     # VERDICT
-    # ============================================
+    # ========================================================
 
     if (
         $opportunity -ge 75 -and
-        $companyCount -ge 3 -and
-        $countryCount -ge 2 -and
-        $avgDemand -ge 40
+        $companyCount -ge 4 -and
+        $articleCount -ge 5
     ) {
         $verdict = "STRONG OPPORTUNITY"
     }
     elseif (
         $opportunity -ge 60 -and
-        $companyCount -ge 2 -and
-        $avgDemand -ge 30
+        $companyCount -ge 3
     ) {
         $verdict = "PROMISING"
     }
-    elseif ($opportunity -ge 45) {
+    elseif (
+        $opportunity -ge 45 -and
+        $companyCount -ge 2
+    ) {
         $verdict = "WATCH"
     }
     else {
         $verdict = "LOW"
     }
 
-    $reason = "$companyCount companies / $articleCount articles / $countryCount countries"
+    # ========================================================
+    # REASON
+    # ========================================================
+
+    $reason = "$companyCount companies / $articleCount articles"
+
+    if ($countryCount -ge 2) {
+        $reason += " / multi-country validation"
+    }
+
+    if ($avgReplication -ge 70) {
+        $reason += " / highly replicable"
+    }
+
+    if ($avgDemand -ge 20) {
+        $reason += " / demand signal"
+    }
+
+    if ($avgCapital -le 30) {
+        $reason += " / low capital"
+    }
+
+    if ($avgRegulation -le 30) {
+        $reason += " / low regulation"
+    }
 
     [PSCustomObject]@{
+
         cluster_name = $cluster.cluster_name
+
         business_model = $cluster.business_model
         vertical = $cluster.vertical
 
@@ -246,53 +274,41 @@ $results = foreach ($cluster in $clusters.Values) {
     }
 }
 
-# ============================================
-# SAVE JSON
-# ============================================
+# ============================================================
+# OUTPUT
+# ============================================================
 
 $results |
     Sort-Object opportunity_score -Descending |
     ConvertTo-Json -Depth 10 |
     Set-Content $outputFile -Encoding UTF8
 
-# ============================================
-# DISPLAY TOP 30
-# ============================================
-
 Write-Host ""
 Write-Host "=============================================="
-Write-Host " BIZNESSHUNTER - RADAR 9.1"
+Write-Host " BIZNESSHUNTER - RADAR 9.2"
 Write-Host " OPPORTUNITY CLUSTER ENGINE"
 Write-Host "=============================================="
 Write-Host ""
 
-Write-Host "Articles :" $data.Count
-Write-Host "Clusters :" $results.Count
+Write-Host "Articles : $($data.Count)"
+Write-Host "Clusters : $($results.Count)"
 Write-Host ""
-
-$rank = 1
 
 $results |
     Sort-Object opportunity_score -Descending |
-    Select-Object -First 30 |
-    ForEach-Object {
-
-        Write-Host (
-            "{0,2}. {1,3}/100 | {2,-18} | {3,-20} | Companies:{4,2} | Articles:{5,2} | Countries:{6,2} | Demand:{7,2} | Rep:{8,2}" -f `
-            $rank,
-            $_.opportunity_score,
-            $_.verdict,
-            $_.vertical,
-            $_.company_count,
-            $_.article_count,
-            $_.country_count,
-            $_.avg_demand,
-            $_.avg_replication
-        )
-
-        $rank++
-    }
+    Select-Object -First 30 `
+        opportunity_score,
+        verdict,
+        company_count,
+        article_count,
+        country_count,
+        business_model,
+        vertical,
+        avg_replication,
+        avg_demand,
+        reason |
+    Format-Table -Wrap -AutoSize
 
 Write-Host ""
-Write-Host "Output :" $outputFile
+Write-Host "Output : $outputFile"
 Write-Host ""
