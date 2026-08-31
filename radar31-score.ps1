@@ -200,15 +200,7 @@ foreach ($item in $items) {
     # preuve marché prioritaire, puis gap et faisabilité opérationnelle.
     # L'économie reste importante mais ne doit pas permettre
     # à une idée faiblement prouvée de remonter artificiellement.
-    $opportunityScore = (
-        ($proof * 0.40) +
-        ($gap * 0.15) +
-        ($solo * 0.15) +
-        ($automation * 0.10) +
-        ($b2c * 0.05) +
-        ($capital * 0.05) +
-        ($economics * 0.10)
-    )
+    $opportunityScore = (($proof * 0.45) + ($gap * 0.15) + ($solo * 0.12) + ($automation * 0.08) + ($b2c * 0.05) + ($capital * 0.05) + ($economics * 0.10))
 
     $opportunityScore = Clamp-Score $opportunityScore
 
@@ -293,6 +285,7 @@ Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 31 completed"
 Write-Host "========================================"
+
 
 
 

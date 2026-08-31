@@ -1,0 +1,655 @@
+﻿[
+    {
+        "rank":  1,
+        "opportunity":  "Location de matériel professionnel aux artisans pour besoins ponctuels",
+        "client_fit_score":  76,
+        "client_verdict":  "TOP OPPORTUNITY",
+        "proof_score":  100,
+        "demand_score":  66,
+        "willingness_to_pay":  63,
+        "replication_score":  80,
+        "clarity_score":  55,
+        "opportunity_score":  58,
+        "original_verdict":  "VALIDATE",
+        "company_count":  200,
+        "article_count":  206,
+        "confidence":  80,
+        "why":  "200 entreprises et 206 articles soutiennent ce modèle avec une réplication de 32/100.",
+        "source_articles":  [
+                                {
+                                    "title":  "10 Predictions For The Homebuilding And Rental Housing Business - Forbes",
+                                    "url":  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM015Y0FoMzdXaFNaM1pFVzVXYzU5bUc0VmRVOFhaRUNmWnVQVFVtVzMyY1p0N1ZVaEh4a29tZzdPMTVPYnFPVmRYa2RYNVJYV2oxeFpVM3dqZ2ltQ3RwUWJpcTRzRG5CdnpaTHI2YlU2Y1JFX2hzQkJxX2RQZzI3YUxKQTlYT1pjMXJxc2JlSXJ2QWE5Z1Q4OG0yS1owemxnX2JlaVo0dExRUVlaVGNhUFFMQ0tCZw?oc=5"
+                                },
+                                {
+                                    "title":  "2025 in Review: An Overview of the Equipment Rental Industry - For Construction Pros",
+                                    "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRHZoWVA0Y0NZQ0F0SzN6bkg2MUhEVkI3aWxaLXhrUC1jLUo0bXdCYWRQd3lSY1hlbnU3SS04a2RxVXJkeFE3SGlWVi1CU2MtdXh4SGNPNGNaRGtWTUZTaDVIZEl2TUVXSkNCMU1md093SWI1T0RRZGZKc09KaEJCa0FlQTNydHd0T1Nlel9ybHBwTzVaVUFlTWR3djhvbnc2OGQ4cmJuNEtzRDFvRUdnSVhlbGlZTk9kUnFTYVJXVENWV1VnX3N5TS12Y25rT2M?oc=5"
+                                },
+                                {
+                                    "title":  "After closing short-term rental business, former Frontdesk CEO working on a new startup - BizTimes - Milwaukee Business News",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVhOd3prNmN0c2NWZXVuOG5nRVhCQ25iakluZGVNc0RBTHpjN01SWFJLOXZva0lGcEVPYm9fNHFDT2JURERYSGJqTEN3NzhReERiQUdVM09BSlBDMTIyWUpaSDQ0ajZRX2J4T1ZiQlNpaGxIZUcwRU1FZ3N0X1pvVGI1T0Q1VGpCVS1BLUNoUXJQdDRqQURyYzVmdUNqcFgtLUNrVjB5b3FYejBF?oc=5"
+                                },
+                                {
+                                    "title":  "Airbnb Creates Niches for a New Generation of Vacation Rental Startups: Skift Research E-Book - Skift",
+                                    "url":  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTHlfclUtMmJCc1AwNzZ3LUpyVnMtUVJ1eXlLeUp3MjNTMl9CMVJKTkhlMWV0ZDlZRUEzbmtxMENxdFJRN1lLb1RHUmF0cHRIa0tuYjhCOHdLWkdtd2lRWDU4V211VVhMcG1WSlU1OVU4NEphWlhXQ2JXZzM3OHVyMGFsZUc2ODI2dWRuVWNqVlctYnRMbnJQeGRoQTU3c3RDdTkwcVAwSVpBMzZUeS1YMEhFN2dxWVdDcjdUNnpRRQ?oc=5"
+                                },
+                                {
+                                    "title":  "Alpha Controls Launches Equipment Rental Program, Expanding Access to Instrumentation, Calibration \u0026 Validation Solutions - The Manila Times",
+                                    "url":  "https://news.google.com/rss/articles/CBMimwJBVV95cUxOYktOTEFUc1V6bDFCaDdoSW1PZUw2TlRScVJmbTVqV2g0NnhyaVRMU3R2bXJlclp1aU5jLW1QaEhRblBzMEhrTFlFd2xFYk9rQU12NHkxbmpyODRhcTF5ek5nRnhDZk9NV0RqQ2E1dGZzbmhjMDBiZDkwWWprRi15blRZcWRsUHpwdFdISlQwbVJTRkdsV3dtOERjdU9UenZmUWxxSnNJVTQ1bXcySmhZbVhDV0Z1MlduSVB4dTlaYVpBcEo5MFIta19kaWFYdzg4MFgtR0tLYkc4ZUZVNW8tVWlTdktGNUYtWTZwM2VCS1BkT2dlNVpDeFdsWWNXNmI2R2pjYWU4djRSYWltbGhmY055X0s4TVNFb2lB0gGgAkFVX3lxTE0tTi0tSnFkY3NKbXNyMU0ya1hJRDZzVnlOZ25haWRNNXZyVmZmS0NhdkpTTFlva3FhcnZGb2I2dDR0NlhJZ2FFczAwYVh0alBaR2FQcjR4NEE5UnQzdHBTczFuUVJBRExvM2lqb2NYWXNPTjVoTTJsWVNqVzRZSmFxdWhYeWVoOUhQcnlOSVU2VUhMU0twTVZEaDBwN21Db0hwZ0NTbDZ1dVRNVXNPcUxqZGRtQXYyZnE3eU0tRUN1Mnh4ZFhKUTJzZ29nRG1lTC1kOGdwNlJfdFdjWjlIX0Q0aDdpUFFaNmwxUzBWMzk0VW5qYU5OcmRJVkU1X3F0bUJ0Zm5kbk85aGxIYzQzWU9aNHJyTlFfaXhET25BRFFabw?oc=5"
+                                },
+                                {
+                                    "title":  "Amid decline in film production, equipment rental company exits Atlanta - AJC.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdDFHMEF6MGVaWVBYVUk2cjdwRFlYUnpiQ2RQLVZCM0VBRWdyQi1qSldOa2hOdGFDU2R0eGhFTVIyaktmZnBHdlgyaXF4VXU0Qm9aZW5aRlBlRHg0dzdZNldHM2VuclI2MEwzbDFaZm1zTUtISzVaMGdXV0M1NWNFX20ya01zYW5xTVhQRGUyNTN3YlhnX3ZsSnFHNjNhYXBGcmNSWXpxQUM2WHZZ?oc=5"
+                                },
+                                {
+                                    "title":  "Anchorage Short-Term Rental Registration Starts in May - Alaska Business Magazine",
+                                    "url":  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQkZyTnkxeGpxQ1UzUDRqUVBKa293QjJhY3NtQ2tTazRGZV9oRmNkMHVMZGZiMmZpbGdIM25BUHB6MDV6eDByVnZ3V2g2RDVrSEp3dERTX05xRzJ0WDdPNW9NN1o1Vmt6ZjNVU2dsd1U1LXU2S00wNHVUMnhPdDNZWndCNXV4NHROcVYxX05GQll3Zlk?oc=5"
+                                },
+                                {
+                                    "title":  "ARA Rental Market Forecast: 3.4% Annual Growth - For Construction Pros",
+                                    "url":  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSk9lQ2t0dTI1bWlQUmdicFYxa3VTd1JYLVJRRWR4TVNsWDZZV0ZXOE9YNndJdFBNZFAzT1ZXUkJoWWV4cWZCcVAxemJnVE9RUm83cTMtWVctQXh5N0U2Tng3WkdySGNseU8xR0l3QURzNGlHTmN0U0Yza3RLbkx1UzY2dnZDTUc3Ml92NDBQVzExcEpEUWFEeEZzaS1qTDcwR0EtMFROcHpyU0tQOGw3X2d0VzRDQ1NKUGFDaVFwb3l5TjFEX3RybTZUcjc0WlVuRkFjVERURU9PNlJUYVJrN0wtVFFEY1Qw?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Divests Rental Business - TVTechnology",
+                                    "url":  "https://news.google.com/rss/articles/CBMidEFVX3lxTE96RlZSdEJRZkREcVJzUVZxZ3pDNUFWZzJpdUVfSU1ZbXRPWFlwbTBUUUNDVlNkemdla1ZweTg0SjE1M2tCdGMtbm5mZURuSDZLQWQtYnhTQ2xzd1dXWmE5cDFLUFA3am1YMUtLVG42UGxOcjct?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Rental management buy-out: 1 Powerful Move - ProVideo Coalition",
+                                    "url":  "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSEQyZjZsbHFBN2xPbkNINEJHSHJFejF6VE1WUTQ5UjZ3NnhsX0pDVlNDSUY1LVJBQi1xaUc3OFQtVWNGWm5IU095UkxDV090dFJ6X2JITHJjWVRjRlVOVkVnbVZpd0hyOWxWcmN2TkdKLVlLbkcwVmtES2lEOXF0RjZwVGtWMkZ5b09wY9IBkgFBVV95cUxQWnlwd2NtV2FKcWxBM1pVcVQ4b2VCNGEyLUtIYjh3VFR2OTY2dTZvSUppZWJ6b25LT1h6TVF1SDdOeTd3eHExcVpNSEVJbWFXRHlFYi1iVlBURnp0cl9mbFh0WkMyY0hlWTZDMm5KSTBhVkYwc3dtWU0yYVJvdEhsUUc4YzBkRXpNejE1Q25ldFVmUQ?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI sell-off continues with disposal of rental business in MBO - Red Shark News",
+                                    "url":  "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iZUhFTFVheFprN3BSSEtWMXlxYnlKM2h6UEN6ako0VGJIUXNoU2JUaExvZlF6b3dzSHNpdzdyaUhrX2k1R2M1MWV1VTJIZS1Qd2ZaUUp1ZzdNT2hRWUIwTVJHX2dRZzFRWmfSAXpBVV95cUxNSFFQclVVRnQ2R1RLQXgtVVNxZDB5MkxidDY0VXltclhLSENQcHNrRDNpQU1heXZMNFhzTEdDbEdmTFBPbkZRZUo3THU0bWxxeWJXcFRMTGI1Rlo3NUdHNXFTeDFIVDhPNjhTbWxaSUlfNXhQdTc0VVdyZw?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Sells Its Global Rental Business ??? Management Buy-Out Backed by H2 Equity Partners - CineD",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcGM0V09uVnU1bjMzTkNjMXdldVBtVjNpXzFqMmhyb1FXbXR3ck81anR1aG52M2pTVDV3T1lPQXJyZEgxLWlhWjYtVHM2azUzWm52SEZDTTNpTTJQRk5wTGpNU0dzUXh3UzV6V01mRVZIMnNCQzVPWkZGalBVMmoydHhYaG0zOHd2ejEwM3JlZUdZTVdGZDU5QWFBWloyU3VPUzlTYUt0X3NMallm?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Sells Its Rental Business | DJI \u0027Front Companies\u0027 Fined | Sony RX10 V ??? Focus Check ep125 - CineD",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTFiek9NU3VpMERxQU8xcVdHRFhEOFRTeHAxUjNnMlNuYWJaOW5PVU9IYTR0S3V1YUVKS2luUEVGV3ZUS0pBNnV5b1UyX2M4VXNsWUh0bjJUQjJkOEY5REgyT0diUzFMQVBKeS1nakNadEtsZzdrVlVzNzcyOVBvWS1JVzFBZDE3R2pOUHI1cmYwX2tZdm42ei03RDQtQW1ZaldEZm04VXBObjIybWc?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI sells off its global rental activities in Europe, the United Kingdom, \u0026 North America - Newsshooter",
+                                    "url":  "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcU9NN2tkNHFhY2NjSlBlWktxSE5CTEdnLXJIbHJHcE52YU5jbUtiV1hQcVlpMjcwUUp2V3NUYmEwdVlWWnVseVdXWUhIWkZCMzljZFZ2NXBBWS1MUlhfZ2FibHlfNDg0eDh4c2V0VXZfNGc1NjNtckhiODZGMGtmdVFVYWt0TWp1RldsVGI3SmU0WFhoQm54ZUZOQjlGYXFsUFNZRVItRW1zSlBHZ2dDcnIzOWhvOURaSmJqWE56NU95YWc1?oc=5"
+                                },
+                                {
+                                    "title":  "Assurant and Evident Deliver Industry-First End-to-End Risk Protection for Commercial Equipment Rental Industry - Business Wire",
+                                    "url":  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYkx3enJhbUJFSzEyNVo5aFNnNU9ZdjJMcXVqTy1kakZ5cUZiaWpsRjN6c0VMZ0l0d0ZzZUdWMW5adW5Gc0NnZkozelQ4a2djd21QMEtoa2ppM0RySzdvNTFUOTUtSnQxU2hJWldZTnZidVFxUEVLMmtET3hTZUhUQXJ3RzYxSm51dUpOMXQ2WjNMV2g1X09fTHFXMWtVNy1MNWlSZGJuS1JGbGxNS2t5enRnSDhUS3k5aW9xek1IZmVhaW10NEhsZ3JQcnd3aW45RmJzd2xlc1ZNb0JHcmpmSjdlYXp2bnh5WWNvejNBVXBkSW9lT0Z2bS1TT1M?oc=5"
+                                },
+                                {
+                                    "title":  "Atlanta rental concessions rise as growing supply, softening demand prompt competition - The Business Journals",
+                                    "url":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlh2d2taZ1ZCVlQtZ2w3ZTNyLVhtM0tSbHBxOUcwZmFxTldwZGlFSkV6UlZIcjRuUFhkUk92cFVYbHQ2cG02d0NaVUlfbHVrLWFjQjZCdVE3TkptblVXeDB1Nm5nbTRfTGF1cXBFTnljdzJ5VXV1OWw1Y0szRjVQMW5kMlhoM0Y4VC1lUEx5U2xTNGdKTkJKVDRtSQ?oc=5"
+                                },
+                                {
+                                    "title":  "Barber Shop, Car Rental Company Among New Businesses Opening In Naugatuck - Patch",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdHpHbVVlc3p2UDAxdFlqMVNiNWNMelo0c3ppS1p4WnlwQVcyWE1wZ04zdzJPOXhMRi1mUERUYkd1aS01VnRIVUlPT2dDUkxiYXg0dDAwTEZ5QllRbUh1NUI2Q1VJbVJELWpKU2JwOWNnOXZlcVh4UDU5TGQ1djJ5aGk5Y21icGhvcDZ5VWVuNHhzNUNtQUJTRHpvTTlCT1pBN01PZTJJRjVHMkZYYUE?oc=5"
+                                },
+                                {
+                                    "title":  "Battlefield Equipment Rentals opens two new locations - Equipment Journal",
+                                    "url":  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1AwS0tDR01ac2tlZnZlV21JMWgzdHg0RWlSWHZmV0hsYTRVSEZVZ0t5ZlpuUEVMdTBocHJ1eFNoWHpMeGZfaDd6NS1rbzE0bUJOeGtEdEFjRWJELWh0VXN5TXBLTDRIMkEtX1V2OElZN0ZGcFRpMzM0Q2JYTWkwQmZvM2RpY0pidXNDcXNURHpVZUNNSl9aSDUyZVg4RHpJb01zTlQ3WEzSAa4BQVVfeXFMTU9JNUJtUHdIWWJnZ0VwMFM5akZnUHFqNzhIdXg0SmVQUWdhSFluMlMzaGlZazVpOVNXcHd6VXNBSVRaSm5fTWRUeGpvYlpFOXA3V3NPQVhIalJzZW1iNkgwTUwwSENncXI4VkN6VDVLb2FxLUNFaUFGRnN1SS1PQ185am9QeWx6cWpoMWR3a2x1MnJPcnVrZlNJeG42UGtWMEVwdlNMYk5sbmpFSlJn?oc=5"
+                                },
+                                {
+                                    "title":  "Berks County tent rental business finding new way through coronavirus pandemic - Reading Eagle",
+                                    "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSExsd25hZTY5Vy0zMDA5bV90TmlfNktRdzRZRHFNUzVPMXNZcUhjNURuVjFsd1J3WmxzM0Y5ZmZOOC1aeGtJbFg4UjVodUpfS0w0VnBralJHRzJGNkRJWWxNbzR2OU9laGt4VzRYVDdHMlVFUkp5QkJxRHZSMVUwZktvOFhka2NUNnY1dnR0YmNuZWlIZ2wxSnVKdHJLY0pJcWxyUTJYdS1PWnBKanJaSzlUX0lBb2lHTUxF?oc=5"
+                                },
+                                {
+                                    "title":  "Bezos-backed real estate startup Arrived raises $27M to help fuel new \u0027stock market\u0027 for rental properties - GeekWire",
+                                    "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcVdSa09ublJkT0dEOHhhd2dhT3VsbGRfZy1mMnRLejJJYTVSVHo5SlNiNEFqTnJsMGdqS3JDVEluajBfTm5FY25kZU5uRW9jWDZJckpwVXlZd0dXUzdubGhNbW12cDhYLUtXaVpiQ3hlUzNLd2pDRjR1UFJickwwX1UtOGhGcGJtN2o5cTBYU2FJYjVnMTNGOFNrX0p6VWN0dmN2U3dTSEZ4bU9wckVMemZlZ0p4Y0FiYTNfWGlqcDZ5d2hpbF9KZ2pyYW81LVU?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "B2B",
+                        "CUSTOMER_PROOF",
+                        "FOREIGN_PROOF",
+                        "HIGH_CAPITAL",
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "PHYSICAL_INFRASTRUCTURE",
+                        "PLATFORM_MARKET",
+                        "REGULATED",
+                        "REGULATION",
+                        "RENTAL",
+                        "RENTAL_VERTICAL",
+                        "TRACTION"
+                    ]
+    },
+    {
+        "rank":  2,
+        "opportunity":  "Location locale de nettoyeurs haute pression professionnels",
+        "client_fit_score":  74,
+        "client_verdict":  "STRONG",
+        "proof_score":  100,
+        "demand_score":  58,
+        "willingness_to_pay":  63,
+        "replication_score":  80,
+        "clarity_score":  55,
+        "opportunity_score":  61,
+        "original_verdict":  "VALIDATE",
+        "company_count":  200,
+        "article_count":  206,
+        "confidence":  80,
+        "why":  "200 entreprises et 206 articles soutiennent ce modèle avec une réplication de 32/100.",
+        "source_articles":  [
+                                {
+                                    "title":  "10 Predictions For The Homebuilding And Rental Housing Business - Forbes",
+                                    "url":  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM015Y0FoMzdXaFNaM1pFVzVXYzU5bUc0VmRVOFhaRUNmWnVQVFVtVzMyY1p0N1ZVaEh4a29tZzdPMTVPYnFPVmRYa2RYNVJYV2oxeFpVM3dqZ2ltQ3RwUWJpcTRzRG5CdnpaTHI2YlU2Y1JFX2hzQkJxX2RQZzI3YUxKQTlYT1pjMXJxc2JlSXJ2QWE5Z1Q4OG0yS1owemxnX2JlaVo0dExRUVlaVGNhUFFMQ0tCZw?oc=5"
+                                },
+                                {
+                                    "title":  "2025 in Review: An Overview of the Equipment Rental Industry - For Construction Pros",
+                                    "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRHZoWVA0Y0NZQ0F0SzN6bkg2MUhEVkI3aWxaLXhrUC1jLUo0bXdCYWRQd3lSY1hlbnU3SS04a2RxVXJkeFE3SGlWVi1CU2MtdXh4SGNPNGNaRGtWTUZTaDVIZEl2TUVXSkNCMU1md093SWI1T0RRZGZKc09KaEJCa0FlQTNydHd0T1Nlel9ybHBwTzVaVUFlTWR3djhvbnc2OGQ4cmJuNEtzRDFvRUdnSVhlbGlZTk9kUnFTYVJXVENWV1VnX3N5TS12Y25rT2M?oc=5"
+                                },
+                                {
+                                    "title":  "After closing short-term rental business, former Frontdesk CEO working on a new startup - BizTimes - Milwaukee Business News",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVhOd3prNmN0c2NWZXVuOG5nRVhCQ25iakluZGVNc0RBTHpjN01SWFJLOXZva0lGcEVPYm9fNHFDT2JURERYSGJqTEN3NzhReERiQUdVM09BSlBDMTIyWUpaSDQ0ajZRX2J4T1ZiQlNpaGxIZUcwRU1FZ3N0X1pvVGI1T0Q1VGpCVS1BLUNoUXJQdDRqQURyYzVmdUNqcFgtLUNrVjB5b3FYejBF?oc=5"
+                                },
+                                {
+                                    "title":  "Airbnb Creates Niches for a New Generation of Vacation Rental Startups: Skift Research E-Book - Skift",
+                                    "url":  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTHlfclUtMmJCc1AwNzZ3LUpyVnMtUVJ1eXlLeUp3MjNTMl9CMVJKTkhlMWV0ZDlZRUEzbmtxMENxdFJRN1lLb1RHUmF0cHRIa0tuYjhCOHdLWkdtd2lRWDU4V211VVhMcG1WSlU1OVU4NEphWlhXQ2JXZzM3OHVyMGFsZUc2ODI2dWRuVWNqVlctYnRMbnJQeGRoQTU3c3RDdTkwcVAwSVpBMzZUeS1YMEhFN2dxWVdDcjdUNnpRRQ?oc=5"
+                                },
+                                {
+                                    "title":  "Alpha Controls Launches Equipment Rental Program, Expanding Access to Instrumentation, Calibration \u0026 Validation Solutions - The Manila Times",
+                                    "url":  "https://news.google.com/rss/articles/CBMimwJBVV95cUxOYktOTEFUc1V6bDFCaDdoSW1PZUw2TlRScVJmbTVqV2g0NnhyaVRMU3R2bXJlclp1aU5jLW1QaEhRblBzMEhrTFlFd2xFYk9rQU12NHkxbmpyODRhcTF5ek5nRnhDZk9NV0RqQ2E1dGZzbmhjMDBiZDkwWWprRi15blRZcWRsUHpwdFdISlQwbVJTRkdsV3dtOERjdU9UenZmUWxxSnNJVTQ1bXcySmhZbVhDV0Z1MlduSVB4dTlaYVpBcEo5MFIta19kaWFYdzg4MFgtR0tLYkc4ZUZVNW8tVWlTdktGNUYtWTZwM2VCS1BkT2dlNVpDeFdsWWNXNmI2R2pjYWU4djRSYWltbGhmY055X0s4TVNFb2lB0gGgAkFVX3lxTE0tTi0tSnFkY3NKbXNyMU0ya1hJRDZzVnlOZ25haWRNNXZyVmZmS0NhdkpTTFlva3FhcnZGb2I2dDR0NlhJZ2FFczAwYVh0alBaR2FQcjR4NEE5UnQzdHBTczFuUVJBRExvM2lqb2NYWXNPTjVoTTJsWVNqVzRZSmFxdWhYeWVoOUhQcnlOSVU2VUhMU0twTVZEaDBwN21Db0hwZ0NTbDZ1dVRNVXNPcUxqZGRtQXYyZnE3eU0tRUN1Mnh4ZFhKUTJzZ29nRG1lTC1kOGdwNlJfdFdjWjlIX0Q0aDdpUFFaNmwxUzBWMzk0VW5qYU5OcmRJVkU1X3F0bUJ0Zm5kbk85aGxIYzQzWU9aNHJyTlFfaXhET25BRFFabw?oc=5"
+                                },
+                                {
+                                    "title":  "Amid decline in film production, equipment rental company exits Atlanta - AJC.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdDFHMEF6MGVaWVBYVUk2cjdwRFlYUnpiQ2RQLVZCM0VBRWdyQi1qSldOa2hOdGFDU2R0eGhFTVIyaktmZnBHdlgyaXF4VXU0Qm9aZW5aRlBlRHg0dzdZNldHM2VuclI2MEwzbDFaZm1zTUtISzVaMGdXV0M1NWNFX20ya01zYW5xTVhQRGUyNTN3YlhnX3ZsSnFHNjNhYXBGcmNSWXpxQUM2WHZZ?oc=5"
+                                },
+                                {
+                                    "title":  "Anchorage Short-Term Rental Registration Starts in May - Alaska Business Magazine",
+                                    "url":  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQkZyTnkxeGpxQ1UzUDRqUVBKa293QjJhY3NtQ2tTazRGZV9oRmNkMHVMZGZiMmZpbGdIM25BUHB6MDV6eDByVnZ3V2g2RDVrSEp3dERTX05xRzJ0WDdPNW9NN1o1Vmt6ZjNVU2dsd1U1LXU2S00wNHVUMnhPdDNZWndCNXV4NHROcVYxX05GQll3Zlk?oc=5"
+                                },
+                                {
+                                    "title":  "ARA Rental Market Forecast: 3.4% Annual Growth - For Construction Pros",
+                                    "url":  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSk9lQ2t0dTI1bWlQUmdicFYxa3VTd1JYLVJRRWR4TVNsWDZZV0ZXOE9YNndJdFBNZFAzT1ZXUkJoWWV4cWZCcVAxemJnVE9RUm83cTMtWVctQXh5N0U2Tng3WkdySGNseU8xR0l3QURzNGlHTmN0U0Yza3RLbkx1UzY2dnZDTUc3Ml92NDBQVzExcEpEUWFEeEZzaS1qTDcwR0EtMFROcHpyU0tQOGw3X2d0VzRDQ1NKUGFDaVFwb3l5TjFEX3RybTZUcjc0WlVuRkFjVERURU9PNlJUYVJrN0wtVFFEY1Qw?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Divests Rental Business - TVTechnology",
+                                    "url":  "https://news.google.com/rss/articles/CBMidEFVX3lxTE96RlZSdEJRZkREcVJzUVZxZ3pDNUFWZzJpdUVfSU1ZbXRPWFlwbTBUUUNDVlNkemdla1ZweTg0SjE1M2tCdGMtbm5mZURuSDZLQWQtYnhTQ2xzd1dXWmE5cDFLUFA3am1YMUtLVG42UGxOcjct?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Rental management buy-out: 1 Powerful Move - ProVideo Coalition",
+                                    "url":  "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSEQyZjZsbHFBN2xPbkNINEJHSHJFejF6VE1WUTQ5UjZ3NnhsX0pDVlNDSUY1LVJBQi1xaUc3OFQtVWNGWm5IU095UkxDV090dFJ6X2JITHJjWVRjRlVOVkVnbVZpd0hyOWxWcmN2TkdKLVlLbkcwVmtES2lEOXF0RjZwVGtWMkZ5b09wY9IBkgFBVV95cUxQWnlwd2NtV2FKcWxBM1pVcVQ4b2VCNGEyLUtIYjh3VFR2OTY2dTZvSUppZWJ6b25LT1h6TVF1SDdOeTd3eHExcVpNSEVJbWFXRHlFYi1iVlBURnp0cl9mbFh0WkMyY0hlWTZDMm5KSTBhVkYwc3dtWU0yYVJvdEhsUUc4YzBkRXpNejE1Q25ldFVmUQ?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI sell-off continues with disposal of rental business in MBO - Red Shark News",
+                                    "url":  "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iZUhFTFVheFprN3BSSEtWMXlxYnlKM2h6UEN6ako0VGJIUXNoU2JUaExvZlF6b3dzSHNpdzdyaUhrX2k1R2M1MWV1VTJIZS1Qd2ZaUUp1ZzdNT2hRWUIwTVJHX2dRZzFRWmfSAXpBVV95cUxNSFFQclVVRnQ2R1RLQXgtVVNxZDB5MkxidDY0VXltclhLSENQcHNrRDNpQU1heXZMNFhzTEdDbEdmTFBPbkZRZUo3THU0bWxxeWJXcFRMTGI1Rlo3NUdHNXFTeDFIVDhPNjhTbWxaSUlfNXhQdTc0VVdyZw?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Sells Its Global Rental Business ??? Management Buy-Out Backed by H2 Equity Partners - CineD",
+                                    "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcGM0V09uVnU1bjMzTkNjMXdldVBtVjNpXzFqMmhyb1FXbXR3ck81anR1aG52M2pTVDV3T1lPQXJyZEgxLWlhWjYtVHM2azUzWm52SEZDTTNpTTJQRk5wTGpNU0dzUXh3UzV6V01mRVZIMnNCQzVPWkZGalBVMmoydHhYaG0zOHd2ejEwM3JlZUdZTVdGZDU5QWFBWloyU3VPUzlTYUt0X3NMallm?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI Sells Its Rental Business | DJI \u0027Front Companies\u0027 Fined | Sony RX10 V ??? Focus Check ep125 - CineD",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTFiek9NU3VpMERxQU8xcVdHRFhEOFRTeHAxUjNnMlNuYWJaOW5PVU9IYTR0S3V1YUVKS2luUEVGV3ZUS0pBNnV5b1UyX2M4VXNsWUh0bjJUQjJkOEY5REgyT0diUzFMQVBKeS1nakNadEtsZzdrVlVzNzcyOVBvWS1JVzFBZDE3R2pOUHI1cmYwX2tZdm42ei03RDQtQW1ZaldEZm04VXBObjIybWc?oc=5"
+                                },
+                                {
+                                    "title":  "ARRI sells off its global rental activities in Europe, the United Kingdom, \u0026 North America - Newsshooter",
+                                    "url":  "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcU9NN2tkNHFhY2NjSlBlWktxSE5CTEdnLXJIbHJHcE52YU5jbUtiV1hQcVlpMjcwUUp2V3NUYmEwdVlWWnVseVdXWUhIWkZCMzljZFZ2NXBBWS1MUlhfZ2FibHlfNDg0eDh4c2V0VXZfNGc1NjNtckhiODZGMGtmdVFVYWt0TWp1RldsVGI3SmU0WFhoQm54ZUZOQjlGYXFsUFNZRVItRW1zSlBHZ2dDcnIzOWhvOURaSmJqWE56NU95YWc1?oc=5"
+                                },
+                                {
+                                    "title":  "Assurant and Evident Deliver Industry-First End-to-End Risk Protection for Commercial Equipment Rental Industry - Business Wire",
+                                    "url":  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYkx3enJhbUJFSzEyNVo5aFNnNU9ZdjJMcXVqTy1kakZ5cUZiaWpsRjN6c0VMZ0l0d0ZzZUdWMW5adW5Gc0NnZkozelQ4a2djd21QMEtoa2ppM0RySzdvNTFUOTUtSnQxU2hJWldZTnZidVFxUEVLMmtET3hTZUhUQXJ3RzYxSm51dUpOMXQ2WjNMV2g1X09fTHFXMWtVNy1MNWlSZGJuS1JGbGxNS2t5enRnSDhUS3k5aW9xek1IZmVhaW10NEhsZ3JQcnd3aW45RmJzd2xlc1ZNb0JHcmpmSjdlYXp2bnh5WWNvejNBVXBkSW9lT0Z2bS1TT1M?oc=5"
+                                },
+                                {
+                                    "title":  "Atlanta rental concessions rise as growing supply, softening demand prompt competition - The Business Journals",
+                                    "url":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlh2d2taZ1ZCVlQtZ2w3ZTNyLVhtM0tSbHBxOUcwZmFxTldwZGlFSkV6UlZIcjRuUFhkUk92cFVYbHQ2cG02d0NaVUlfbHVrLWFjQjZCdVE3TkptblVXeDB1Nm5nbTRfTGF1cXBFTnljdzJ5VXV1OWw1Y0szRjVQMW5kMlhoM0Y4VC1lUEx5U2xTNGdKTkJKVDRtSQ?oc=5"
+                                },
+                                {
+                                    "title":  "Barber Shop, Car Rental Company Among New Businesses Opening In Naugatuck - Patch",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdHpHbVVlc3p2UDAxdFlqMVNiNWNMelo0c3ppS1p4WnlwQVcyWE1wZ04zdzJPOXhMRi1mUERUYkd1aS01VnRIVUlPT2dDUkxiYXg0dDAwTEZ5QllRbUh1NUI2Q1VJbVJELWpKU2JwOWNnOXZlcVh4UDU5TGQ1djJ5aGk5Y21icGhvcDZ5VWVuNHhzNUNtQUJTRHpvTTlCT1pBN01PZTJJRjVHMkZYYUE?oc=5"
+                                },
+                                {
+                                    "title":  "Battlefield Equipment Rentals opens two new locations - Equipment Journal",
+                                    "url":  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1AwS0tDR01ac2tlZnZlV21JMWgzdHg0RWlSWHZmV0hsYTRVSEZVZ0t5ZlpuUEVMdTBocHJ1eFNoWHpMeGZfaDd6NS1rbzE0bUJOeGtEdEFjRWJELWh0VXN5TXBLTDRIMkEtX1V2OElZN0ZGcFRpMzM0Q2JYTWkwQmZvM2RpY0pidXNDcXNURHpVZUNNSl9aSDUyZVg4RHpJb01zTlQ3WEzSAa4BQVVfeXFMTU9JNUJtUHdIWWJnZ0VwMFM5akZnUHFqNzhIdXg0SmVQUWdhSFluMlMzaGlZazVpOVNXcHd6VXNBSVRaSm5fTWRUeGpvYlpFOXA3V3NPQVhIalJzZW1iNkgwTUwwSENncXI4VkN6VDVLb2FxLUNFaUFGRnN1SS1PQ185am9QeWx6cWpoMWR3a2x1MnJPcnVrZlNJeG42UGtWMEVwdlNMYk5sbmpFSlJn?oc=5"
+                                },
+                                {
+                                    "title":  "Berks County tent rental business finding new way through coronavirus pandemic - Reading Eagle",
+                                    "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSExsd25hZTY5Vy0zMDA5bV90TmlfNktRdzRZRHFNUzVPMXNZcUhjNURuVjFsd1J3WmxzM0Y5ZmZOOC1aeGtJbFg4UjVodUpfS0w0VnBralJHRzJGNkRJWWxNbzR2OU9laGt4VzRYVDdHMlVFUkp5QkJxRHZSMVUwZktvOFhka2NUNnY1dnR0YmNuZWlIZ2wxSnVKdHJLY0pJcWxyUTJYdS1PWnBKanJaSzlUX0lBb2lHTUxF?oc=5"
+                                },
+                                {
+                                    "title":  "Bezos-backed real estate startup Arrived raises $27M to help fuel new \u0027stock market\u0027 for rental properties - GeekWire",
+                                    "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcVdSa09ublJkT0dEOHhhd2dhT3VsbGRfZy1mMnRLejJJYTVSVHo5SlNiNEFqTnJsMGdqS3JDVEluajBfTm5FY25kZU5uRW9jWDZJckpwVXlZd0dXUzdubGhNbW12cDhYLUtXaVpiQ3hlUzNLd2pDRjR1UFJickwwX1UtOGhGcGJtN2o5cTBYU2FJYjVnMTNGOFNrX0p6VWN0dmN2U3dTSEZ4bU9wckVMemZlZ0p4Y0FiYTNfWGlqcDZ5d2hpbF9KZ2pyYW81LVU?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "B2B",
+                        "CUSTOMER_PROOF",
+                        "FOREIGN_PROOF",
+                        "HIGH_CAPITAL",
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "PHYSICAL_INFRASTRUCTURE",
+                        "PLATFORM_MARKET",
+                        "REGULATED",
+                        "REGULATION",
+                        "RENTAL",
+                        "RENTAL_VERTICAL",
+                        "TRACTION"
+                    ]
+    },
+    {
+        "rank":  3,
+        "opportunity":  "Dépannage domestique garanti sous 24h pour petites interventions",
+        "client_fit_score":  60,
+        "client_verdict":  "STRONG",
+        "proof_score":  54,
+        "demand_score":  66,
+        "willingness_to_pay":  58,
+        "replication_score":  65,
+        "clarity_score":  60,
+        "opportunity_score":  44,
+        "original_verdict":  "VALIDATE",
+        "company_count":  6,
+        "article_count":  9,
+        "confidence":  59,
+        "why":  "6 entreprises et 9 articles soutiennent ce modèle avec une réplication de 54/100.",
+        "source_articles":  [
+                                {
+                                    "title":  "Indian instant home services startup Pronto raises $20 million as valuation doubles from March - Reuters",
+                                    "url":  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUMwOVU5UXN4U2FiWkswd2xFWDN3MEdwaENDNFNicjFpUEZJR2pHbnVmLVRVM2RaamM2ak9pVDVoSzdtakZnZDdXVlRzcEItQWxnSE90aFFhY2pIanNtcGxHcjk5cEZHQklJWmt0NmJycGFxeGlnT0FZWWgyRTg0clU0bjk2RmV6NHhwTzYxNnc3SU42d3I1akNmVUdQN0FrR1RJZE5UTzdEMXlJeVY0MU9EX2VBcDhKeEZJSF9KQWt6R2FsWnc?oc=5"
+                                },
+                                {
+                                    "title":  "India\u0027s Snabbit closes $56M round as investor interest in on-demand home services heats up - TechCrunch",
+                                    "url":  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlpjbWFkQ21FcEc4cGVvaDZYUnk1Q3ZmRHMyT3Y3dEJPcnNkNTB4Mzk3a1l4bTlWV19DMnZ0TElEMjhfS0RRNlV2U0FTby1sQ3A5c05Zb3FRNmpfNjBwY1hndUlVUlpvU09hUkJSVkdieFpzWlZ2bkoxMHlIRkFOM2NvVndHUnBaTGpETWtnRG8wdFlpbjVwYnVLeU83RDk1Rl9IQkQ5SHZQejgwc3hzWTRxX08xU3R5dUFoNVpHTUo?oc=5"
+                                },
+                                {
+                                    "title":  "Mumbai-based on-demand home services startup Snabbit raises $19 million - Indian Startup News",
+                                    "url":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxONGQ4VXBFenljN2IyT0VKTHpRX3VXSzRnc1ZJRXhaM2hXa0VTSk5yV3UtbE00eGF0UXZSM3ZpdHduUHJqWm9KanpYYW82WlAtQU1jTGlaM3ZWVWNxOWJoSU9XN2RWVEZHenl6TmdHZk5nS05aTm9mTFJDaVgxOE54RHZPdUg4VE1kOUk4SksyZHA0T1FCdjlfRm15SHh4R0ZINlNPeC1yRDBHVEp3YUFoV2NZNjN1bDDSAbcBQVVfeXFMTjRkOFVwRXp5YzdiMk9FSkx6UV91V0s0Z3NWSUV4WjNoV2tFU0pOcld1LWxNNHhhdFF2UjN2aXR3blByalpvSmp6WGFvNlpQLUFNY0xpWjN2VlVjcTliaElPVzdkVlRGR3p5ek5nR2ZOZ0tOWk5vZkxSQ2lYMThOeER2T3VIOFRNZDlJOEpLMmRwNE9RQnY5X0ZteUh4eEdGSDZTT3gtckQwR1RKd2FBaFdjWTYzdWww?oc=5"
+                                },
+                                {
+                                    "title":  "On-demand home services startup Lula closes $750K round - The Business Journals",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOblZCYnh5SUVkbklFMXFITEtsTVlBM3JoaUhLU1BHM2NtNUZvbzI3UVR1Ym1XOVV1R09YRHpoNGhRWG4tc1ZGQVNrekJ1SXVPSDdlU2hRX0c0YW9TWm82WU5TaHhQOER3SGV3SW9WVmd2VXoyTmhXNkI5NFcxdkZxdDMwSXNCYVd3b3FQazVZTFowZHAwbDFyYnN3QTlsX0F6U3NScHBnSEcyYW56dFE?oc=5"
+                                },
+                                {
+                                    "title":  "Pronto becomes India???s newest startup darling as investors bet on instant home services - Fortune India",
+                                    "url":  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNendMTVV5OWI3OVl1TkdaSU9BZWNzdTMxUFVyOVNtQVNTTHVGbHlkcXZPVWRWWGJVSzk3dllVV0R0ZkE2dkRScndZVE41NDhSVmJEV01aTUVaVUE3Z3ZWZ21DaXZ6eC1ZbnQ2QmpCbUpSTjN3eDVIQmIxVE5pQnNYRlBOYzJNemNNdjhmbWp1VzFFNVVwOURxV1h1VHUzSlJidHdRTlVpaGRYZDdBU1BwOHlJNXV5LUNEOG9oeDg4Uy02T0ptMzNzNVp6TnZOd0pEaHfSAd8BQVVfeXFMUFc5SEFiNkVsLUoySXgzSWJRN2FBeEoxU3FqcVVhTG1GLWVNN0RVbHUyUmFURnBWNFdqU2hjLTlpVFZJMXdXUHAxdjZsNURTQTZIdnY4SWU1QTdDYVRCem11QTJNT2FWb2pkalNTZ2VZSklOQnlFT3RNbFhSMWRNSW9JdXFCUkxnVWlLQnJtT0ZMQzJWTmQ5LU9sVmJxSFliU0NtNjZSNDl2VmlkQkJ2ZEs5OUR3aU1JS3VXMmRXVGd4dDM5Q01GRTFzUTYxVnlrUDN1c01FQ1A3eDNnRWJINA?oc=5"
+                                },
+                                {
+                                    "title":  "Quick home services startup Pronto raises $25 Mn in funding to scale instant household help across India - Business Review Live",
+                                    "url":  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0dxTUxRdHowcFMtZ3hMRElnelpSck1QXzlEUXloUkRvdWpOM21ITUladlpaSEU5aDR0bjdpWkwwLWpsTUE2b1ktNUZfak1pM2tTcnVWZnd6NWFnODBYeldoeTZtdk9rb0kwZFdCRzl6cVRSR19kdm1Dd0M4eDd6Tkt3VUV5MWtqcTJLS0Z0aHkxX0k0eVhLbXJmRmVVWXk0ZFhXdm1yekVaOTU3R1hZVlRMZmpMOTB6bG5ldzRSNzhsdkdCLU56bnczUHVHbV9j?oc=5"
+                                },
+                                {
+                                    "title":  "Snabbit raises $56-mn funding led by Mirae Asset, SIG as instant home services race heats up - Moneycontrol.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRXoxUHlSX2xUSGNtQ0VZZmFzRzJIZ2VINWwwQkwwOElGSlhmdmJHY1AxcFI2eDl5S2tLX01JYTRyUXEyNjBRRW1zRUpEQzAyeGtrT1d0WWpKeGxHdHVPbzRjX3JySV9CRUFPcHQzNmVOLXladnZ6YXdfX1FPU0pWMFI1eDRveEFWTE9pQ0N0NEJ3R19BcXl0NXZHeXkycl9xMThwdmNnVElOVUQzZUxYSDJDcXBjcTI4ZFZKNkFPdGlRU1FpaEtOSjVua0dzN3dxRWVTY0lqZHdVX3ZpTXVoSjAwT1VmMHRZc2ZRVEdDa9IB9AFBVV95cUxNZ3pOUTlGc01BTDFzemJWNFpBdDJOM2daMUdYZVhraktYSHdEdTlQLWs1SVU1TEhuUTNITkVPOVloNFZXbFNpdjNQNnNwam5Vdk1vaDdhNElqVXdEbVNfRHhwVEFmR2l0bHZSMzVOdHEzblNDdFRyWF8xcERhWGtuN1dJZThEOG8xSEJrbmNQWGY4NHlEb2JoNWRfUDlYSnA1QUwzRV9tenRmcXVRaVlWdjBLcElvbzR4a1ZyTXJiT0piaWIxbmdxWDQ4cmh0bTRWc3Z3QTNwSUN5TnZpMHprN3VBczVweUlhQnNfOGhQVTlnWVk2?oc=5"
+                                },
+                                {
+                                    "title":  "Startup News Today: Snabbit???s $56M Funding Signals Growth in On-Demand Home Services - Analytics Insight",
+                                    "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMG1GcEp0NlZsMm1fbDJsaUc5NzhjN1o2N3QyODZtMHN1dEI0MlE5YlNyeklLZmQyUF9RTzBDbWpubmw5dW5QZHRKWWNOX2FQaGVVRzVULTM1ckFaNlJGbGh3YWttNnNPd1lUcFd0VDM5eUF4aUxUNS1kYUNISWNTd0pxRVFZRjdQdGtwSnJya0JGbDF6Q05qY01ZdVBIakNJdXVSWWdXdFlObDgtVF80TTNTS3lzV0dIc2g40gHIAUFVX3lxTFB1dTEtMlVNMHF6T19SQWdNVG5NVWFPem1sNS12RUp2ZGJxX01TY3pWOUxaM3ZGWUFqdVRPWnZpcVhQcUQxand1aTNtVVN0SEJiWE5mZVZLeW9kYTNRc1oxR21OQTFZOUZWS1VqUGtKZ3JyYVRnM2ZJUGhwWU9aSW44Q2pXXzJJVjhob0R5VFlicm1zRkJ1U2JsTXMzbmM1WF9PVG1aR3pJSkk4SUlXV2pkb3JYdTkwbWd2SHJFX0hXY3NWUXBsRl9R?oc=5"
+                                },
+                                {
+                                    "title":  "Startup Spotlight: Mowdo digitizes lawn care with on-demand pricing and service - GeekWire",
+                                    "url":  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SMEpuU0VPLWRaVjN1NUJLbnR5NjVtX1JEWUpVYnhXY0xKa0RiOGRCemx5MG5iMHNjV0ZVUTM0LWpqbHFuS0Yyem0xX2k?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "FOREIGN_PROOF",
+                        "HOME_SERVICES",
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "ON_DEMAND",
+                        "TRACTION"
+                    ]
+    },
+    {
+        "rank":  4,
+        "opportunity":  "Montage de meubles à domicile en moins de 48h",
+        "client_fit_score":  57,
+        "client_verdict":  "PROMISING",
+        "proof_score":  54,
+        "demand_score":  58,
+        "willingness_to_pay":  54,
+        "replication_score":  65,
+        "clarity_score":  60,
+        "opportunity_score":  45,
+        "original_verdict":  "VALIDATE",
+        "company_count":  6,
+        "article_count":  9,
+        "confidence":  59,
+        "why":  "6 entreprises et 9 articles soutiennent ce modèle avec une réplication de 54/100.",
+        "source_articles":  [
+                                {
+                                    "title":  "Indian instant home services startup Pronto raises $20 million as valuation doubles from March - Reuters",
+                                    "url":  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUMwOVU5UXN4U2FiWkswd2xFWDN3MEdwaENDNFNicjFpUEZJR2pHbnVmLVRVM2RaamM2ak9pVDVoSzdtakZnZDdXVlRzcEItQWxnSE90aFFhY2pIanNtcGxHcjk5cEZHQklJWmt0NmJycGFxeGlnT0FZWWgyRTg0clU0bjk2RmV6NHhwTzYxNnc3SU42d3I1akNmVUdQN0FrR1RJZE5UTzdEMXlJeVY0MU9EX2VBcDhKeEZJSF9KQWt6R2FsWnc?oc=5"
+                                },
+                                {
+                                    "title":  "India\u0027s Snabbit closes $56M round as investor interest in on-demand home services heats up - TechCrunch",
+                                    "url":  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlpjbWFkQ21FcEc4cGVvaDZYUnk1Q3ZmRHMyT3Y3dEJPcnNkNTB4Mzk3a1l4bTlWV19DMnZ0TElEMjhfS0RRNlV2U0FTby1sQ3A5c05Zb3FRNmpfNjBwY1hndUlVUlpvU09hUkJSVkdieFpzWlZ2bkoxMHlIRkFOM2NvVndHUnBaTGpETWtnRG8wdFlpbjVwYnVLeU83RDk1Rl9IQkQ5SHZQejgwc3hzWTRxX08xU3R5dUFoNVpHTUo?oc=5"
+                                },
+                                {
+                                    "title":  "Mumbai-based on-demand home services startup Snabbit raises $19 million - Indian Startup News",
+                                    "url":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxONGQ4VXBFenljN2IyT0VKTHpRX3VXSzRnc1ZJRXhaM2hXa0VTSk5yV3UtbE00eGF0UXZSM3ZpdHduUHJqWm9KanpYYW82WlAtQU1jTGlaM3ZWVWNxOWJoSU9XN2RWVEZHenl6TmdHZk5nS05aTm9mTFJDaVgxOE54RHZPdUg4VE1kOUk4SksyZHA0T1FCdjlfRm15SHh4R0ZINlNPeC1yRDBHVEp3YUFoV2NZNjN1bDDSAbcBQVVfeXFMTjRkOFVwRXp5YzdiMk9FSkx6UV91V0s0Z3NWSUV4WjNoV2tFU0pOcld1LWxNNHhhdFF2UjN2aXR3blByalpvSmp6WGFvNlpQLUFNY0xpWjN2VlVjcTliaElPVzdkVlRGR3p5ek5nR2ZOZ0tOWk5vZkxSQ2lYMThOeER2T3VIOFRNZDlJOEpLMmRwNE9RQnY5X0ZteUh4eEdGSDZTT3gtckQwR1RKd2FBaFdjWTYzdWww?oc=5"
+                                },
+                                {
+                                    "title":  "On-demand home services startup Lula closes $750K round - The Business Journals",
+                                    "url":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOblZCYnh5SUVkbklFMXFITEtsTVlBM3JoaUhLU1BHM2NtNUZvbzI3UVR1Ym1XOVV1R09YRHpoNGhRWG4tc1ZGQVNrekJ1SXVPSDdlU2hRX0c0YW9TWm82WU5TaHhQOER3SGV3SW9WVmd2VXoyTmhXNkI5NFcxdkZxdDMwSXNCYVd3b3FQazVZTFowZHAwbDFyYnN3QTlsX0F6U3NScHBnSEcyYW56dFE?oc=5"
+                                },
+                                {
+                                    "title":  "Pronto becomes India???s newest startup darling as investors bet on instant home services - Fortune India",
+                                    "url":  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNendMTVV5OWI3OVl1TkdaSU9BZWNzdTMxUFVyOVNtQVNTTHVGbHlkcXZPVWRWWGJVSzk3dllVV0R0ZkE2dkRScndZVE41NDhSVmJEV01aTUVaVUE3Z3ZWZ21DaXZ6eC1ZbnQ2QmpCbUpSTjN3eDVIQmIxVE5pQnNYRlBOYzJNemNNdjhmbWp1VzFFNVVwOURxV1h1VHUzSlJidHdRTlVpaGRYZDdBU1BwOHlJNXV5LUNEOG9oeDg4Uy02T0ptMzNzNVp6TnZOd0pEaHfSAd8BQVVfeXFMUFc5SEFiNkVsLUoySXgzSWJRN2FBeEoxU3FqcVVhTG1GLWVNN0RVbHUyUmFURnBWNFdqU2hjLTlpVFZJMXdXUHAxdjZsNURTQTZIdnY4SWU1QTdDYVRCem11QTJNT2FWb2pkalNTZ2VZSklOQnlFT3RNbFhSMWRNSW9JdXFCUkxnVWlLQnJtT0ZMQzJWTmQ5LU9sVmJxSFliU0NtNjZSNDl2VmlkQkJ2ZEs5OUR3aU1JS3VXMmRXVGd4dDM5Q01GRTFzUTYxVnlrUDN1c01FQ1A3eDNnRWJINA?oc=5"
+                                },
+                                {
+                                    "title":  "Quick home services startup Pronto raises $25 Mn in funding to scale instant household help across India - Business Review Live",
+                                    "url":  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0dxTUxRdHowcFMtZ3hMRElnelpSck1QXzlEUXloUkRvdWpOM21ITUladlpaSEU5aDR0bjdpWkwwLWpsTUE2b1ktNUZfak1pM2tTcnVWZnd6NWFnODBYeldoeTZtdk9rb0kwZFdCRzl6cVRSR19kdm1Dd0M4eDd6Tkt3VUV5MWtqcTJLS0Z0aHkxX0k0eVhLbXJmRmVVWXk0ZFhXdm1yekVaOTU3R1hZVlRMZmpMOTB6bG5ldzRSNzhsdkdCLU56bnczUHVHbV9j?oc=5"
+                                },
+                                {
+                                    "title":  "Snabbit raises $56-mn funding led by Mirae Asset, SIG as instant home services race heats up - Moneycontrol.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRXoxUHlSX2xUSGNtQ0VZZmFzRzJIZ2VINWwwQkwwOElGSlhmdmJHY1AxcFI2eDl5S2tLX01JYTRyUXEyNjBRRW1zRUpEQzAyeGtrT1d0WWpKeGxHdHVPbzRjX3JySV9CRUFPcHQzNmVOLXladnZ6YXdfX1FPU0pWMFI1eDRveEFWTE9pQ0N0NEJ3R19BcXl0NXZHeXkycl9xMThwdmNnVElOVUQzZUxYSDJDcXBjcTI4ZFZKNkFPdGlRU1FpaEtOSjVua0dzN3dxRWVTY0lqZHdVX3ZpTXVoSjAwT1VmMHRZc2ZRVEdDa9IB9AFBVV95cUxNZ3pOUTlGc01BTDFzemJWNFpBdDJOM2daMUdYZVhraktYSHdEdTlQLWs1SVU1TEhuUTNITkVPOVloNFZXbFNpdjNQNnNwam5Vdk1vaDdhNElqVXdEbVNfRHhwVEFmR2l0bHZSMzVOdHEzblNDdFRyWF8xcERhWGtuN1dJZThEOG8xSEJrbmNQWGY4NHlEb2JoNWRfUDlYSnA1QUwzRV9tenRmcXVRaVlWdjBLcElvbzR4a1ZyTXJiT0piaWIxbmdxWDQ4cmh0bTRWc3Z3QTNwSUN5TnZpMHprN3VBczVweUlhQnNfOGhQVTlnWVk2?oc=5"
+                                },
+                                {
+                                    "title":  "Startup News Today: Snabbit???s $56M Funding Signals Growth in On-Demand Home Services - Analytics Insight",
+                                    "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMG1GcEp0NlZsMm1fbDJsaUc5NzhjN1o2N3QyODZtMHN1dEI0MlE5YlNyeklLZmQyUF9RTzBDbWpubmw5dW5QZHRKWWNOX2FQaGVVRzVULTM1ckFaNlJGbGh3YWttNnNPd1lUcFd0VDM5eUF4aUxUNS1kYUNISWNTd0pxRVFZRjdQdGtwSnJya0JGbDF6Q05qY01ZdVBIakNJdXVSWWdXdFlObDgtVF80TTNTS3lzV0dIc2g40gHIAUFVX3lxTFB1dTEtMlVNMHF6T19SQWdNVG5NVWFPem1sNS12RUp2ZGJxX01TY3pWOUxaM3ZGWUFqdVRPWnZpcVhQcUQxand1aTNtVVN0SEJiWE5mZVZLeW9kYTNRc1oxR21OQTFZOUZWS1VqUGtKZ3JyYVRnM2ZJUGhwWU9aSW44Q2pXXzJJVjhob0R5VFlicm1zRkJ1U2JsTXMzbmM1WF9PVG1aR3pJSkk4SUlXV2pkb3JYdTkwbWd2SHJFX0hXY3NWUXBsRl9R?oc=5"
+                                },
+                                {
+                                    "title":  "Startup Spotlight: Mowdo digitizes lawn care with on-demand pricing and service - GeekWire",
+                                    "url":  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SMEpuU0VPLWRaVjN1NUJLbnR5NjVtX1JEWUpVYnhXY0xKa0RiOGRCemx5MG5iMHNjV0ZVUTM0LWpqbHFuS0Yyem0xX2k?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "FOREIGN_PROOF",
+                        "HOME_SERVICES",
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "ON_DEMAND",
+                        "TRACTION"
+                    ]
+    },
+    {
+        "rank":  5,
+        "opportunity":  "Remplacement mobile de batterie automobile à domicile",
+        "client_fit_score":  47,
+        "client_verdict":  "PROMISING",
+        "proof_score":  28,
+        "demand_score":  54,
+        "willingness_to_pay":  58,
+        "replication_score":  55,
+        "clarity_score":  55,
+        "opportunity_score":  38,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  2,
+        "article_count":  2,
+        "confidence":  40,
+        "why":  "Des preuves sources existent mais leur volume reste limité.",
+        "source_articles":  [
+                                {
+                                    "title":  "At-home car repair is the latest on-demand service - Axios",
+                                    "url":  "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTN4aTNNX1BYT0NTaDVJNXEzREdyc01fcThIdlhJdWRpcld6UXRaUllIRjNQQlpRVUpqY0xuUzNQQWxJYV9YMENzeVpfQzFsUlh3VmhXMlFzWENZRzNOMm0yeUU5QldoSlNSWjJOd285OGd3ckt4d2NBTWhISEJydG1wQ3FJNlk?oc=5"
+                                },
+                                {
+                                    "title":  "This on-demand vehicle service and repair startup registered Rs 4 Cr revenue in first year of operation - YourStory.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYlh2QjBPRzlsS041WGNyTXZlb1Nnc0JRXzZpM09HeEpIUjlwM2lZamgzLUE2TlpDSkNRSFRxZnhZcnpsUUFFREdmYjlyRnNYWWhuT19Ed1lqSkNDWkZjRGh1UVNLTEJPcUpLMDJOcXhWemFtMXZJTGxXUU91WGJUQWhGM2JLZUVwV2c?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "AUTO_SERVICES",
+                        "CUSTOMER_PROOF",
+                        "LOCAL_MARKET",
+                        "ON_DEMAND",
+                        "TRACTION"
+                    ]
+    },
+    {
+        "rank":  6,
+        "opportunity":  "Réparation prioritaire des équipements de cuisine pour petits restaurants",
+        "client_fit_score":  45,
+        "client_verdict":  "PROMISING",
+        "proof_score":  17,
+        "demand_score":  54,
+        "willingness_to_pay":  68,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  30,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  1,
+        "article_count":  1,
+        "confidence":  28,
+        "why":  "Signal encore faible : davantage de preuves sont nécessaires.",
+        "source_articles":  [
+                                {
+                                    "title":  "iFix, Egyptian on-demand phone repair service raises 6-figure investment for newly launched ecommerce platform - innovation-village.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWEx4aUlTTkNfVVhQNjhlM0p5bUlfWDFiZ0djNGRVaWVlZFBXUnk0Y3hCc2Y1b04zUGhaT1NMOFdobWVxVnBGakxlTTNYTnBWSEh4Vm1Qc2ZJQ0oyS1ctcXZvbzlJWkxGNkFjTUtnbE9yc0stV3ZLVGpIWUJmak9qdmJ4cnJoSmVuZ0lpd2dKVkljdVI2a21IVzFWYWNRNnV1UXBHdTIwWWZkVWR6T3M3Sk5wQjNUWjNmOUJmVDVsYjRERDl6eG1aMk93RTR2U0ljSFdLZ01ic2I?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "ON_DEMAND",
+                        "REPAIR"
+                    ]
+    },
+    {
+        "rank":  7,
+        "opportunity":  "Réparation mobile de petits électroménagers à domicile",
+        "client_fit_score":  44,
+        "client_verdict":  "WEAK",
+        "proof_score":  17,
+        "demand_score":  58,
+        "willingness_to_pay":  59,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  32,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  1,
+        "article_count":  1,
+        "confidence":  28,
+        "why":  "Signal encore faible : davantage de preuves sont nécessaires.",
+        "source_articles":  [
+                                {
+                                    "title":  "iFix, Egyptian on-demand phone repair service raises 6-figure investment for newly launched ecommerce platform - innovation-village.com",
+                                    "url":  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWEx4aUlTTkNfVVhQNjhlM0p5bUlfWDFiZ0djNGRVaWVlZFBXUnk0Y3hCc2Y1b04zUGhaT1NMOFdobWVxVnBGakxlTTNYTnBWSEh4Vm1Qc2ZJQ0oyS1ctcXZvbzlJWkxGNkFjTUtnbE9yc0stV3ZLVGpIWUJmak9qdmJ4cnJoSmVuZ0lpd2dKVkljdVI2a21IVzFWYWNRNnV1UXBHdTIwWWZkVWR6T3M3Sk5wQjNUWjNmOUJmVDVsYjRERDl6eG1aMk93RTR2U0ljSFdLZ01ic2I?oc=5"
+                                }
+                            ],
+        "signals":  [
+                        "INVESTOR_SIGNAL",
+                        "LOCAL_MARKET",
+                        "ON_DEMAND",
+                        "REPAIR"
+                    ]
+    },
+    {
+        "rank":  8,
+        "opportunity":  "Transport d\u0027animaux vers le vétérinaire pour propriétaires sans véhicule",
+        "client_fit_score":  40,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  50,
+        "willingness_to_pay":  67,
+        "replication_score":  50,
+        "clarity_score":  60,
+        "opportunity_score":  28,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  9,
+        "opportunity":  "Location de packs lumière et son pour anniversaires de 30 à 100 personnes",
+        "client_fit_score":  40,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  54,
+        "willingness_to_pay":  63,
+        "replication_score":  50,
+        "clarity_score":  60,
+        "opportunity_score":  31,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  10,
+        "opportunity":  "Pack remise en état entre deux locations en 72h",
+        "client_fit_score":  38,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  54,
+        "willingness_to_pay":  59,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  31,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  8,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  11,
+        "opportunity":  "Visites à domicile pour chiens âgés pendant les journées de travail",
+        "client_fit_score":  37,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  54,
+        "willingness_to_pay":  54,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  28,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  12,
+        "opportunity":  "Garde ponctuelle de sortie de crèche pour parents aux horaires décalés",
+        "client_fit_score":  37,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  54,
+        "willingness_to_pay":  50,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  26,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  1,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  13,
+        "opportunity":  "Promenade courte pour chiens âgés ou à mobilité réduite",
+        "client_fit_score":  37,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  50,
+        "willingness_to_pay":  54,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  28,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  14,
+        "opportunity":  "Stockage de 1 à 3 m³ chez des commerçants disposant d\u0027espace inutilisé",
+        "client_fit_score":  36,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  50,
+        "willingness_to_pay":  50,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  29,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  15,
+        "opportunity":  "Livraison planifiée de meubles pour magasins indépendants",
+        "client_fit_score":  36,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  50,
+        "willingness_to_pay":  50,
+        "replication_score":  50,
+        "clarity_score":  55,
+        "opportunity_score":  23,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  5,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    },
+    {
+        "rank":  16,
+        "opportunity":  "Inspection mensuelle des logements locatifs pour petits bailleurs",
+        "client_fit_score":  35,
+        "client_verdict":  "WEAK",
+        "proof_score":  0,
+        "demand_score":  50,
+        "willingness_to_pay":  50,
+        "replication_score":  50,
+        "clarity_score":  50,
+        "opportunity_score":  28,
+        "original_verdict":  "INSUFFICIENT PROOF",
+        "company_count":  0,
+        "article_count":  0,
+        "confidence":  8,
+        "why":  "Aucune preuve source correspondant exactement au modèle et au vertical.",
+        "source_articles":  [
+
+                            ],
+        "signals":  [
+
+                    ]
+    }
+]

@@ -22,19 +22,31 @@ function Clamp-Score {
 function Get-ProofScore {
     param($item)
 
-    $score = 0
+    $companies = [math]::Max(0, [double]$item.company_count)
+    $articles  = [math]::Max(0, [double]$item.article_count)
 
-    # Qualité / volume des preuves déjà disponibles dans V21
-    $score += [math]::Min([double]$item.company_count * 7, 35)
-    $score += [math]::Min([double]$item.article_count * 4, 25)
+    $companyScore = [math]::Min(
+        [math]::Log10(1 + $companies) / [math]::Log10(51) * 30,
+        30
+    )
+
+    $articleScore = [math]::Min(
+        [math]::Log10(1 + $articles) / [math]::Log10(101) * 20,
+        20
+    )
+
+    $marketScore = 0
+    $geoScore = 0
 
     if ($item.market_proof -ne $null) {
-        $score += [double]$item.market_proof * 0.20
+        $marketScore = [double]$item.market_proof * 0.25
     }
 
     if ($item.geographic_proof -ne $null) {
-        $score += [double]$item.geographic_proof * 0.20
+        $geoScore = [double]$item.geographic_proof * 0.25
     }
+
+    $score = $companyScore + $articleScore + $marketScore + $geoScore
 
     return Clamp-Score $score
 }
@@ -349,6 +361,7 @@ Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 22 completed"
 Write-Host "========================================"
+
 
 
 

@@ -1,0 +1,17 @@
+﻿node_modules/
+*.tmp
+*.log
+.env
+.env.*
+!.env.example
+
+# Fichiers de debug
+*_debug.*
+*debug*.png
+*debug*.txt
+
+# Sauvegardes locales
+*-backup.*
+*.backup.*
+
+biznesshunter-backup/

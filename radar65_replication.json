@@ -1,0 +1,470 @@
+﻿[
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Nice",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  44,
+        "demand_supply_ratio":  5.27,
+        "median_price":  28.4,
+        "price_samples":  64,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Strasbourg",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  25,
+        "demand_supply_ratio":  9.28,
+        "median_price":  21.9,
+        "price_samples":  45,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Nantes",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  32,
+        "demand_supply_ratio":  7.25,
+        "median_price":  24.5,
+        "price_samples":  52,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Rouen",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  26,
+        "demand_supply_ratio":  8.92,
+        "median_price":  23.8,
+        "price_samples":  46,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Grenoble",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  22,
+        "demand_supply_ratio":  10.55,
+        "median_price":  25.8,
+        "price_samples":  42,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Rennes",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  43,
+        "demand_supply_ratio":  5.4,
+        "median_price":  28.4,
+        "price_samples":  63,
+        "market_proof_score":  75,
+        "market_score":  97,
+        "market_verdict":  "STRONG",
+        "competition_level":  "LOW",
+        "competition_score":  30,
+        "replication_score":  98,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "offre_faible",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Montpellier",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  52,
+        "demand_supply_ratio":  4.46,
+        "median_price":  26.4,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Marseille",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  55,
+        "demand_supply_ratio":  4.22,
+        "median_price":  25.8,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Lyon",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  78,
+        "demand_supply_ratio":  2.97,
+        "median_price":  21.9,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Toulouse",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  70,
+        "demand_supply_ratio":  3.31,
+        "median_price":  23.8,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Lille",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  84,
+        "demand_supply_ratio":  2.76,
+        "median_price":  24.5,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Bordeaux",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  71,
+        "demand_supply_ratio":  3.27,
+        "median_price":  25.8,
+        "price_samples":  68,
+        "market_proof_score":  75,
+        "market_score":  91,
+        "market_verdict":  "STRONG",
+        "competition_level":  "MODERATE",
+        "competition_score":  24,
+        "replication_score":  93,
+        "replication_verdict":  "STRONG_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_moderee",
+                               "demande_superieure_a_offre",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_faible",
+                                    "demande_superieure_a_offre",
+                                    "prix_interessant"
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Paris",
+        "category":  "location_shampouineuse",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "source_count":  2,
+        "demand":  232,
+        "supply":  325,
+        "demand_supply_ratio":  0.71,
+        "median_price":  28.4,
+        "price_samples":  68,
+        "market_proof_score":  87,
+        "market_score":  56,
+        "market_verdict":  "MIXED",
+        "competition_level":  "VERY_HIGH",
+        "competition_score":  7,
+        "replication_score":  68,
+        "replication_verdict":  "GOOD_REPLICATION",
+        "market_reasons":  [
+                               "demande_forte",
+                               "concurrence_tres_forte",
+                               "offre_superieure_a_demande",
+                               "ticket_correct"
+                           ],
+        "replication_reasons":  [
+                                    "preuve_marche_forte",
+                                    "demande_forte",
+                                    "offre_tres_importante",
+                                    "offre_superieure_a_demande",
+                                    "prix_interessant"
+                                ]
+    }
+]

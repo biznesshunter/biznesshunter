@@ -51,8 +51,7 @@ foreach ($page in $pages) {
         continue
     }
 
-    $text = [string]$page.content
-    $clean = $text -replace '\s+', ' '
+    $combined = "$($page.name) $($page.content)"`r`n    $clean = $combined -replace '\s+', ' '
 
     # --------------------------------------------
     # PREUVES
@@ -206,3 +205,5 @@ $results |
 
 Write-Host ""
 Write-Host "Résultats : business_radar_v9.json"
+
+

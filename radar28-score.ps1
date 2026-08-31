@@ -5,7 +5,7 @@ Write-Host " WILLINGNESS V2"
 Write-Host "========================================"
 Write-Host ""
 
-$raw = Get-Content .\radar24_opportunities.json -Raw | ConvertFrom-Json
+$raw = Get-Content .\radar27_opportunities.json -Raw | ConvertFrom-Json
 $items = @($raw)
 
 Write-Host "Input opportunities : $($items.Count)"
@@ -286,6 +286,7 @@ Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 28 completed"
 Write-Host "========================================"
+
 
 
 

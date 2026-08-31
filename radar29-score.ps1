@@ -5,7 +5,7 @@ Write-Host " FINAL COMPETITIVE FIT"
 Write-Host "========================================"
 Write-Host ""
 
-$raw = Get-Content .\radar24_opportunities.json -Raw | ConvertFrom-Json
+$raw = Get-Content .\radar28_opportunities.json -Raw | ConvertFrom-Json
 $items = @($raw)
 
 Write-Host "Input opportunities : $($items.Count)"
@@ -290,6 +290,7 @@ Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 29 completed"
 Write-Host "========================================"
+
 
 
 

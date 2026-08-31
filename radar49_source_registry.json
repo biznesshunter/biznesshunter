@@ -1,0 +1,89 @@
+﻿[
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib",
+                        "poppins"
+                    ],
+        "category":  "location_shampouineuse"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_nettoyeur_vapeur"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_remorque"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_nettoyeur_haute_pression"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_debroussailleuse"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_scarificateur"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_taille_haie"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_fendeuse_bois"
+    },
+    {
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "category":  "location_tente_reception"
+    },
+    {
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "animalin"
+                    ],
+        "category":  "garde_chat"
+    },
+    {
+        "sources":  [
+                        "wecasa",
+                        "allovoisins"
+                    ],
+        "category":  "menage_sortie_location"
+    },
+    {
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "allovoisins"
+                    ],
+        "category":  "promenade_chien"
+    }
+]

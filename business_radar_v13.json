@@ -1,0 +1,44 @@
+﻿[
+    {
+        "name":  "Edify – Windows NLE: OpenFX, proxy editing, AI subs, vtuber tools ($29.99 once)",
+        "url":  "https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US\u0026gl=US",
+        "source":  "Hacker News",
+        "score":  40,
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "product_signal_count":  1,
+        "traction_count":  0,
+        "traction":  "",
+        "monetization_count":  1,
+        "monetization":  "$29.99 once"
+    },
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
+        "source":  "Hacker News",
+        "score":  30,
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "product_signal_count":  3,
+        "traction_count":  0,
+        "traction":  "",
+        "monetization_count":  0,
+        "monetization":  ""
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "url":  "https://agent2creator.vidmoat.com",
+        "source":  "Hacker News",
+        "score":  30,
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "product_signal_count":  2,
+        "traction_count":  0,
+        "traction":  "",
+        "monetization_count":  0,
+        "monetization":  ""
+    }
+]

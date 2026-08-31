@@ -1,0 +1,74 @@
+﻿[
+    {
+        "name":  "Edify – Windows NLE: OpenFX, proxy editing, AI subs, vtuber tools ($29.99 once)",
+        "score":  25,
+        "confidence":  "Low",
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "traction_count":  0,
+        "traction":  [
+
+                     ],
+        "revenue_count":  0,
+        "revenue":  [
+
+                    ],
+        "monetization_count":  1,
+        "monetization":  [
+                             "$29.99 once"
+                         ],
+        "product_signal_count":  1,
+        "business_model_evidence":  true,
+        "weak_signal_count":  0,
+        "hard_signal_count":  0
+    },
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "score":  0,
+        "confidence":  "Low",
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "traction_count":  0,
+        "traction":  [
+
+                     ],
+        "revenue_count":  0,
+        "revenue":  [
+
+                    ],
+        "monetization_count":  0,
+        "monetization":  [
+
+                         ],
+        "product_signal_count":  3,
+        "business_model_evidence":  false,
+        "weak_signal_count":  2,
+        "hard_signal_count":  0
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "score":  0,
+        "confidence":  "Low",
+        "type":  "Software",
+        "model":  "Software / AI",
+        "difficulty":  "Low",
+        "traction_count":  0,
+        "traction":  [
+
+                     ],
+        "revenue_count":  0,
+        "revenue":  [
+
+                    ],
+        "monetization_count":  0,
+        "monetization":  [
+
+                         ],
+        "product_signal_count":  2,
+        "business_model_evidence":  false,
+        "weak_signal_count":  3,
+        "hard_signal_count":  0
+    }
+]

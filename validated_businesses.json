@@ -1,0 +1,51 @@
+﻿[
+    {
+        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
+        "url":  "https://knowledgelens.ai/",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN, PRODUCT:online tools, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Show HN: A comic and manga viewer component for React",
+        "url":  "https://react-comic-viewer.kkweb.io",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN, PRODUCT:viewer, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
+        "url":  "https://agent2creator.vidmoat.com",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN, PRODUCT:social network, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Edify – Windows NLE: OpenFX, proxy editing, AI subs, vtuber tools ($29.99 once)",
+        "url":  "https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US\u0026gl=US",
+        "source":  "Hacker News",
+        "business_score":  5,
+        "signals":  "PRODUCT:PLATFORM, PRODUCT:PRICE_IN_TITLE, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Adapting Fossil-scm as a platform for AI agentic workflow",
+        "url":  "https://github.com/BenSiv/fossil-scm",
+        "source":  "Hacker News",
+        "business_score":  3,
+        "signals":  "SOURCE:GITHUB, PRODUCT:platform, PRODUCT_CANDIDATE"
+    },
+    {
+        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
+        "url":  "https://github.com/gojiplus/layoutlens",
+        "source":  "Hacker News",
+        "business_score":  3,
+        "signals":  "SOURCE:GITHUB, SHOW_HN, PRODUCT:SHOW_HN, PRODUCT_CANDIDATE"
+    }
+]

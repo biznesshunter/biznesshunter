@@ -758,23 +758,17 @@ let data = [];
 let currentFilter = "ALL";
 
 async function loadData() {
-
     try {
-
-        const response = await fetch(
-            "radar31_opportunities-final.json"
-        );
+        const response = await fetch("radar36_replication_opportunities.json");
 
         if (!response.ok) {
             throw new Error("HTTP " + response.status);
         }
 
         data = await response.json();
-
         renderDashboard();
 
     } catch (error) {
-
         console.error(error);
 
         document.getElementById("list").innerHTML = `
@@ -786,53 +780,43 @@ async function loadData() {
                 color:#8996c0;
                 background:rgba(255,255,255,.025);
             ">
-                Impossible de charger radar31_opportunities-final.json
+                Impossible de charger les opportunités Radar 36.
             </div>
         `;
     }
 }
 
-
 function renderDashboard() {
 
-    document.getElementById("total").textContent =
-        data.length;
+    document.getElementById("total").textContent = data.length;
 
-    const launch =
-        data.filter(
-            x => x.verdict === "LAUNCH CANDIDATE"
-        ).length;
+    const strong = data.filter(
+        x => x.replication_verdict === "STRONG REPLICATION FIT"
+    ).length;
 
-    const validate =
-        data.filter(
-            x => x.verdict === "VALIDATE"
-        ).length;
+    const possible = data.filter(
+        x => x.replication_verdict === "POSSIBLE REPLICATION"
+    ).length;
 
-    document.getElementById("launch").textContent =
-        launch;
-
-    document.getElementById("validate").textContent =
-        validate;
+    document.getElementById("launch").textContent = strong;
+    document.getElementById("validate").textContent = possible;
 
     document.getElementById("confidence").textContent =
         data.length
-            ? data[0].confidence + "/100"
+            ? data[0].replication_score + "/100"
             : "—";
 
     const top = data[0];
 
     if (top) {
-
         document.getElementById("hero").innerHTML = `
-
             <div class="feature-card">
-
                 <div class="feature-top">
 
                     <div class="feature-content">
 
                         <span class="badge">
-                            ${top.verdict}
+                            ${top.replication_verdict}
                         </span>
 
                         <h2>
@@ -840,7 +824,7 @@ function renderDashboard() {
                         </h2>
 
                         <p>
-                            ${top.why || "Signal détecté par BiznessHunter."}
+                            ${top.why || "Opportunité détectée par BiznessHunter."}
                         </p>
 
                     </div>
@@ -848,24 +832,22 @@ function renderDashboard() {
                     <div class="feature-score">
 
                         <div class="feature-score-number">
-                            ${top.opportunity_score}
+                            ${top.replication_score}
                         </div>
 
                         <div class="feature-score-label">
-                            OPPORTUNITY SCORE / 100
+                            REPLICATION SCORE / 100
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
         `;
     }
 
     renderList();
 }
-
 
 function filterItems(filter, button) {
 
@@ -879,24 +861,19 @@ function filterItems(filter, button) {
     renderList();
 }
 
-
 function renderList() {
 
-    const list =
-        document.getElementById("list");
+    const list = document.getElementById("list");
 
     let items = data;
 
     if (currentFilter !== "ALL") {
-
-        items =
-            data.filter(
-                x => x.verdict === currentFilter
-            );
+        items = data.filter(
+            x => x.replication_verdict === currentFilter
+        );
     }
 
     if (!items.length) {
-
         list.innerHTML = `
             <div style="
                 grid-column:1/-1;
@@ -906,87 +883,83 @@ function renderList() {
                 No opportunities in this category.
             </div>
         `;
-
         return;
     }
 
-    list.innerHTML =
-        items.map(item => {
+    list.innerHTML = items.map(item => {
 
-            const companies =
-                Array.isArray(item.companies)
-                    ? item.companies.length
-                    : item.company_count || 0;
+        const companies =
+            Array.isArray(item.companies)
+                ? item.companies.length
+                : item.company_count || 0;
 
-            const articles =
-                Array.isArray(item.source_articles)
-                    ? item.source_articles.length
-                    : item.article_count || 0;
+        const articles =
+            Array.isArray(item.source_articles)
+                ? item.source_articles.length
+                : item.article_count || 0;
 
-            return `
+        return `
+            <article class="card">
 
-                <article class="card">
+                <div class="card-top">
 
-                    <div class="card-top">
+                    <div>
 
-                        <div>
+                        <span class="badge">
+                            ${item.replication_verdict}
+                        </span>
 
-                            <span class="badge">
-                                ${item.verdict}
-                            </span>
-
-                            <h3>
-                                ${item.opportunity}
-                            </h3>
-
-                        </div>
-
-                        <div class="card-score">
-                            ${item.opportunity_score}
-                        </div>
+                        <h3>
+                            ${item.opportunity}
+                        </h3>
 
                     </div>
 
-                    <div class="card-meta">
-
-                        <span class="meta">
-                            Confidence ${item.confidence}/100
-                        </span>
-
-                        <span class="meta">
-                            ${companies} companies
-                        </span>
-
-                        <span class="meta">
-                            ${articles} articles
-                        </span>
-
-                        <span class="meta">
-                            Gap Score ${item.gap_score ?? "—"}/100
-                        </span>
-
+                    <div class="card-score">
+                        ${item.replication_score}
                     </div>
 
-                    <div class="card-why">
-                        ${item.why || "Signal à surveiller."}
-                    </div>
+                </div>
 
-                    <div class="card-action">
-                        ${
-                            item.verdict === "LAUNCH CANDIDATE"
-                                ? "INVESTIGATE NOW →"
-                                : item.verdict === "VALIDATE"
-                                    ? "VALIDATE SIGNAL →"
-                                    : "MORE PROOF NEEDED"
-                        }
-                    </div>
+                <div class="card-meta">
 
-                </article>
-            `;
+                    <span class="meta">
+                        Replication ${item.replication_score}/100
+                    </span>
 
-        }).join("");
+                    <span class="meta">
+                        Duplicability ${item.duplicability_score}/100
+                    </span>
+
+                    <span class="meta">
+                        ${companies} companies
+                    </span>
+
+                    <span class="meta">
+                        ${articles} articles
+                    </span>
+
+                </div>
+
+                <div class="card-why">
+                    ${item.why || "Signal à surveiller."}
+                </div>
+
+                <div class="card-action">
+                    ${
+                        item.replication_verdict === "STRONG REPLICATION FIT"
+                            ? "STRONG REPLICATION FIT →"
+                            : item.replication_verdict === "POSSIBLE REPLICATION"
+                                ? "INVESTIGATE →"
+                                : "REPLICATION DIFFICULT"
+                    }
+                </div>
+
+            </article>
+        `;
+
+    }).join("");
 }
-
 
 loadData();
 
@@ -994,4 +967,5 @@ loadData();
 
 </body>
 </html>
+
 

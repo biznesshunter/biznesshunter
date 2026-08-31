@@ -1,0 +1,997 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiznessHunter — Business Opportunity Radar</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at 50% -10%, rgba(91, 72, 255, .35), transparent 35%),
+        linear-gradient(180deg, #080b24 0%, #0b1035 45%, #080b24 100%);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+header {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 28px;
+}
+
+/* LOGO : NE PAS MODIFIER */
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+.logo span {
+    color: #4267ff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+    color: #aeb8df;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav-button {
+    background: linear-gradient(135deg, #4267ff, #7654ff);
+    color: white !important;
+    padding: 11px 19px;
+    border-radius: 9px;
+    font-weight: 700;
+    box-shadow: 0 8px 25px rgba(74, 88, 255, .25);
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 105px 28px 100px;
+    text-align: center;
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 13px;
+    border: 1px solid rgba(123, 119, 255, .3);
+    border-radius: 999px;
+    background: rgba(83, 75, 255, .10);
+    color: #aeb8ff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.eyebrow-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #7061ff;
+    box-shadow: 0 0 12px #7061ff;
+}
+
+.hero-section h1 {
+    margin: 30px auto 0;
+    max-width: 950px;
+    font-size: clamp(52px, 7vw, 88px);
+    line-height: .98;
+    letter-spacing: -5px;
+    font-weight: 750;
+
+    background: linear-gradient(
+        135deg,
+        #ffffff 10%,
+        #d9e3ff 48%,
+        #a98cff 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-subtitle {
+    margin: 32px auto 0;
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 650;
+    color: #ffffff;
+}
+
+.hero-emphasis {
+    margin: 7px auto 0;
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 600;
+    font-style: italic;
+    color: #b8c4ef;
+}
+
+.hero-description {
+    max-width: 680px;
+    margin: 25px auto 0;
+    font-size: 17px;
+    line-height: 1.65;
+    color: #8e9bc7;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #4a6cff, #7955ff);
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 750;
+    box-shadow: 0 10px 35px rgba(76, 83, 255, .28);
+}
+
+.primary-button:hover {
+    transform: translateY(-1px);
+}
+
+.secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 9px;
+    border: 1px solid #283567;
+    background: rgba(255,255,255,.04);
+    color: #dce4ff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* =========================================================
+   SIGNAL BAR
+   ========================================================= */
+
+.signal-bar {
+    border-top: 1px solid rgba(120, 135, 190, .16);
+    border-bottom: 1px solid rgba(120, 135, 190, .16);
+    background: rgba(9, 13, 42, .55);
+}
+
+.signal-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 26px 28px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.signal {
+    text-align: center;
+}
+
+.signal-number {
+    font-size: 27px;
+    font-weight: 750;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #ffffff, #9ba8ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.signal-label {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #7784b2;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+/* =========================================================
+   SECTIONS
+   ========================================================= */
+
+.section {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 105px 28px;
+}
+
+.section-header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 42px;
+}
+
+.section-kicker {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    color: #7180bd;
+    margin-bottom: 11px;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: -2px;
+    line-height: 1.05;
+    color: white;
+}
+
+.section-description {
+    max-width: 430px;
+    color: #7f8db9;
+    line-height: 1.65;
+    font-size: 15px;
+}
+
+/* =========================================================
+   FEATURE
+   ========================================================= */
+
+.feature-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(113, 121, 255, .22);
+    border-radius: 22px;
+    padding: 45px;
+    background:
+        radial-gradient(
+            circle at 85% 10%,
+            rgba(111, 81, 255, .25),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            rgba(26, 37, 91, .95),
+            rgba(18, 22, 67, .95)
+        );
+    box-shadow:
+        0 30px 80px rgba(0,0,0,.25),
+        inset 0 1px rgba(255,255,255,.04);
+}
+
+.feature-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.feature-content {
+    max-width: 760px;
+}
+
+.badge {
+    display: inline-flex;
+    padding: 7px 11px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #4168ff, #7655ff);
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .7px;
+    box-shadow: 0 5px 18px rgba(74, 83, 255, .25);
+}
+
+.feature-card h2 {
+    margin: 18px 0 15px;
+    font-size: 42px;
+    line-height: 1.08;
+    letter-spacing: -2px;
+    color: white;
+}
+
+.feature-card p {
+    margin: 0;
+    color: #9ba8d0;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.feature-score {
+    min-width: 150px;
+    text-align: right;
+}
+
+.feature-score-number {
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 750;
+    letter-spacing: -4px;
+
+    background: linear-gradient(135deg, #ffffff, #9d8bff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.feature-score-label {
+    margin-top: 8px;
+    font-size: 10px;
+    color: #7582ad;
+    font-weight: 800;
+}
+
+/* =========================================================
+   FILTERS
+   ========================================================= */
+
+.filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 32px 0;
+}
+
+.filter {
+    border: 1px solid #273564;
+    background: rgba(255,255,255,.025);
+    color: #8996c0;
+    padding: 9px 15px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.filter.active,
+.filter:hover {
+    background: linear-gradient(135deg, #4267ff, #7654ff);
+    color: white;
+    border-color: transparent;
+}
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid rgba(106, 121, 184, .18);
+    border-radius: 17px;
+    padding: 28px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(20, 29, 71, .92),
+            rgba(12, 17, 50, .92)
+        );
+    transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(105, 113, 255, .45);
+    box-shadow: 0 18px 50px rgba(0,0,0,.25);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card h3 {
+    margin: 14px 0 0;
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: -.7px;
+    color: white;
+}
+
+.card-score {
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 750;
+    letter-spacing: -2px;
+
+    background: linear-gradient(135deg, #ffffff, #9d8bff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 22px;
+}
+
+.meta {
+    font-size: 10px;
+    color: #8b98c2;
+    background: rgba(255,255,255,.045);
+    border: 1px solid rgba(110,125,185,.12);
+    padding: 6px 9px;
+    border-radius: 6px;
+}
+
+.card-why {
+    margin-top: 20px;
+    color: #8794bc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.card-action {
+    display: inline-block;
+    margin-top: 22px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .8px;
+    color: #8795ff;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+    border-top: 1px solid rgba(120, 135, 190, .15);
+    padding: 35px 28px;
+    text-align: center;
+    color: #59668f;
+    font-size: 11px;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hero-section {
+        padding: 75px 20px 80px;
+    }
+
+    .hero-section h1 {
+        letter-spacing: -3px;
+    }
+
+    .hero-subtitle,
+    .hero-emphasis {
+        font-size: 19px;
+    }
+
+    .signal-inner {
+        gap: 30px;
+    }
+
+    .section {
+        padding: 75px 20px;
+    }
+
+    .section-header {
+        display: block;
+    }
+
+    .section-description {
+        margin-top: 15px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 28px;
+    }
+
+    .feature-top {
+        display: block;
+    }
+
+    .feature-score {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .feature-card h2 {
+        font-size: 31px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <!-- LOGO CONSERVE -->
+    <div class="logo">
+        Bizness<span>Hunter</span>
+    </div>
+
+    <nav class="nav">
+        <a href="#opportunities">Opportunities</a>
+        <a href="#method">How it works</a>
+        <a href="#opportunities" class="nav-button">
+            Explore opportunities
+        </a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="hero-section">
+
+    <div class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        BUSINESS OPPORTUNITY RADAR
+    </div>
+
+    <h1>
+        Find proven businesses
+        you can launch from home.
+    </h1>
+
+    <div class="hero-subtitle">
+        Not another list of ideas.
+    </div>
+
+    <div class="hero-emphasis">
+        We find businesses already working in other markets
+        and identify opportunities to replicate them in yours.
+    </div>
+
+    <p class="hero-description">
+        BiznessHunter analyzes real companies, market signals,
+        funding activity and geographic gaps to find business
+        models worth investigating.
+    </p>
+
+    <div class="hero-actions">
+        <a href="#opportunities" class="primary-button">
+            Explore opportunities
+        </a>
+
+        <a href="#method" class="secondary-button">
+            How it works
+        </a>
+    </div>
+
+</section>
+
+
+<section class="signal-bar">
+
+    <div class="signal-inner">
+
+        <div class="signal">
+            <div class="signal-number" id="total">—</div>
+            <div class="signal-label">
+                Opportunities detected
+            </div>
+        </div>
+
+        <div class="signal">
+            <div class="signal-number" id="launch">—</div>
+            <div class="signal-label">
+                Launch candidates
+            </div>
+        </div>
+
+        <div class="signal">
+            <div class="signal-number" id="validate">—</div>
+            <div class="signal-label">
+                Validate
+            </div>
+        </div>
+
+        <div class="signal">
+            <div class="signal-number" id="confidence">—</div>
+            <div class="signal-label">
+                Top confidence
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="opportunities">
+
+    <div class="section-header">
+
+        <div>
+            <div class="section-kicker">
+                Latest signals
+            </div>
+
+            <h2 class="section-title">
+                Opportunities worth investigating.
+            </h2>
+        </div>
+
+        <div class="section-description">
+            Ranked by proof, launch economics, automation,
+            capital requirements and geographic opportunity.
+        </div>
+
+    </div>
+
+
+    <div id="hero"></div>
+
+
+    <div class="filters">
+
+        <button class="filter active"
+                onclick="filterItems('ALL',this)">
+            All
+        </button>
+
+        <button class="filter"
+                onclick="filterItems('LAUNCH CANDIDATE',this)">
+            Launch Candidate
+        </button>
+
+        <button class="filter"
+                onclick="filterItems('VALIDATE',this)">
+            Validate
+        </button>
+
+        <button class="filter"
+                onclick="filterItems('INSUFFICIENT PROOF',this)">
+            Insufficient Proof
+        </button>
+
+    </div>
+
+
+    <div id="list" class="grid"></div>
+
+</section>
+
+
+<section class="section" id="method">
+
+    <div class="section-header">
+
+        <div>
+            <div class="section-kicker">
+                The idea
+            </div>
+
+            <h2 class="section-title">
+                We don't predict.<br>
+                We look for proof.
+            </h2>
+        </div>
+
+        <div class="section-description">
+            A business model already working somewhere else
+            is a stronger starting point than an invented idea.
+            BiznessHunter searches for those signals and evaluates
+            whether they create an opportunity in another market.
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+    BiznessHunter · Business Opportunity Radar
+</footer>
+
+
+<script>
+
+let data = [];
+let currentFilter = "ALL";
+
+async function loadData() {
+
+    try {
+
+        const response = await fetch(
+            "radar31_opportunities-final.json"
+        );
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        data = await response.json();
+
+        renderDashboard();
+
+    } catch (error) {
+
+        console.error(error);
+
+        document.getElementById("list").innerHTML = `
+            <div style="
+                grid-column:1/-1;
+                padding:40px;
+                border:1px solid #283567;
+                border-radius:14px;
+                color:#8996c0;
+                background:rgba(255,255,255,.025);
+            ">
+                Impossible de charger radar31_opportunities-final.json
+            </div>
+        `;
+    }
+}
+
+
+function renderDashboard() {
+
+    document.getElementById("total").textContent =
+        data.length;
+
+    const launch =
+        data.filter(
+            x => x.verdict === "LAUNCH CANDIDATE"
+        ).length;
+
+    const validate =
+        data.filter(
+            x => x.verdict === "VALIDATE"
+        ).length;
+
+    document.getElementById("launch").textContent =
+        launch;
+
+    document.getElementById("validate").textContent =
+        validate;
+
+    document.getElementById("confidence").textContent =
+        data.length
+            ? data[0].confidence + "/100"
+            : "—";
+
+    const top = data[0];
+
+    if (top) {
+
+        document.getElementById("hero").innerHTML = `
+
+            <div class="feature-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-content">
+
+                        <span class="badge">
+                            ${top.verdict}
+                        </span>
+
+                        <h2>
+                            ${top.opportunity}
+                        </h2>
+
+                        <p>
+                            ${top.why || "Signal détecté par BiznessHunter."}
+                        </p>
+
+                    </div>
+
+                    <div class="feature-score">
+
+                        <div class="feature-score-number">
+                            ${top.opportunity_score}
+                        </div>
+
+                        <div class="feature-score-label">
+                            OPPORTUNITY SCORE / 100
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        `;
+    }
+
+    renderList();
+}
+
+
+function filterItems(filter, button) {
+
+    currentFilter = filter;
+
+    document.querySelectorAll(".filter")
+        .forEach(x => x.classList.remove("active"));
+
+    button.classList.add("active");
+
+    renderList();
+}
+
+
+function renderList() {
+
+    const list =
+        document.getElementById("list");
+
+    let items = data;
+
+    if (currentFilter !== "ALL") {
+
+        items =
+            data.filter(
+                x => x.verdict === currentFilter
+            );
+    }
+
+    if (!items.length) {
+
+        list.innerHTML = `
+            <div style="
+                grid-column:1/-1;
+                padding:40px;
+                color:#8996c0;
+            ">
+                No opportunities in this category.
+            </div>
+        `;
+
+        return;
+    }
+
+    list.innerHTML =
+        items.map(item => {
+
+            const companies =
+                Array.isArray(item.companies)
+                    ? item.companies.length
+                    : item.company_count || 0;
+
+            const articles =
+                Array.isArray(item.source_articles)
+                    ? item.source_articles.length
+                    : item.article_count || 0;
+
+            return `
+
+                <article class="card">
+
+                    <div class="card-top">
+
+                        <div>
+
+                            <span class="badge">
+                                ${item.verdict}
+                            </span>
+
+                            <h3>
+                                ${item.opportunity}
+                            </h3>
+
+                        </div>
+
+                        <div class="card-score">
+                            ${item.opportunity_score}
+                        </div>
+
+                    </div>
+
+                    <div class="card-meta">
+
+                        <span class="meta">
+                            Confidence ${item.confidence}/100
+                        </span>
+
+                        <span class="meta">
+                            ${companies} companies
+                        </span>
+
+                        <span class="meta">
+                            ${articles} articles
+                        </span>
+
+                        <span class="meta">
+                            Gap Score ${item.gap_score ?? "—"}/100
+                        </span>
+
+                    </div>
+
+                    <div class="card-why">
+                        ${item.why || "Signal à surveiller."}
+                    </div>
+
+                    <div class="card-action">
+                        ${
+                            item.verdict === "LAUNCH CANDIDATE"
+                                ? "INVESTIGATE NOW →"
+                                : item.verdict === "VALIDATE"
+                                    ? "VALIDATE SIGNAL →"
+                                    : "MORE PROOF NEEDED"
+                        }
+                    </div>
+
+                </article>
+            `;
+
+        }).join("");
+}
+
+
+loadData();
+
+</script>
+
+</body>
+</html>
+

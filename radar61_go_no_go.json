@@ -1,0 +1,23 @@
+﻿{
+    "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+    "country":  "FR",
+    "city":  "Paris",
+    "validation_score":  73,
+    "go_score":  68,
+    "decision":  "TEST",
+    "market_demand":  232,
+    "existing_supply":  344,
+    "median_price":  28.4,
+    "test_cost_eur":  50,
+    "customer":  "Particuliers ayant besoin de nettoyer canapés, tapis, matelas ou sièges de voiture.",
+    "business_model":  "Marketplace local de location entre particuliers",
+    "revenue_model":  "Commission sur chaque location.",
+    "market_proof":  "Demande réelle détectée sur AlloVoisins et offre existante sur Bricolib.",
+    "main_risk":  "Le marché est déjà concurrentiel : une offre existante importante est présente à Paris.",
+    "validation_test":  "Créer une landing page locale, publier quelques annonces ciblées et mesurer les demandes avant de développer une marketplace complète.",
+    "replication_strategy":  "Reproduire le modèle dans d\u0027autres villes françaises où une demande existe mais où l\u0027offre locale est moins dense.",
+    "sources":  [
+                    "allovoisins",
+                    "bricolib"
+                ]
+}

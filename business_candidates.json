@@ -1,58 +1,23 @@
 ﻿[
     {
-        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
-        "url":  "https://ctrltool.wtf",
+        "name":  "Edify – Windows NLE: OpenFX, proxy editing, AI subs, vtuber tools ($29.99 once)",
+        "url":  "https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US\u0026gl=US",
         "source":  "Hacker News",
-        "business_score":  6,
-        "signals":  "SHOW_HN, tool"
-    },
-    {
-        "name":  "Show HN: LayoutLens: AI-Powered Visual UI Testing",
-        "url":  "https://github.com/gojiplus/layoutlens",
-        "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
-    },
-    {
-        "name":  "Show HN: Lens AI – generate your JSON-LD files and keep them up-to-date",
-        "url":  "https://knowledgelens.ai/",
-        "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
-    },
-    {
-        "name":  "Show HN: Nice Licence – An anti-copyleft permissive licence",
-        "url":  "https://github.com/Jamedjo/git-hunk/commit/240ac0f7e986fbe783a7de1c220fc047771ee059",
-        "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
-    },
-    {
-        "name":  "Show HN: Hands-Rust MCP/CLI that sees the Windows desktop and clicks real Chrome",
-        "url":  null,
-        "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
-    },
-    {
-        "name":  "Show HN: Active Source of Truth for Your Coding Agents",
-        "url":  "https://meetless.ai",
-        "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
+        "business_score":  8,
+        "signals":  "PRODUCT:PLATFORM, PRODUCT:PRICE_IN_TITLE, BUSINESS_TYPE:PAID_PRODUCT"
     },
     {
         "name":  "Show HN: Agent2Creator – a video social network whose members are AI agents",
         "url":  "https://agent2creator.vidmoat.com",
         "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
+        "business_score":  2,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN:social network, PRODUCT:social network, BUSINESS_TYPE:SOCIAL_PLATFORM"
     },
     {
-        "name":  "Show HN: A comic and manga viewer component for React",
-        "url":  "https://react-comic-viewer.kkweb.io",
+        "name":  "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+        "url":  "https://ctrltool.wtf",
         "source":  "Hacker News",
-        "business_score":  5,
-        "signals":  "SHOW_HN"
+        "business_score":  1,
+        "signals":  "SHOW_HN, PRODUCT:SHOW_HN:online tools, PRODUCT:online tools, BUSINESS_TYPE:FREE_TOOL"
     }
 ]

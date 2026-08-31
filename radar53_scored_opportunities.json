@@ -1,0 +1,40 @@
+﻿[
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Paris",
+        "source":  "allovoisins",
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "demand_score":  20,
+        "competition_score":  0,
+        "price_score":  8,
+        "quality_score":  15,
+        "total_score":  43,
+        "verdict":  "WATCH",
+        "source_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Paris",
+        "scraped_at":  "2026-08-25T05:53:24.794Z"
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+        "country":  "FR",
+        "city":  "Paris",
+        "source":  "bricolib",
+        "demand":  0,
+        "supply":  344,
+        "demand_supply_ratio":  null,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "demand_score":  0,
+        "competition_score":  0,
+        "price_score":  12,
+        "quality_score":  15,
+        "total_score":  27,
+        "verdict":  "REJECT",
+        "source_url":  "https://bricolib.net/location-shampouineuse/paris-75020",
+        "scraped_at":  "2026-08-25T05:53:28.427Z"
+    }
+]

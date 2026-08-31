@@ -1,0 +1,25 @@
+﻿{
+    "idea_name":  "Marketplace de location de shampouineuses pour canapÃ©s entre particuliers",
+    "country":  "FR",
+    "city":  "Paris",
+    "market_score":  59,
+    "market_verdict":  "VALIDATE",
+    "demand":  232,
+    "supply":  344,
+    "median_price":  28.4,
+    "price_samples":  68,
+    "market_proof_score":  14,
+    "business_proof_score":  15,
+    "competition_score":  1,
+    "capital_score":  9,
+    "home_based_score":  10,
+    "automation_score":  10,
+    "human_presence_score":  10,
+    "geographic_replication_score":  10,
+    "biznesshunter_score":  79,
+    "verdict":  "PROMISING",
+    "sources":  [
+                    "allovoisins",
+                    "bricolib"
+                ]
+}

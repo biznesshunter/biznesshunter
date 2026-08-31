@@ -1,82 +1,51 @@
-﻿Write-Host ""
+﻿$inputFile = ".\radar17_concrete_business_ideas.json"
+$outputFile = ".\radar18_concrete_business_ideas.json"
+
+$data = ConvertFrom-Json -InputObject (Get-Content $inputFile -Raw)
+$data = @($data)
+
+Write-Host ""
 Write-Host "========================================"
 Write-Host " BiznessHunter - Radar 18"
-Write-Host " SOURCE-BACKED OPPORTUNITY TITLES"
+Write-Host " CONCRETE BUSINESS IDEAS"
 Write-Host "========================================"
 Write-Host ""
 
-$input = ".\radar17_opportunities.json"
-$output = ".\radar18_opportunities.json"
+Write-Host "Input ideas :" $data.Count
 
-$data = Get-Content $input -Raw | ConvertFrom-Json
-
-$result = foreach ($x in $data) {
-
-    $title = $x.opportunity
-
-    switch -Regex ($title) {
-        "services à domicile" {
-            $title = "Réservation à la demande de services domestiques locaux"
-            break
-        }
-
-        "petits travaux" {
-            $title = "Marketplace de petits travaux domestiques réservables en ligne"
-            break
-        }
-
-        "services automobiles" {
-            $title = "Réservation en ligne de services automobiles locaux"
-            break
-        }
-
-        "réparation locale" {
-            $title = "Marketplace de réparateurs locaux avec réservation en ligne"
-            break
-        }
-
-        "services pour animaux" {
-            $title = "Marketplace locale de garde, promenade et soins pour animaux"
-            break
-        }
-
-        "stockage local" {
-            $title = "Marketplace de stockage chez des particuliers"
-            break
-        }
-
-        "location entre particuliers" {
-            $title = "Marketplace de location d'équipements entre particuliers"
-            break
-        }
-
-        "garde d'enfants" {
-            $title = "Marketplace locale de garde d'enfants à la demande"
-            break
+$result = @(
+    foreach ($item in $data) {
+        [PSCustomObject]@{
+            concept_score      = $item.concept_score
+            verdict            = $item.verdict
+            action             = $item.action
+            idea_name          = $item.idea_name
+            target_customer    = $item.target_customer
+            problem            = $item.problem
+            buying_trigger     = $item.buying_trigger
+            concrete_offer     = $item.concrete_offer
+            business_mechanism = $item.business_mechanism
+            monetization      = $item.monetization
+            differentiation   = $item.differentiation
+            mvp                = $item.mvp
+            acquisition        = $item.acquisition
+            geographic_angle  = $item.geographic_angle
+            specificity_score = $item.specificity_score
+            geographic_score  = $item.geographic_score
+            market_proof      = $item.market_proof
+            replication       = $item.replication
+            competition       = $item.competition
+            company_count     = $item.company_count
+            article_count     = $item.article_count
+            country_count     = $item.country_count
+            evidence          = $item.evidence
+            source_opportunity = $item.source_opportunity
         }
     }
+)
 
-    [PSCustomObject]@{
-        opportunity       = $title
-        original_category = $x.opportunity
-        gap_score         = $x.gap_score
-        verdict           = $x.verdict
-        company_count     = $x.company_count
-        article_count     = $x.article_count
-        replication       = $x.replication
-        competition_gap   = $x.competition_gap
-        geographic_gap    = $x.geographic_gap
-    }
-}
+$result | ConvertTo-Json -Depth 10 | Set-Content $outputFile -Encoding UTF8
 
-$result | ConvertTo-Json -Depth 10 | Set-Content $output -Encoding UTF8
-
-Write-Host "Opportunities :" $result.Count
+Write-Host "Output ideas :" @($result).Count
 Write-Host ""
-
-$result |
-    Sort-Object gap_score -Descending |
-    Format-Table opportunity,gap_score,company_count,article_count,replication -AutoSize
-
-Write-Host ""
-Write-Host "Output :" $output
+Write-Host "Output :" $outputFile

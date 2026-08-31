@@ -1,11 +1,11 @@
 ﻿Write-Host ""
 Write-Host "========================================"
 Write-Host " BiznessHunter - Radar 30"
-Write-Host " VERDICT CALIBRATION"
+Write-Host " CLIENT FIT"
 Write-Host "========================================"
 Write-Host ""
 
-$raw = Get-Content .\radar24_opportunities.json -Raw | ConvertFrom-Json
+$raw = Get-Content .\radar29_opportunities.json -Raw | ConvertFrom-Json
 $items = @($raw)
 
 Write-Host "Input opportunities : $($items.Count)"
@@ -13,12 +13,14 @@ Write-Host ""
 
 function Clamp-Score {
     param([double]$Value)
+
     if ($Value -lt 0) { return 0 }
     if ($Value -gt 100) { return 100 }
+
     return [math]::Round($Value)
 }
 
-function Get-LaunchCostScore {
+function Get-ClientFitScore {
     param($item)
 
     $text = @(
@@ -26,251 +28,174 @@ function Get-LaunchCostScore {
         $item.category
         $item.source_cluster
         $item.why
+        $item.signals
     ) -join " "
 
     $text = $text.ToLower()
 
-    # Estimation structurelle du coût initial.
-    # Ce n'est PAS un filtre absolu.
-    $score = 70
+    # ----------------------------------------
+    # 1. DEMAND / PROBLEM INTENSITY
+    # ----------------------------------------
 
-    $cheap = @(
-        "marketplace",
-        "plateforme",
-        "réservation",
-        "booking",
-        "en ligne",
-        "online",
-        "digital",
-        "mise en relation",
-        "location",
-        "à la demande",
-        "on-demand",
-        "saas",
-        "software"
-    )
+    $demand = 50
 
-    foreach ($keyword in $cheap) {
-        if ($text -like "*$keyword*") {
-            $score += 4
-        }
-    }
-
-    $expensive = @(
-        "restaurant",
-        "hôtel",
-        "hotel",
-        "commerce",
-        "magasin",
-        "atelier",
-        "usine",
-        "garage",
-        "clinique",
-        "construction",
-        "chantier",
-        "véhicule",
-        "véhicules",
-        "équipement lourd",
-        "entrepôt",
-        "warehouse",
-        "livraison"
-    )
-
-    foreach ($keyword in $expensive) {
-        if ($text -like "*$keyword*") {
-            $score -= 10
-        }
-    }
-
-    return Clamp-Score $score
-}
-
-function Get-WillingnessToPayScore {
-    param($item)
-
-    $text = @(
-        $item.opportunity
-        $item.category
-        $item.source_cluster
-        $item.why
-    ) -join " "
-
-    $text = $text.ToLower()
-
-    # Base neutre
-    $score = 50
-
-    # Forte intention de paiement :
-    # besoin concret, transactionnel ou urgent.
-    $highValue = @(
-        "réservation",
-        "booking",
-        "réparation",
-        "services domestiques",
-        "petits travaux",
-        "location",
-        "équipement",
-        "véhicule",
-        "automobile",
-        "vétérinaire",
-        "professionnel",
+    $highDemand = @(
         "urgent",
-        "à la demande",
+        "réparation",
+        "dépannage",
         "intervention",
-        "service"
-    )
-
-    foreach ($keyword in $highValue) {
-        if ($text -like "*$keyword*") {
-            $score += 4
-        }
-    }
-
-    # Très forte intention commerciale.
-    $veryHighValue = @(
-        "réparation",
-        "urgent",
+        "à domicile",
+        "à la demande",
         "location",
-        "véhicule",
-        "équipement",
-        "services domestiques"
+        "besoin",
+        "ponctuel",
+        "24h",
+        "48h",
+        "garanti",
+        "professionnel"
     )
 
-    foreach ($keyword in $veryHighValue) {
+    foreach ($keyword in $highDemand) {
         if ($text -like "*$keyword*") {
-            $score += 5
+            $demand += 4
         }
     }
 
-    # Faible propension à payer directement.
-    $lowValue = @(
-        "gratuit",
-        "social",
-        "contenu",
-        "information",
-        "comparateur",
-        "communauté",
-        "guide"
-    )
-
-    foreach ($keyword in $lowValue) {
-        if ($text -like "*$keyword*") {
-            $score -= 10
-        }
-    }
-
-    return Clamp-Score $score
-}
-
-$feed = @()
-
-foreach ($item in $items) {
-
-    $launchCost = Get-LaunchCostScore $item
-    $willingness = Get-WillingnessToPayScore $item
+    # ----------------------------------------
+    # 2. MARKET PROOF
+    # ----------------------------------------
 
     $proof = [double]$item.proof_score
-    $gap = [double]$item.gap_score
-    $solo = [double]$item.solo_score
-    $b2c = [double]$item.b2c_score
-    $automation = [double]$item.automation_score
-    $capital = [double]$item.capital_score
 
-    # Economic fit :
-    # capacité de monétisation prioritaire + facilité de lancement.
-    # Aucun seuil fixe de 100 €.
-    $capitalEfficiency = (
-        ($launchCost * 0.40) +
-        ($willingness * 0.60)
+    # ----------------------------------------
+    # 3. EASE OF EXPLAINING THE OPPORTUNITY
+    # ----------------------------------------
+
+    $clarity = 50
+
+    $clear = @(
+        "location",
+        "réparation",
+        "dépannage",
+        "livraison",
+        "transport",
+        "montage",
+        "nettoyage",
+        "stockage",
+        "garde",
+        "service",
+        "réservation"
     )
 
-    $capitalEfficiency = Clamp-Score $capitalEfficiency
-
-    if ($launchCost -ge 75 -and $willingness -ge 65) {
-        $capitalEfficiency += 8
-    }
-    elseif ($launchCost -lt 55 -and $willingness -ge 60) {
-        $capitalEfficiency += 5
+    foreach ($keyword in $clear) {
+        if ($text -like "*$keyword*") {
+            $clarity += 5
+        }
     }
 
-    $economics = Clamp-Score $capitalEfficiency
+    # ----------------------------------------
+    # 4. CUSTOMER WILLINGNESS TO PAY
+    # ----------------------------------------
 
-    # Score V24.
-    # Score final :
-    # preuve marché prioritaire, puis gap et faisabilité opérationnelle.
-    # L'économie reste importante mais ne doit pas permettre
-    # à une idée faiblement prouvée de remonter artificiellement.
-    $opportunityScore = (
+    $willingness = [double]$item.willingness_to_pay
+
+    # ----------------------------------------
+    # 5. REPLICATION POTENTIAL
+    # ----------------------------------------
+
+    $replication = 50
+
+    if ($item.company_count -ge 10) {
+        $replication += 15
+    }
+    elseif ($item.company_count -ge 5) {
+        $replication += 10
+    }
+    elseif ($item.company_count -ge 2) {
+        $replication += 5
+    }
+
+    if ($item.article_count -ge 20) {
+        $replication += 15
+    }
+    elseif ($item.article_count -ge 10) {
+        $replication += 10
+    }
+    elseif ($item.article_count -ge 5) {
+        $replication += 5
+    }
+
+    # ----------------------------------------
+    # FINAL CLIENT FIT
+    # ----------------------------------------
+
+    $clientFit = (
         ($proof * 0.30) +
-        ($gap * 0.20) +
-        ($solo * 0.15) +
-        ($automation * 0.10) +
-        ($b2c * 0.05) +
-        ($capital * 0.05) +
-        ($economics * 0.15)
+        ($demand * 0.20) +
+        ($willingness * 0.20) +
+        ($replication * 0.15) +
+        ($clarity * 0.15)
     )
 
-    $opportunityScore = Clamp-Score $opportunityScore
+    $clientFit = Clamp-Score $clientFit
 
-    # Verdict basé sur le score global + les garde-fous essentiels.
+    # ----------------------------------------
+    # CLIENT VERDICT
+    # ----------------------------------------
+
     if (
-        $opportunityScore -ge 70 -and
-        $proof -ge 70 -and
-        $solo -ge 65 -and
-        $automation -ge 65 -and
-        $economics -ge 65
+        $clientFit -ge 75 -and
+        $proof -ge 60
     ) {
-        $verdict = "LAUNCH CANDIDATE"
+        $clientVerdict = "TOP OPPORTUNITY"
     }
     elseif (
-        $opportunityScore -ge 60 -and
-        $proof -ge 50 -and
-        $economics -ge 55
+        $clientFit -ge 60 -and
+        $proof -ge 50
     ) {
-        $verdict = "VALIDATE"
+        $clientVerdict = "STRONG"
     }
-    elseif ($proof -lt 40) {
-        $verdict = "INSUFFICIENT PROOF"
+    elseif (
+        $clientFit -ge 45
+    ) {
+        $clientVerdict = "PROMISING"
     }
     else {
-        $verdict = "WATCH"
+        $clientVerdict = "WEAK"
     }
 
-    $feed += [PSCustomObject]@{
-        rank                 = $item.rank
-        opportunity          = $item.opportunity
-        category             = $item.category
-        source_cluster       = $item.source_cluster
+    [PSCustomObject]@{
+        rank                = $item.rank
+        opportunity         = $item.opportunity
 
-        opportunity_score    = $opportunityScore
-        verdict              = $verdict
+        client_fit_score    = $clientFit
+        client_verdict      = $clientVerdict
 
-        proof_score          = $proof
-        gap_score            = $gap
-        solo_score           = $solo
-        b2c_score            = $b2c
-        automation_score     = $automation
-        capital_score        = $capital
+        proof_score         = $proof
+        demand_score        = Clamp-Score $demand
+        willingness_to_pay  = $willingness
+        replication_score   = Clamp-Score $replication
+        clarity_score       = Clamp-Score $clarity
 
-        launch_cost_score    = $launchCost
-        willingness_to_pay   = $willingness
-        launch_economics     = $economics
+        opportunity_score   = $item.opportunity_score
+        original_verdict    = $item.verdict
 
-        company_count        = $item.company_count
-        article_count        = $item.article_count
-        confidence           = $item.confidence
+        company_count       = $item.company_count
+        article_count       = $item.article_count
+        confidence          = $item.confidence
 
-        companies            = @($item.companies)
-        countries            = @($item.countries)
-        why                  = $item.why
-        source_articles      = @($item.source_articles)
-        signals              = @($item.signals)
+        why                 = $item.why
+        source_articles     = @($item.source_articles)
+        signals             = @($item.signals)
     }
 }
 
 $feed = @(
-    $feed |
-    Sort-Object opportunity_score -Descending
+    $items |
+    ForEach-Object {
+        Get-ClientFitScore $_
+    } |
+    Sort-Object client_fit_score -Descending
 )
 
 for ($i = 0; $i -lt $feed.Count; $i++) {
@@ -279,31 +204,17 @@ for ($i = 0; $i -lt $feed.Count; $i++) {
 
 $feed |
     ConvertTo-Json -Depth 20 |
-    Set-Content .\radar30_opportunities.json -Encoding UTF8
+    Set-Content .\radar30_client_opportunities.json -Encoding UTF8
 
 Write-Host ""
-Write-Host "Output : .\radar30_opportunities.json"
+Write-Host "Output : .\radar30_client_opportunities.json"
 Write-Host ""
 
 $feed |
-    Select-Object rank,opportunity,opportunity_score,verdict,launch_cost_score,willingness_to_pay,launch_economics |
+    Select-Object rank,opportunity,client_fit_score,client_verdict,proof_score,demand_score,willingness_to_pay |
     Format-Table -AutoSize
 
 Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 30 completed"
 Write-Host "========================================"
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,1264 @@
+﻿[
+    {
+        "observation_id":  26,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Rouen",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/rouen",
+        "final_url":  "https://bricolib.net/location-shampouineuse/rouen-76000",
+        "page_title":  "Location Shampouineuse sur Rouen 76000 à partir de 10.3 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  26,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  27,
+        "body_length":  6150,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Rouen"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:54.061Z"
+    },
+    {
+        "observation_id":  14,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Lille",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/lille",
+        "final_url":  "https://bricolib.net/location-shampouineuse/lille-59000",
+        "page_title":  "Location Shampouineuse sur Lille 59000 à partir de 12.9 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  84,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  9203,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Lille"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:22.914Z"
+    },
+    {
+        "observation_id":  10,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Bordeaux",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/bordeaux",
+        "final_url":  "https://bricolib.net/location-shampouineuse/bordeaux-33000",
+        "page_title":  "Location Shampouineuse sur Bordeaux 33000 à partir de 10.3 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  71,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  10589,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Bordeaux"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:13.755Z"
+    },
+    {
+        "observation_id":  12,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Nantes",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/nantes",
+        "final_url":  "https://bricolib.net/location-shampouineuse/nantes-44000",
+        "page_title":  "Location Shampouineuse sur Nantes 44000 à partir de 14.2 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  32,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  33,
+        "body_length":  8997,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Nantes"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:18.251Z"
+    },
+    {
+        "observation_id":  16,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Montpellier",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/montpellier",
+        "final_url":  "https://bricolib.net/location-shampouineuse/montpellier-34000",
+        "page_title":  "Location Shampouineuse sur Montpellier 34000 à partir de 2.5 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  52,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  9711,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Montpellier"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:27.685Z"
+    },
+    {
+        "observation_id":  22,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Rennes",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/rennes",
+        "final_url":  "https://bricolib.net/location-shampouineuse/rennes-35000",
+        "page_title":  "Location Shampouineuse sur Rennes 35000 à partir de 10.3 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  43,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  44,
+        "body_length":  8329,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Rennes"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:45.388Z"
+    },
+    {
+        "observation_id":  24,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Grenoble",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/grenoble",
+        "final_url":  "https://bricolib.net/location-shampouineuse/grenoble-38000",
+        "page_title":  "Location Shampouineuse sur Grenoble 38000 à partir de 14.2 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  22,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  23,
+        "body_length":  6010,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Grenoble"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:49.733Z"
+    },
+    {
+        "observation_id":  18,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Strasbourg",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/strasbourg",
+        "final_url":  "https://bricolib.net/location-shampouineuse/strasbourg-67000",
+        "page_title":  "Location Shampouineuse sur Strasbourg 67000 à partir de 11.6 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  25,
+        "demand_supply_ratio":  0,
+        "median_price":  29.7,
+        "price_samples":  26,
+        "body_length":  6584,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Strasbourg"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:34.343Z"
+    },
+    {
+        "observation_id":  20,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Nice",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/nice",
+        "final_url":  "https://bricolib.net/location-shampouineuse/nice-06000",
+        "page_title":  "Location Shampouineuse sur Nice 06000 à partir de 15.5 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  44,
+        "demand_supply_ratio":  0,
+        "median_price":  34.9,
+        "price_samples":  45,
+        "body_length":  8846,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Nice"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:40.864Z"
+    },
+    {
+        "observation_id":  6,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Marseille",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/marseille",
+        "final_url":  "https://bricolib.net/location-shampouineuse/marseille-13010",
+        "page_title":  "Location Shampouineuse sur Marseille 13010 à partir de 14.2 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  55,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  11480,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Marseille"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:04.347Z"
+    },
+    {
+        "observation_id":  1,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Paris",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Paris",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Paris",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:08:51.932Z"
+    },
+    {
+        "observation_id":  2,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Paris",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/paris",
+        "final_url":  "https://bricolib.net/location-shampouineuse/paris-75018",
+        "page_title":  "Location Shampouineuse sur Paris 75018 à partir de 11.6 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  325,
+        "demand_supply_ratio":  0,
+        "median_price":  32.3,
+        "price_samples":  49,
+        "body_length":  10697,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:08:54.853Z"
+    },
+    {
+        "observation_id":  4,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Lyon",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/lyon",
+        "final_url":  "https://bricolib.net/location-shampouineuse/lyon-69003",
+        "page_title":  "Location Shampouineuse sur Lyon 69003 à partir de 5.1 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  78,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  11336,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Lyon"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:08:59.385Z"
+    },
+    {
+        "observation_id":  8,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Toulouse",
+        "category":  "location_shampouineuse",
+        "source":  "bricolib",
+        "requested_url":  "https://bricolib.net/location-shampouineuse/toulouse",
+        "final_url":  "https://bricolib.net/location-shampouineuse/toulouse-31000",
+        "page_title":  "Location Shampouineuse sur Toulouse 31000 à partir de 10.3 €/jour | Bricolib",
+        "http_status":  200,
+        "demand":  0,
+        "supply":  70,
+        "demand_supply_ratio":  0,
+        "median_price":  28.4,
+        "price_samples":  49,
+        "body_length":  11135,
+        "quality_score":  100,
+        "status":  "SUSPECT",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "title_matches_city",
+                       "supply_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "redirect_detected"
+                   ],
+        "warnings":  [
+                         "demande_non_observee"
+                     ],
+        "problems":  [
+
+                     ],
+        "cities_detected_in_title":  [
+                                         "Toulouse"
+                                     ],
+        "other_cities_in_title":  [
+
+                                  ],
+        "title_matches_requested_city":  true,
+        "scraped_at":  "2026-08-25T06:09:09.035Z"
+    },
+    {
+        "observation_id":  3,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Lyon",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Lyon",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Lyon",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:08:56.859Z"
+    },
+    {
+        "observation_id":  21,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Rennes",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Rennes",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Rennes",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:43.005Z"
+    },
+    {
+        "observation_id":  25,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Rouen",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Rouen",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Rouen",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:51.827Z"
+    },
+    {
+        "observation_id":  13,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Lille",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Lille",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Lille",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:20.335Z"
+    },
+    {
+        "observation_id":  23,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Grenoble",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Grenoble",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Grenoble",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:47.511Z"
+    },
+    {
+        "observation_id":  15,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Montpellier",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Montpellier",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Montpellier",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:25.071Z"
+    },
+    {
+        "observation_id":  7,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Toulouse",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Toulouse",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Toulouse",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:06.454Z"
+    },
+    {
+        "observation_id":  11,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Nantes",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Nantes",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Nantes",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:15.839Z"
+    },
+    {
+        "observation_id":  5,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Marseille",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Marseille",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Marseille",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:01.464Z"
+    },
+    {
+        "observation_id":  19,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Nice",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Nice",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Nice",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:36.433Z"
+    },
+    {
+        "observation_id":  9,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Bordeaux",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Bordeaux",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Bordeaux",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:11.162Z"
+    },
+    {
+        "observation_id":  17,
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "city":  "Strasbourg",
+        "category":  "location_shampouineuse",
+        "source":  "allovoisins",
+        "requested_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Strasbourg",
+        "final_url":  "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Strasbourg",
+        "page_title":  "Location de Shampouineuse à Paris (75116) - AlloVoisins",
+        "http_status":  200,
+        "demand":  232,
+        "supply":  0,
+        "demand_supply_ratio":  null,
+        "median_price":  15,
+        "price_samples":  19,
+        "body_length":  8056,
+        "quality_score":  55,
+        "status":  "INVALID",
+        "checks":  [
+                       "ville_present",
+                       "source_present",
+                       "idee_presente",
+                       "requested_url_present",
+                       "final_url_present",
+                       "http_200",
+                       "requested_url_matches_city",
+                       "final_url_matches_city",
+                       "demand_valid",
+                       "prices_valid",
+                       "body_length_ok",
+                       "no_redirect"
+                   ],
+        "warnings":  [
+                         "offre_non_observee"
+                     ],
+        "problems":  [
+                         "autre_ville_detectee_dans_titre:Paris"
+                     ],
+        "cities_detected_in_title":  [
+                                         "Paris"
+                                     ],
+        "other_cities_in_title":  [
+                                      "Paris"
+                                  ],
+        "title_matches_requested_city":  false,
+        "scraped_at":  "2026-08-25T06:09:29.813Z"
+    }
+]

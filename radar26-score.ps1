@@ -5,7 +5,7 @@ Write-Host " CAPITAL EFFICIENCY"
 Write-Host "========================================"
 Write-Host ""
 
-$raw = Get-Content .\radar24_opportunities.json -Raw | ConvertFrom-Json
+$raw = Get-Content .\radar25_opportunities.json -Raw | ConvertFrom-Json
 $items = @($raw)
 
 Write-Host "Input opportunities : $($items.Count)"
@@ -248,6 +248,7 @@ Write-Host ""
 Write-Host "========================================"
 Write-Host " Radar 26 completed"
 Write-Host "========================================"
+
 
 
 

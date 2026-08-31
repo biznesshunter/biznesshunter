@@ -5,7 +5,7 @@ Write-Host " EXPLICIT OPPORTUNITY -> CLUSTER MAP"
 Write-Host "========================================"
 Write-Host ""
 
-$opportunities = Get-Content .\radar18_opportunities.json -Raw | ConvertFrom-Json
+$opportunities = Get-Content .\radar18_concrete_business_ideas.json -Raw | ConvertFrom-Json
 $clusters = Get-Content .\radar9_1_clusters.json -Raw | ConvertFrom-Json
 
 Write-Host "Opportunities : $($opportunities.Count)"
@@ -14,34 +14,29 @@ Write-Host ""
 
 # Mapping explicite : opportunité -> cluster source exact
 $map = @{
-    "Réservation à la demande de services domestiques locaux" = "ON_DEMAND / HOME_SERVICES"
-    "Marketplace de petits travaux domestiques réservables en ligne" = "MARKETPLACE / HOME_SERVICES"
-
-    "Entretien automobile mobile à domicile" = "ON_DEMAND / AUTO_SERVICES"
-    "Réservation de réparation automobile" = "ON_DEMAND / AUTO_SERVICES"
-    "Réservation en ligne de services automobiles locaux" = "ON_DEMAND / AUTO_SERVICES"
-    "Réparation automobile à la demande" = "ON_DEMAND / AUTO_SERVICES"
-
-    "Marketplace de garde et soins pour animaux" = "MARKETPLACE / PET_SERVICES"
-    "Services vétérinaires à la demande" = "ON_DEMAND / PET_SERVICES"
-
-    "Marketplace de stockage chez des particuliers" = "MARKETPLACE / STORAGE"
-
-    "Marketplace de réparateurs locaux" = "MARKETPLACE / REPAIR"
-    "Réparation de smartphones à la demande" = "ON_DEMAND / REPAIR"
-
-    "Location de matériel et équipements" = "RENTAL / RENTAL"
-    "Marketplace de location d'équipements entre particuliers" = "MARKETPLACE / RENTAL"
-    "Location de véhicules entre particuliers" = "RENTAL / RENTAL"
-
-    "Marketplace locale de garde d'enfants à la demande" = "ON_DEMAND / CHILDCARE"
+    "Dépannage domestique garanti sous 24h pour petites interventions" = "ON_DEMAND / HOME_SERVICES"
+    "Montage de meubles à domicile en moins de 48h" = "ON_DEMAND / HOME_SERVICES"
+    "Inspection mensuelle des logements locatifs pour petits bailleurs" = "MAINTENANCE / PROPERTY"
+    "Location locale de nettoyeurs haute pression professionnels" = "RENTAL / RENTAL"
+    "Location de matériel professionnel aux artisans pour besoins ponctuels" = "RENTAL / RENTAL"
+    "Location de packs lumière et son pour anniversaires de 30 à 100 personnes" = "RENTAL / EVENT_SERVICES"
+    "Transport d'animaux vers le vétérinaire pour propriétaires sans véhicule" = "ON_DEMAND / PET_SERVICES"
+    "Visites à domicile pour chiens âgés pendant les journées de travail" = "ON_DEMAND / PET_SERVICES"
+    "Livraison planifiée de meubles pour magasins indépendants" = "ON_DEMAND / DELIVERY"
+    "Pack remise en état entre deux locations en 72h" = "MAINTENANCE / PROPERTY"
+    "Garde ponctuelle de sortie de crèche pour parents aux horaires décalés" = "ON_DEMAND / CHILDCARE"
+    "Promenade courte pour chiens âgés ou à mobilité réduite" = "ON_DEMAND / PET_SERVICES"
+    "Stockage de 1 à 3 m³ chez des commerçants disposant d'espace inutilisé" = "MARKETPLACE / STORAGE"
+    "Réparation prioritaire des équipements de cuisine pour petits restaurants" = "ON_DEMAND / REPAIR"
+    "Réparation mobile de petits électroménagers à domicile" = "ON_DEMAND / REPAIR"
+    "Remplacement mobile de batterie automobile à domicile" = "ON_DEMAND / AUTO_SERVICES"
 }
 
 $result = @()
 
 foreach ($opp in $opportunities) {
 
-    $name = $opp.opportunity
+    $name = $opp.idea_name
     $category = $opp.original_category
 
     $expectedCluster = $map[$name]
@@ -174,3 +169,6 @@ if ($missing.Count -gt 0) {
     Write-Host ""
     $missing | Select-Object opportunity,source_cluster | Format-Table -AutoSize
 }
+
+
+

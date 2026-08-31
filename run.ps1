@@ -1,0 +1,1 @@
+﻿$json=Get-Content .\biznesshunter_final_feed.json -Raw|ConvertFrom-Json;$ideas=@($json.opportunities);$ideas|Select-Object rank,opportunity,opportunity_score,verdict,proof_score,gap_score,solo_score,automation_score,b2c_score,capital_score,launch_economics|Format-Table -AutoSize
