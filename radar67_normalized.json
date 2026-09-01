@@ -1,0 +1,445 @@
+﻿[
+    {
+        "idea_name":  "Marketplace de location de nettoyeurs haute pression entre particuliers",
+        "normalized_name":  "marketplace de location de nettoyeurs haute pression entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de débroussailleuses entre particuliers",
+        "normalized_name":  "marketplace de location de débroussailleuses entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de taille-haies entre particuliers",
+        "normalized_name":  "marketplace de location de taille-haies entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de scarificateurs entre particuliers",
+        "normalized_name":  "marketplace de location de scarificateurs entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de ménage de sortie de location",
+        "normalized_name":  "réservation en ligne de ménage de sortie de location",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "wecasa"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de fendeuses à bois entre particuliers",
+        "normalized_name":  "marketplace de location de fendeuses à bois entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de promeneurs de chiens indépendants dans une ville",
+        "normalized_name":  "réservation en ligne de promeneurs de chiens indépendants dans une ville",
+        "consolidated_score":  35,
+        "original_score":  71,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  18,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  3,
+        "observation_count":  177,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "pawshake",
+                        "rover"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "normalized_name":  "marketplace de location de shampouineuses pour canapés entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  100,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  25,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  3,
+        "observation_count":  177,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib",
+                        "poppins"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de gardiens de chats à domicile pendant les vacances",
+        "normalized_name":  "réservation en ligne de gardiens de chats à domicile pendant les vacances",
+        "consolidated_score":  35,
+        "original_score":  71,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  18,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  3,
+        "observation_count":  177,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "animalin",
+                        "pawshake",
+                        "rover"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de tentes de réception entre particuliers",
+        "normalized_name":  "marketplace de location de tentes de réception entre particuliers",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    },
+    {
+        "idea_name":  "Marketplace de location de remorques pour particuliers sans remorque",
+        "normalized_name":  "marketplace de location de remorques pour particuliers sans remorque",
+        "consolidated_score":  35,
+        "original_score":  69,
+        "status":  "WATCHLIST",
+        "confidence":  "LOW",
+        "evidence_level":  "WEAK",
+        "proof_score":  0,
+        "evidence_component":  14,
+        "country_count":  0,
+        "city_count":  0,
+        "source_count":  2,
+        "observation_count":  118,
+        "url_count":  0,
+        "live_url_count":  0,
+        "countries":  [
+
+                      ],
+        "cities":  [
+
+                   ],
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "urls":  [
+
+                 ],
+        "coverage_cities_removed":  59,
+        "geography_proven":  false,
+        "source_coverage_detected":  true,
+        "scoring_version":  "RADAR_67",
+        "normalization_notes":  [
+                                    "Des villes provenant de la couverture générique d\u0027une plateforme ont été supprimées.",
+                                    "Aucune preuve de traction quantitative détectée.",
+                                    "Aucune URL exploitable détectée.",
+                                    "Aucune géographie réellement prouvée."
+                                ]
+    }
+]

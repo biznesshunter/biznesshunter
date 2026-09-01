@@ -1,0 +1,1451 @@
+﻿[
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "FR",
+        "category":  "location_shampouineuse",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  2,
+        "live_url_count":  2,
+        "proof_status":  "PROVEN",
+        "proof_level":  3,
+        "proof_reason":  "Multiple live URLs",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib",
+                        "poppins"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     "https://www.allovoisins.com/r/199/2/66035/0/location-Shampouineuse-Paris",
+                     "https://bricolib.net/location-shampouineuse/paris-75020"
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de gardiens de chats à domicile pendant les vacances",
+        "country":  "FR",
+        "category":  "garde_chat",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "animalin"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de promeneurs de chiens indépendants dans une ville",
+        "country":  "UK",
+        "category":  "promenade_chien",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de promeneurs de chiens indépendants dans une ville",
+        "country":  "FR",
+        "category":  "promenade_chien",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de gardiens de chats à domicile pendant les vacances",
+        "country":  "UK",
+        "category":  "garde_chat",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "animalin"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "UK",
+        "category":  "location_shampouineuse",
+        "observation_count":  60,
+        "source_count":  3,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib",
+                        "poppins"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de gardiens de chats à domicile pendant les vacances",
+        "country":  "ES",
+        "category":  "garde_chat",
+        "observation_count":  57,
+        "source_count":  3,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "animalin"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de promeneurs de chiens indépendants dans une ville",
+        "country":  "ES",
+        "category":  "promenade_chien",
+        "observation_count":  57,
+        "source_count":  3,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "rover",
+                        "pawshake",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de shampouineuses pour canapés entre particuliers",
+        "country":  "ES",
+        "category":  "location_shampouineuse",
+        "observation_count":  57,
+        "source_count":  3,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib",
+                        "poppins"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de tentes de réception entre particuliers",
+        "country":  "FR",
+        "category":  "location_tente_reception",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de fendeuses à bois entre particuliers",
+        "country":  "UK",
+        "category":  "location_fendeuse_bois",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de fendeuses à bois entre particuliers",
+        "country":  "FR",
+        "category":  "location_fendeuse_bois",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de taille-haies entre particuliers",
+        "country":  "UK",
+        "category":  "location_taille_haie",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de ménage de sortie de location",
+        "country":  "FR",
+        "category":  "menage_sortie_location",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "wecasa",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de ménage de sortie de location",
+        "country":  "UK",
+        "category":  "menage_sortie_location",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "wecasa",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de tentes de réception entre particuliers",
+        "country":  "UK",
+        "category":  "location_tente_reception",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de remorques pour particuliers sans remorque",
+        "country":  "FR",
+        "category":  "location_remorque",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de scarificateurs entre particuliers",
+        "country":  "FR",
+        "category":  "location_scarificateur",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de nettoyeurs haute pression entre particuliers",
+        "country":  "FR",
+        "category":  "location_nettoyeur_haute_pression",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de nettoyeurs haute pression entre particuliers",
+        "country":  "UK",
+        "category":  "location_nettoyeur_haute_pression",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de débroussailleuses entre particuliers",
+        "country":  "FR",
+        "category":  "location_debroussailleuse",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de remorques pour particuliers sans remorque",
+        "country":  "UK",
+        "category":  "location_remorque",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de débroussailleuses entre particuliers",
+        "country":  "UK",
+        "category":  "location_debroussailleuse",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de taille-haies entre particuliers",
+        "country":  "FR",
+        "category":  "location_taille_haie",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Paris",
+                       "Lyon",
+                       "Marseille",
+                       "Toulouse",
+                       "Bordeaux",
+                       "Nantes",
+                       "Lille",
+                       "Montpellier",
+                       "Strasbourg",
+                       "Nice",
+                       "Rennes",
+                       "Grenoble",
+                       "Rouen",
+                       "Toulon",
+                       "Clermont-Ferrand",
+                       "Dijon",
+                       "Angers",
+                       "Nîmes",
+                       "Aix-en-Provence",
+                       "Perpignan"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de scarificateurs entre particuliers",
+        "country":  "UK",
+        "category":  "location_scarificateur",
+        "observation_count":  40,
+        "source_count":  2,
+        "city_count":  20,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "London",
+                       "Manchester",
+                       "Birmingham",
+                       "Liverpool",
+                       "Leeds",
+                       "Bristol",
+                       "Glasgow",
+                       "Edinburgh",
+                       "Cardiff",
+                       "Sheffield",
+                       "Nottingham",
+                       "Newcastle",
+                       "Leicester",
+                       "Coventry",
+                       "Brighton",
+                       "Southampton",
+                       "Reading",
+                       "Oxford",
+                       "Cambridge",
+                       "Belfast"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de nettoyeurs haute pression entre particuliers",
+        "country":  "ES",
+        "category":  "location_nettoyeur_haute_pression",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de taille-haies entre particuliers",
+        "country":  "ES",
+        "category":  "location_taille_haie",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Réservation en ligne de ménage de sortie de location",
+        "country":  "ES",
+        "category":  "menage_sortie_location",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "wecasa",
+                        "allovoisins"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de scarificateurs entre particuliers",
+        "country":  "ES",
+        "category":  "location_scarificateur",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de fendeuses à bois entre particuliers",
+        "country":  "ES",
+        "category":  "location_fendeuse_bois",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de tentes de réception entre particuliers",
+        "country":  "ES",
+        "category":  "location_tente_reception",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de débroussailleuses entre particuliers",
+        "country":  "ES",
+        "category":  "location_debroussailleuse",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    },
+    {
+        "idea_name":  "Marketplace de location de remorques pour particuliers sans remorque",
+        "country":  "ES",
+        "category":  "location_remorque",
+        "observation_count":  38,
+        "source_count":  2,
+        "city_count":  19,
+        "url_count":  1,
+        "live_url_count":  0,
+        "proof_status":  "SUPPORTED",
+        "proof_level":  2,
+        "proof_reason":  "Known source and URL, but HTTP verification unavailable",
+        "sources":  [
+                        "allovoisins",
+                        "bricolib"
+                    ],
+        "cities":  [
+                       "Madrid",
+                       "Barcelona",
+                       "Valencia",
+                       "Seville",
+                       "Zaragoza",
+                       "Málaga",
+                       "Murcia",
+                       "Palma",
+                       "Alicante",
+                       "Bilbao",
+                       "A Coruña",
+                       "Valladolid",
+                       "Vigo",
+                       "Gijón",
+                       "Granada",
+                       "Tarragona",
+                       "Córdoba",
+                       "Salamanca",
+                       "Pamplona"
+                   ],
+        "urls":  [
+                     {
+
+                     }
+                 ]
+    }
+]
