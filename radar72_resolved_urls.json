@@ -1,0 +1,123 @@
+[
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Paris",
+    "category": "location_shampouineuse",
+    "source": "allovoisins",
+    "search_query": "AlloVoisins shampouineuse Paris",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Paris",
+    "category": "location_shampouineuse",
+    "source": "bricolib",
+    "search_query": "bricolib shampouineuse Paris",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Paris",
+    "category": "location_shampouineuse",
+    "source": "poppins",
+    "search_query": "poppins shampouineuse Paris",
+    "resolved_url": null,
+    "resolver_status": "NO_SOURCE_RESULT"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Lyon",
+    "category": "location_shampouineuse",
+    "source": "allovoisins",
+    "search_query": "AlloVoisins shampouineuse Lyon",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Lyon",
+    "category": "location_shampouineuse",
+    "source": "bricolib",
+    "search_query": "bricolib shampouineuse Lyon",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Lyon",
+    "category": "location_shampouineuse",
+    "source": "poppins",
+    "search_query": "poppins shampouineuse Lyon",
+    "resolved_url": null,
+    "resolver_status": "NO_SOURCE_RESULT"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Marseille",
+    "category": "location_shampouineuse",
+    "source": "allovoisins",
+    "search_query": "AlloVoisins shampouineuse Marseille",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Marseille",
+    "category": "location_shampouineuse",
+    "source": "bricolib",
+    "search_query": "bricolib shampouineuse Marseille",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Marseille",
+    "category": "location_shampouineuse",
+    "source": "poppins",
+    "search_query": "poppins shampouineuse Marseille",
+    "resolved_url": null,
+    "resolver_status": "NO_SOURCE_RESULT"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Toulouse",
+    "category": "location_shampouineuse",
+    "source": "allovoisins",
+    "search_query": "AlloVoisins shampouineuse Toulouse",
+    "resolved_url": "https://www.allovoisins.com/r/199/2/42938/0/location-Shampouineuse-Toulouse",
+    "resolved_title": "allovoisins.com https://www.allovoisins.com › location-Shampouineuse-Toulouse Location de Shampouineuse à Toulouse (31200) - AlloVoisins Vous cherchez une location ou une vente de shampouineuse à Toulouse ? Postez votre demande en 2 clics et vos Voisins vous …",
+    "resolver_status": "RESOLVED"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Toulouse",
+    "category": "location_shampouineuse",
+    "source": "bricolib",
+    "search_query": "bricolib shampouineuse Toulouse",
+    "resolved_url": null,
+    "resolver_status": "NO_LOCAL_MATCH"
+  },
+  {
+    "idea_name": "Marketplace de location de shampouineuses pour canapés entre particuliers",
+    "country": "FR",
+    "city": "Toulouse",
+    "category": "location_shampouineuse",
+    "source": "poppins",
+    "search_query": "poppins shampouineuse Toulouse",
+    "resolved_url": null,
+    "resolver_status": "NO_SOURCE_RESULT"
+  }
+]

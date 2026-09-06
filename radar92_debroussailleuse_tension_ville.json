@@ -1,0 +1,173 @@
+[
+  {
+    "city": "Angerville-La-Campagne",
+    "demandes": 1,
+    "reponses": 5,
+    "tauxReponse": 100,
+    "repMoy": 5,
+    "prixMoy": 20,
+    "tension": 85
+  },
+  {
+    "city": "Carcassonne",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 77
+  },
+  {
+    "city": "Les Sables-D’olonne",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 77
+  },
+  {
+    "city": "Guérande",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 77
+  },
+  {
+    "city": "Entraigues-Sur-La-Sorgue",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 77
+  },
+  {
+    "city": "Saint-Nazaire",
+    "demandes": 1,
+    "reponses": 3,
+    "tauxReponse": 100,
+    "repMoy": 3,
+    "prixMoy": 20,
+    "tension": 69
+  },
+  {
+    "city": "Clermont-L’hérault",
+    "demandes": 1,
+    "reponses": 3,
+    "tauxReponse": 100,
+    "repMoy": 3,
+    "prixMoy": 20,
+    "tension": 69
+  },
+  {
+    "city": "Saint-Germain-En-Laye",
+    "demandes": 1,
+    "reponses": 2,
+    "tauxReponse": 100,
+    "repMoy": 2,
+    "prixMoy": 20,
+    "tension": 61
+  },
+  {
+    "city": "Rueil-Malmaison",
+    "demandes": 1,
+    "reponses": 2,
+    "tauxReponse": 100,
+    "repMoy": 2,
+    "prixMoy": 20,
+    "tension": 61
+  },
+  {
+    "city": "Clermont",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Rodez",
+    "demandes": 2,
+    "reponses": 2,
+    "tauxReponse": 50,
+    "repMoy": 1,
+    "prixMoy": 12.5,
+    "tension": 53
+  },
+  {
+    "city": "Nîmes",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Marseille",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Beauvoisin",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Valdallière",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Saint-Germain-La-Blanche-Herbe",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Castelnaudary",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 10,
+    "tension": 53
+  },
+  {
+    "city": "Balham",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 53
+  },
+  {
+    "city": "Auch",
+    "demandes": 1,
+    "reponses": 0,
+    "tauxReponse": 0,
+    "repMoy": 0,
+    "prixMoy": 20,
+    "tension": 15
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "ville": "Ingré - Est",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Marolles-En-Hurepoix",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Rosny-Sur-Seine",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Saint-Martin-En-Bière",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Allennes-Les-Marais",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Trébabu",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Cabriès",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Mesnil-En-Ouche",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Marolles-En-Brie - Vieux Village-Murs du Parc",
+    "Scarificateur": 1
+  },
+  {
+    "ville": "Juvignac - Nord",
+    "Nettoyeur haute pression": 1
+  },
+  {
+    "ville": "Suresnes - Plateau Ouest 1",
+    "Nettoyeur haute pression": 1
+  },
+  {
+    "ville": "Paris - Villette 10",
+    "Nettoyeur haute pression": 2
+  },
+  {
+    "ville": "Gennevilliers - Gresillons 3",
+    "Nettoyeur haute pression": 1
+  },
+  {
+    "ville": "Levallois-Perret - Villiers-Danton 2",
+    "Nettoyeur haute pression": 1
+  },
+  {
+    "ville": "Thénioux",
+    "Taille-haie": 1
+  },
+  {
+    "ville": "Blain",
+    "Taille-haie": 1
+  },
+  {
+    "ville": "Montenay",
+    "Taille-haie": 1
+  },
+  {
+    "ville": "Souleuvre En Bocage",
+    "Taille-haie": 1
+  },
+  {
+    "ville": "Algolsheim",
+    "Taille-haie": 1
+  },
+  {
+    "ville": "Saint-Sauveur-Villages - Saint-Sauveur-Lendelin",
+    "Remorque": 1
+  },
+  {
+    "ville": "Ecquevilly",
+    "Remorque": 1
+  },
+  {
+    "ville": "La Guerche-De-Bretagne",
+    "Remorque": 1
+  },
+  {
+    "ville": "Étoile-Sur-Rhône",
+    "Remorque": 1
+  },
+  {
+    "ville": "Belz",
+    "Remorque": 1
+  },
+  {
+    "ville": "Saint-Denis-La-Chevasse",
+    "Remorque": 1
+  },
+  {
+    "ville": "Béziers - Gare",
+    "Remorque": 1
+  },
+  {
+    "ville": "Brest - Kerelle-Keredern Sud",
+    "Remorque": 1
+  },
+  {
+    "ville": "Plouescat",
+    "Remorque": 1
+  },
+  {
+    "ville": "Saint-Germain-En-Laye - Iris 1",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Marseille - Daudet Perrin",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Nîmes - Romain Rolland",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Beauvoisin",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Angerville-La-Campagne",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Carcassonne - Le Plateau Paul Lacombe, Laconte",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Rodez - Saint-Felix",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Saint-Nazaire - Immaculée Bourg",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Clermont-L’hérault - Est",
+    "Débroussailleuse": 1
+  },
+  {
+    "ville": "Valdallière",
+    "Débroussailleuse": 1
+  }
+]

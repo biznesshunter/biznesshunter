@@ -1,4 +1,4 @@
-﻿$data = Get-Content .\radar52_source_pilot.json -Raw | ConvertFrom-Json
+﻿$data = Get-Content .\radar56_multicity_raw.json -Raw | ConvertFrom-Json
 
 $deduped = $data |
     Group-Object { "$($_.idea_name)|$($_.country)|$($_.category)" } |
@@ -43,11 +43,11 @@ $deduped = $data |
             )
 
             ready_count = @(
-                $rows | Where-Object { $_.status -eq "READY" }
+                $rows | Where-Object { $_.http_status -eq 200 -and $_.final_url -match "^https?://" }
             ).Count
 
             unsupported_count = @(
-                $rows | Where-Object { $_.status -eq "UNSUPPORTED" }
+                $rows | Where-Object { $_.http_status -ne 200 }
             ).Count
         }
     }
@@ -59,3 +59,5 @@ $deduped |
 Write-Host "Observations initiales : $($data.Count)"
 Write-Host "Opportunités uniques : $($deduped.Count)"
 Write-Host "Fichier créé : radar53_deduped.json"
+
+

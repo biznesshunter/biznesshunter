@@ -1,0 +1,128 @@
+[
+  {
+    "city": "Inconnue",
+    "demandes": 5,
+    "reponses": 12,
+    "tauxReponse": 80,
+    "repMoy": 2.4,
+    "prixMoy": 17,
+    "tension": 73
+  },
+  {
+    "city": "Est",
+    "demandes": 2,
+    "reponses": 7,
+    "tauxReponse": 100,
+    "repMoy": 3.5,
+    "prixMoy": 20,
+    "tension": 70
+  },
+  {
+    "city": "Le Plateau Paul Lacombe, Laconte",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 68
+  },
+  {
+    "city": "Le Littoral",
+    "demandes": 1,
+    "reponses": 4,
+    "tauxReponse": 100,
+    "repMoy": 4,
+    "prixMoy": 20,
+    "tension": 68
+  },
+  {
+    "city": "Immaculée Bourg",
+    "demandes": 1,
+    "reponses": 3,
+    "tauxReponse": 100,
+    "repMoy": 3,
+    "prixMoy": 20,
+    "tension": 60
+  },
+  {
+    "city": "Iris 1",
+    "demandes": 1,
+    "reponses": 2,
+    "tauxReponse": 100,
+    "repMoy": 2,
+    "prixMoy": 20,
+    "tension": 52
+  },
+  {
+    "city": "Buzenval 4",
+    "demandes": 1,
+    "reponses": 2,
+    "tauxReponse": 100,
+    "repMoy": 2,
+    "prixMoy": 20,
+    "tension": 52
+  },
+  {
+    "city": "Ouest",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  },
+  {
+    "city": "Romain Rolland",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  },
+  {
+    "city": "Daudet Perrin",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  },
+  {
+    "city": "Beauvoisin \"Bonjour, je recherche une débroussailleuse pour une matinée ci possible thermique\" Beauvoisin",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  },
+  {
+    "city": "Valdallière \"Bonjour, cherche une ou 2 debroussailleuse sur le secteur vire/valdaliere, aujourd'hui de 10h30 à 14h svp.\" Valdallière",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  },
+  {
+    "city": "La Gare",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 10,
+    "tension": 44
+  },
+  {
+    "city": "Balham \"Bonjour, Je cherche une debroussailleuse pour 4h environ\" Balham",
+    "demandes": 1,
+    "reponses": 1,
+    "tauxReponse": 100,
+    "repMoy": 1,
+    "prixMoy": 20,
+    "tension": 44
+  }
+]

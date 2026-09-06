@@ -1,0 +1,2132 @@
+[
+  {
+    "lat": 48.70896,
+    "lon": 2.384591,
+    "hp": 43,
+    "db": 15,
+    "total": 58,
+    "villes": [
+      "Athis-Mons",
+      "Suresnes",
+      "Paris",
+      "Saint-Michel-sur-Orge",
+      "Breuillet",
+      "Bagnolet",
+      "Boulogne-Billancourt",
+      "Créteil",
+      "Fontenay-le-Fleury",
+      "Fontenay-sous-Bois",
+      "Draveil",
+      "Savigny-le-Temple",
+      "Melun",
+      "Évry-Courcouronnes",
+      "Saint-Maur-des-Fossés",
+      "Villeneuve-le-Roi",
+      "Vincennes",
+      "Cesson",
+      "Fleury-Mérogis",
+      "Ablon-sur-Seine",
+      "Bry-sur-Marne",
+      "Trappes",
+      "Roissy-en-Brie",
+      "Chevilly-Larue",
+      "Bois-d'Arcy",
+      "Viry-Châtillon",
+      "Viroflay",
+      "Maincy",
+      "Rueil-Malmaison",
+      "Morangis",
+      "Sainte-Geneviève-des-Bois",
+      "Gif-sur-Yvette",
+      "Maisons-Alfort",
+      "Villejuif",
+      "Noisy-le-Grand",
+      "Villiers-sur-Marne"
+    ]
+  },
+  {
+    "lat": 49.02773,
+    "lon": 2.46692,
+    "hp": 19,
+    "db": 9,
+    "total": 28,
+    "villes": [
+      "Goussainville",
+      "Gennevilliers",
+      "Levallois-Perret",
+      "Neuilly-sur-Seine",
+      "Villeparisis",
+      "Livry-Gargan",
+      "Épinay-sur-Seine",
+      "Sevran",
+      "Bobigny",
+      "Saint-Ouen-sur-Seine",
+      "Stains",
+      "Senlis",
+      "Creil",
+      "Franconville",
+      "Gagny",
+      "Bondy",
+      "Nanterre",
+      "Argenteuil",
+      "Dammartin-en-Goële",
+      "Villemomble",
+      "Villepinte",
+      "Clichy-sous-Bois"
+    ]
+  },
+  {
+    "lat": 44.851939,
+    "lon": -0.587877,
+    "hp": 20,
+    "db": 8,
+    "total": 28,
+    "villes": [
+      "Bordeaux",
+      "Cenon",
+      "Bègles",
+      "Mérignac",
+      "Le Bouscat",
+      "Castelnau-de-Médoc",
+      "Saint-Jean-d'Illac",
+      "Le Haillan",
+      "Talence",
+      "Lormont",
+      "Cestas",
+      "Saint-Médard-en-Jalles",
+      "Martignas-sur-Jalle",
+      "Blanquefort",
+      "Saint-Loubès",
+      "Parempuyre"
+    ]
+  },
+  {
+    "lat": 43.282,
+    "lon": 5.405,
+    "hp": 12,
+    "db": 10,
+    "total": 22,
+    "villes": [
+      "Marseille",
+      "Le Tholonet",
+      "Aubagne",
+      "Vitrolles",
+      "Allauch",
+      "Aix-en-Provence"
+    ]
+  },
+  {
+    "lat": 43.620712,
+    "lon": 3.801257,
+    "hp": 19,
+    "db": 2,
+    "total": 21,
+    "villes": [
+      "Juvignac",
+      "Lattes",
+      "Saint-Estève",
+      "Pérols",
+      "Montpellier",
+      "Baillargues",
+      "Frontignan",
+      "Sète",
+      "Le Grau-du-Roi",
+      "Clermont-l'Hérault",
+      "Balaruc-le-Vieux"
+    ]
+  },
+  {
+    "lat": 45.836748,
+    "lon": 4.71452,
+    "hp": 16,
+    "db": 4,
+    "total": 20,
+    "villes": [
+      "Dommartin",
+      "Oullins-Pierre-Bénite",
+      "Anse",
+      "La Tour-de-Salvagny",
+      "Vaulx-en-Velin",
+      "Lyon",
+      "Vénissieux",
+      "Villeurbanne",
+      "Miribel",
+      "Brignais",
+      "Saint-Genis-Laval",
+      "Morancé",
+      "Misérieux",
+      "Lucenay",
+      "Limas"
+    ]
+  },
+  {
+    "lat": 43.792263,
+    "lon": 1.354197,
+    "hp": 12,
+    "db": 7,
+    "total": 19,
+    "villes": [
+      "Castelnau-d'Estrétefonds",
+      "Toulouse",
+      "Cépet",
+      "Plaisance-du-Touch",
+      "Montvalen",
+      "Pechbonnieu",
+      "Lasserre-Pradère"
+    ]
+  },
+  {
+    "lat": 49.115024,
+    "lon": 2.018388,
+    "hp": 13,
+    "db": 3,
+    "total": 16,
+    "villes": [
+      "Cormeilles-en-Vexin",
+      "Épône",
+      "Herblay-sur-Seine",
+      "Cergy",
+      "Montesson",
+      "Limay",
+      "Mantes-la-Ville",
+      "Persan",
+      "Mantes-la-Jolie",
+      "Maule",
+      "Vaux-sur-Seine",
+      "Conflans-Sainte-Honorine",
+      "Saint-Germain-en-Laye",
+      "Sartrouville"
+    ]
+  },
+  {
+    "lat": 47.239367,
+    "lon": -1.555335,
+    "hp": 12,
+    "db": 1,
+    "total": 13,
+    "villes": [
+      "Nantes",
+      "Sucé-sur-Erdre",
+      "Basse-Goulaine",
+      "Saint-Herblain",
+      "Chantepie",
+      "Bouguenais",
+      "Guérande"
+    ]
+  },
+  {
+    "lat": 50.711887,
+    "lon": 3.218738,
+    "hp": 8,
+    "db": 3,
+    "total": 11,
+    "villes": [
+      "Wattrelos",
+      "Villeneuve-d'Ascq",
+      "Lille",
+      "Marcq-en-Barœul",
+      "Tourcoing",
+      "Sailly-lez-Lannoy",
+      "Erquinghem-Lys",
+      "Saint-André-lez-Lille",
+      "Comines",
+      "Avelin"
+    ]
+  },
+  {
+    "lat": 47.350971,
+    "lon": -2.490765,
+    "hp": 6,
+    "db": 4,
+    "total": 10,
+    "villes": [
+      "La Turballe",
+      "La Baule-Escoublac",
+      "Le Pouliguen",
+      "Batz-sur-Mer",
+      "Saint-Nazaire",
+      "Pornichet"
+    ]
+  },
+  {
+    "lat": 43.654057,
+    "lon": 6.937765,
+    "hp": 10,
+    "db": 0,
+    "total": 10,
+    "villes": [
+      "Grasse",
+      "Nice",
+      "Valbonne",
+      "Cannes"
+    ]
+  },
+  {
+    "lat": 49.217303,
+    "lon": -0.24845,
+    "hp": 4,
+    "db": 6,
+    "total": 10,
+    "villes": [
+      "Hérouvillette",
+      "Fleury-sur-Orne",
+      "Cabourg",
+      "Caen",
+      "Saint-Germain-la-Blanche-Herbe",
+      "Blainville-sur-Orne",
+      "Saint-Contest",
+      "Le Fresne-Camilly",
+      "Colombelles"
+    ]
+  },
+  {
+    "lat": 48.216389,
+    "lon": -2.033733,
+    "hp": 6,
+    "db": 3,
+    "total": 9,
+    "villes": [
+      "Montreuil",
+      "Hédé-Bazouges",
+      "La Baussaine"
+    ]
+  },
+  {
+    "lat": 47.963534,
+    "lon": -1.796941,
+    "hp": 5,
+    "db": 4,
+    "total": 9,
+    "villes": [
+      "Guichen",
+      "Rennes",
+      "Guignen",
+      "Saint-Jacques-de-la-Lande",
+      "Bruz",
+      "Clermont",
+      "Monceaux",
+      "La Rochelle"
+    ]
+  },
+  {
+    "lat": 47.750364,
+    "lon": -3.378025,
+    "hp": 5,
+    "db": 4,
+    "total": 9,
+    "villes": [
+      "Lorient",
+      "Mellac",
+      "Guidel"
+    ]
+  },
+  {
+    "lat": 50.454083,
+    "lon": 2.610205,
+    "hp": 3,
+    "db": 6,
+    "total": 9,
+    "villes": [
+      "Barlin",
+      "Rouvroy",
+      "Arras",
+      "Calonne-Ricouart",
+      "Cuinchy",
+      "Sailly-Labourse",
+      "Noyelles-sous-Lens"
+    ]
+  },
+  {
+    "lat": 48.912759,
+    "lon": 6.045297,
+    "hp": 4,
+    "db": 4,
+    "total": 8,
+    "villes": [
+      "Pont-à-Mousson",
+      "Villers-lès-Nancy",
+      "Saint-Max",
+      "Dommartin-lès-Toul",
+      "Jarville-la-Malgrange",
+      "Vandœuvre-lès-Nancy",
+      "Pagny-sur-Moselle"
+    ]
+  },
+  {
+    "lat": 47.397539,
+    "lon": -0.547458,
+    "hp": 5,
+    "db": 3,
+    "total": 8,
+    "villes": [
+      "Mûrs-Erigné",
+      "Angers",
+      "Écouflant",
+      "Saint-Barthélemy-d'Anjou",
+      "Verrières-en-Anjou"
+    ]
+  },
+  {
+    "lat": 47.332303,
+    "lon": 0.717976,
+    "hp": 4,
+    "db": 4,
+    "total": 8,
+    "villes": [
+      "Chambray-lès-Tours",
+      "Nazelles-Négron",
+      "Tours",
+      "Esvres"
+    ]
+  },
+  {
+    "lat": 48.558668,
+    "lon": 3.2981,
+    "hp": 1,
+    "db": 7,
+    "total": 8,
+    "villes": [
+      "Provins",
+      "Montigny-Lencoup",
+      "Saint-Germain-Laval"
+    ]
+  },
+  {
+    "lat": 49.507345,
+    "lon": 0.129995,
+    "hp": 4,
+    "db": 3,
+    "total": 7,
+    "villes": [
+      "Le Havre",
+      "Deauville",
+      "La Rivière-Saint-Sauveur",
+      "Angerville-l'Orcher"
+    ]
+  },
+  {
+    "lat": 49.422225,
+    "lon": 1.059571,
+    "hp": 5,
+    "db": 2,
+    "total": 7,
+    "villes": [
+      "Le Petit-Quevilly",
+      "Saint-Aubin-lès-Elbeuf",
+      "Saint-Maclou-de-Folleville",
+      "Rouen",
+      "Maromme",
+      "Amfreville-la-Mi-Voie"
+    ]
+  },
+  {
+    "lat": 50.436464,
+    "lon": 3.431727,
+    "hp": 4,
+    "db": 3,
+    "total": 7,
+    "villes": [
+      "Saint-Amand-les-Eaux",
+      "Pont-à-Marcq",
+      "Valenciennes",
+      "Mérignies",
+      "Douai",
+      "Douchy-les-Mines"
+    ]
+  },
+  {
+    "lat": 48.406435,
+    "lon": -4.497735,
+    "hp": 3,
+    "db": 4,
+    "total": 7,
+    "villes": [
+      "Brest",
+      "Lanton",
+      "Plougastel-Daoulas",
+      "Crozon"
+    ]
+  },
+  {
+    "lat": 48.806055,
+    "lon": 2.967493,
+    "hp": 5,
+    "db": 2,
+    "total": 7,
+    "villes": [
+      "La Celle-sur-Morin",
+      "Mormant",
+      "La Ferté-Gaucher",
+      "Bailly-Romainvilliers",
+      "Saint-Thibault-des-Vignes",
+      "Mouroux",
+      "Lagny-sur-Marne"
+    ]
+  },
+  {
+    "lat": 46.264485,
+    "lon": 6.084537,
+    "hp": 5,
+    "db": 2,
+    "total": 7,
+    "villes": [
+      "Prévessin-Moëns",
+      "Ferney-Voltaire",
+      "Cruseilles",
+      "Thoiry",
+      "La Roche-sur-Foron",
+      "Arthaz-Pont-Notre-Dame",
+      "La Muraz"
+    ]
+  },
+  {
+    "lat": 42.806308,
+    "lon": 3.032501,
+    "hp": 2,
+    "db": 5,
+    "total": 7,
+    "villes": [
+      "Le Barcarès",
+      "Pollestres",
+      "Argelès-sur-Mer",
+      "Perpignan",
+      "Sainte-Marie-la-Mer",
+      "Saint-Laurent-de-la-Salanque"
+    ]
+  },
+  {
+    "lat": 43.514461,
+    "lon": 1.50305,
+    "hp": 5,
+    "db": 2,
+    "total": 7,
+    "villes": [
+      "Castanet-Tolosan",
+      "Roquettes",
+      "Colomiers",
+      "Baziège",
+      "Cugnaux"
+    ]
+  },
+  {
+    "lat": 43.136696,
+    "lon": 5.933796,
+    "hp": 3,
+    "db": 3,
+    "total": 6,
+    "villes": [
+      "Toulon",
+      "Six-Fours-les-Plages"
+    ]
+  },
+  {
+    "lat": 47.817402,
+    "lon": -4.227337,
+    "hp": 3,
+    "db": 3,
+    "total": 6,
+    "villes": [
+      "Plobannalec-Lesconil",
+      "Plogastel-Saint-Germain",
+      "Plonéour-Lanvern",
+      "Combrit",
+      "Penmarch"
+    ]
+  },
+  {
+    "lat": 47.659971,
+    "lon": -2.752192,
+    "hp": 3,
+    "db": 3,
+    "total": 6,
+    "villes": [
+      "Vannes",
+      "Lannion",
+      "Monterblanc",
+      "Sainte-Suzanne"
+    ]
+  },
+  {
+    "lat": 43.931417,
+    "lon": 4.943067,
+    "hp": 1,
+    "db": 5,
+    "total": 6,
+    "villes": [
+      "Châteauneuf-de-Gadagne",
+      "Entraigues-sur-la-Sorgue",
+      "Villeneuve-lès-Avignon",
+      "Noves",
+      "Châteaurenard",
+      "Eyguières"
+    ]
+  },
+  {
+    "lat": 47.95471,
+    "lon": -2.547028,
+    "hp": 2,
+    "db": 4,
+    "total": 6,
+    "villes": [
+      "Josselin",
+      "Monteneuf",
+      "Augan",
+      "Néant-sur-Yvel",
+      "Locminé"
+    ]
+  },
+  {
+    "lat": 47.933752,
+    "lon": 1.918736,
+    "hp": 4,
+    "db": 1,
+    "total": 5,
+    "villes": [
+      "Fleury-les-Aubrais",
+      "Jargeau",
+      "Semoy",
+      "Orléans",
+      "Combreux"
+    ]
+  },
+  {
+    "lat": 46.17596,
+    "lon": 5.207269,
+    "hp": 3,
+    "db": 2,
+    "total": 5,
+    "villes": [
+      "Péronnas",
+      "Bohas-Meyriat-Rignat",
+      "Montrevel-en-Bresse",
+      "Vonnas",
+      "Ambérieu-en-Bugey"
+    ]
+  },
+  {
+    "lat": 43.700723,
+    "lon": -1.06016,
+    "hp": 2,
+    "db": 3,
+    "total": 5,
+    "villes": [
+      "Dax",
+      "Saubion",
+      "Saint-Paul-lès-Dax",
+      "Oeyreluy",
+      "Seyresse"
+    ]
+  },
+  {
+    "lat": 45.220528,
+    "lon": 5.864794,
+    "hp": 1,
+    "db": 4,
+    "total": 5,
+    "villes": [
+      "Le Versoud",
+      "Froges",
+      "Le Sappey-en-Chartreuse",
+      "Saint-Martin-d'Hères",
+      "Grenoble"
+    ]
+  },
+  {
+    "lat": 45.541328,
+    "lon": 4.59045,
+    "hp": 3,
+    "db": 2,
+    "total": 5,
+    "villes": [
+      "Les Arcs",
+      "Saint-Étienne",
+      "Montrond-les-Bains"
+    ]
+  },
+  {
+    "lat": 47.441775,
+    "lon": -2.091299,
+    "hp": 3,
+    "db": 2,
+    "total": 5,
+    "villes": [
+      "Pontchâteau",
+      "Clamart",
+      "Avessac",
+      "Béganne"
+    ]
+  },
+  {
+    "lat": 43.302779,
+    "lon": 3.484797,
+    "hp": 2,
+    "db": 3,
+    "total": 5,
+    "villes": [
+      "Agde",
+      "Béziers",
+      "Saint-Palais",
+      "Valros"
+    ]
+  },
+  {
+    "lat": 43.793041,
+    "lon": 4.38663,
+    "hp": 2,
+    "db": 3,
+    "total": 5,
+    "villes": [
+      "Caissargues",
+      "Nîmes",
+      "Aimargues"
+    ]
+  },
+  {
+    "lat": 49.3011,
+    "lon": 6.203318,
+    "hp": 1,
+    "db": 4,
+    "total": 5,
+    "villes": [
+      "Guénange",
+      "Tucquegnieux",
+      "Bronvaux",
+      "Thionville",
+      "Metz"
+    ]
+  },
+  {
+    "lat": 48.47876,
+    "lon": -2.749857,
+    "hp": 1,
+    "db": 4,
+    "total": 5,
+    "villes": [
+      "Trégueux",
+      "Plœuc-L'Hermitage",
+      "Saint-Quay-Portrieux",
+      "Saint-Renan",
+      "Hillion"
+    ]
+  },
+  {
+    "lat": 49.250948,
+    "lon": 4.055595,
+    "hp": 4,
+    "db": 1,
+    "total": 5,
+    "villes": [
+      "Reims",
+      "Balham"
+    ]
+  },
+  {
+    "lat": 45.886659,
+    "lon": 1.215939,
+    "hp": 3,
+    "db": 1,
+    "total": 4,
+    "villes": [
+      "Couzeix",
+      "Limoges",
+      "Aixe-sur-Vienne"
+    ]
+  },
+  {
+    "lat": 47.993335,
+    "lon": 0.191169,
+    "hp": 3,
+    "db": 1,
+    "total": 4,
+    "villes": [
+      "Le Mans",
+      "Laigné-Saint-Gervais"
+    ]
+  },
+  {
+    "lat": 47.529162,
+    "lon": 6.822484,
+    "hp": 2,
+    "db": 2,
+    "total": 4,
+    "villes": [
+      "Grand-Charmont",
+      "Champagney",
+      "Montbéliard",
+      "Angeot"
+    ]
+  },
+  {
+    "lat": 46.933345,
+    "lon": 2.391345,
+    "hp": 1,
+    "db": 3,
+    "total": 4,
+    "villes": [
+      "Levet",
+      "Saint-Doulchard",
+      "Villeneuve-sur-Cher"
+    ]
+  },
+  {
+    "lat": 51.028256,
+    "lon": 2.346525,
+    "hp": 2,
+    "db": 2,
+    "total": 4,
+    "villes": [
+      "Dunkerque",
+      "Téteghem-Coudekerque-Village",
+      "Grande-Synthe",
+      "Hardifort"
+    ]
+  },
+  {
+    "lat": 44.355605,
+    "lon": 5.126141,
+    "hp": 2,
+    "db": 2,
+    "total": 4,
+    "villes": [
+      "Nyons",
+      "Entrechaux",
+      "Taulignan"
+    ]
+  },
+  {
+    "lat": 43.313503,
+    "lon": -0.343106,
+    "hp": 1,
+    "db": 3,
+    "total": 4,
+    "villes": [
+      "Pau",
+      "Lagor"
+    ]
+  },
+  {
+    "lat": 46.852296,
+    "lon": -0.973737,
+    "hp": 2,
+    "db": 2,
+    "total": 4,
+    "villes": [
+      "Saint-Benoît",
+      "Le Plessis-Bouchard",
+      "Chaligny"
+    ]
+  },
+  {
+    "lat": 43.462584,
+    "lon": 6.555645,
+    "hp": 1,
+    "db": 3,
+    "total": 4,
+    "villes": [
+      "Le Muy",
+      "Taradeau",
+      "Draguignan"
+    ]
+  },
+  {
+    "lat": 45.786671,
+    "lon": 3.107055,
+    "hp": 1,
+    "db": 3,
+    "total": 4,
+    "villes": [
+      "Clermont-Ferrand",
+      "Meilhaud"
+    ]
+  },
+  {
+    "lat": 46.6105,
+    "lon": -1.8164,
+    "hp": 1,
+    "db": 3,
+    "total": 4,
+    "villes": [
+      "Brem-sur-Mer",
+      "Les Sables-d'Olonne",
+      "La Salle"
+    ]
+  },
+  {
+    "lat": 45.695195,
+    "lon": 5.207879,
+    "hp": 0,
+    "db": 4,
+    "total": 4,
+    "villes": [
+      "Chozeau",
+      "Villefontaine",
+      "Lagnieu",
+      "Saint-Chef"
+    ]
+  },
+  {
+    "lat": 48.426444,
+    "lon": 1.466018,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Luisant",
+      "Marolles",
+      "Dammarie"
+    ]
+  },
+  {
+    "lat": 43.128017,
+    "lon": 1.626781,
+    "hp": 2,
+    "db": 1,
+    "total": 3,
+    "villes": [
+      "Pamiers",
+      "Aigues-Vives"
+    ]
+  },
+  {
+    "lat": 45.829922,
+    "lon": -1.103403,
+    "hp": 3,
+    "db": 0,
+    "total": 3,
+    "villes": [
+      "Marennes-Hiers-Brouage",
+      "Royan",
+      "Saujon"
+    ]
+  },
+  {
+    "lat": 43.616938,
+    "lon": 0.772264,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Gailhan",
+      "Auch",
+      "Lasséran"
+    ]
+  },
+  {
+    "lat": 16.313837,
+    "lon": -61.705044,
+    "hp": 2,
+    "db": 1,
+    "total": 3,
+    "villes": [
+      "Massy",
+      "Montauban"
+    ]
+  },
+  {
+    "lat": 47.251938,
+    "lon": 6.001699,
+    "hp": 3,
+    "db": 0,
+    "total": 3,
+    "villes": [
+      "Besançon"
+    ]
+  },
+  {
+    "lat": 43.360838,
+    "lon": -1.759629,
+    "hp": 3,
+    "db": 0,
+    "total": 3,
+    "villes": [
+      "Hendaye",
+      "Boucau",
+      "Urrugne"
+    ]
+  },
+  {
+    "lat": 48.799108,
+    "lon": -1.544031,
+    "hp": 2,
+    "db": 1,
+    "total": 3,
+    "villes": [
+      "Saint-Pair-sur-Mer",
+      "Jullouville",
+      "Sartilly-Baie-Bocage"
+    ]
+  },
+  {
+    "lat": 49.903041,
+    "lon": 2.292605,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Amiens"
+    ]
+  },
+  {
+    "lat": 46.262575,
+    "lon": -0.718266,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Saint-Hilaire-la-Palud",
+      "Niort",
+      "Échiré"
+    ]
+  },
+  {
+    "lat": 46.517384,
+    "lon": 0.350473,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Smarves",
+      "Poitiers",
+      "Mignaloux-Beauvoir"
+    ]
+  },
+  {
+    "lat": 47.999189,
+    "lon": 3.307499,
+    "hp": 2,
+    "db": 1,
+    "total": 3,
+    "villes": [
+      "Cézy",
+      "Looze",
+      "Gurgy"
+    ]
+  },
+  {
+    "lat": 48.579831,
+    "lon": 7.761454,
+    "hp": 1,
+    "db": 2,
+    "total": 3,
+    "villes": [
+      "Strasbourg"
+    ]
+  },
+  {
+    "lat": 44.359272,
+    "lon": 2.566732,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "Rodez",
+      "Moûtiers"
+    ]
+  },
+  {
+    "lat": 44.918771,
+    "lon": 2.435053,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "Aurillac"
+    ]
+  },
+  {
+    "lat": 45.901584,
+    "lon": 6.125296,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "Annecy",
+      "Rumilly"
+    ]
+  },
+  {
+    "lat": 50.72821,
+    "lon": 1.702803,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "La Capelle-lès-Boulogne",
+      "Fréthun",
+      "Wimereux"
+    ]
+  },
+  {
+    "lat": 49.535275,
+    "lon": -1.718738,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "Bricquebosq",
+      "L'Étang-Bertrand"
+    ]
+  },
+  {
+    "lat": 47.420699,
+    "lon": 0.024131,
+    "hp": 0,
+    "db": 3,
+    "total": 3,
+    "villes": [
+      "Le Loroux",
+      "Saumur",
+      "Beaufort-en-Anjou"
+    ]
+  },
+  {
+    "lat": 48.638594,
+    "lon": -1.903153,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Saint-Méloir-des-Ondes",
+      "Avignon"
+    ]
+  },
+  {
+    "lat": 46.197819,
+    "lon": 3.433222,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Saint-Germain-des-Fossés",
+      "Varennes-sur-Allier"
+    ]
+  },
+  {
+    "lat": 43.344586,
+    "lon": 1.852826,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Saint-Jammes",
+      "Castelnaudary"
+    ]
+  },
+  {
+    "lat": 49.112581,
+    "lon": 3.059332,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Neufchelles",
+      "La Ferté-sous-Jouarre"
+    ]
+  },
+  {
+    "lat": 47.749468,
+    "lon": 7.36973,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Mulhouse"
+    ]
+  },
+  {
+    "lat": 43.239349,
+    "lon": 0.06402,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Tarbes"
+    ]
+  },
+  {
+    "lat": 43.651801,
+    "lon": -0.592877,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Hagetmau",
+      "Salles"
+    ]
+  },
+  {
+    "lat": 48.074295,
+    "lon": 1.323986,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Châteaudun",
+      "Yèvres"
+    ]
+  },
+  {
+    "lat": 46.711008,
+    "lon": -2.336241,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "L'Île-d'Yeu",
+      "Notre-Dame-de-Monts"
+    ]
+  },
+  {
+    "lat": 44.291282,
+    "lon": 4.75142,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Bollène",
+      "Piolenc"
+    ]
+  },
+  {
+    "lat": 46.043412,
+    "lon": 4.072015,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Roanne",
+      "Thizy-les-Bourgs"
+    ]
+  },
+  {
+    "lat": 44.922579,
+    "lon": 4.921827,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Valence",
+      "Charmes-sur-l'Herbasse"
+    ]
+  },
+  {
+    "lat": 46.94222,
+    "lon": 0.708783,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Rives",
+      "Manthelan"
+    ]
+  },
+  {
+    "lat": 50.121477,
+    "lon": 3.419012,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Caudry",
+      "Arleux"
+    ]
+  },
+  {
+    "lat": 48.755313,
+    "lon": -0.717625,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Rochefort",
+      "Valdallière"
+    ]
+  },
+  {
+    "lat": 50.103304,
+    "lon": 1.517843,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Bourseville",
+      "Cayeux-sur-Mer"
+    ]
+  },
+  {
+    "lat": -20.909778,
+    "lon": 55.444588,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Saint-Denis",
+      "La Possession"
+    ]
+  },
+  {
+    "lat": 43.52979,
+    "lon": -1.4611,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Tarnos"
+    ]
+  },
+  {
+    "lat": 47.385541,
+    "lon": -1.197594,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Ancenis-Saint-Géréon"
+    ]
+  },
+  {
+    "lat": 45.244927,
+    "lon": 4.651645,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Annonay",
+      "Vernet"
+    ]
+  },
+  {
+    "lat": 49.064585,
+    "lon": -0.838043,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Val de Drôme",
+      "Moon-sur-Elle"
+    ]
+  },
+  {
+    "lat": 49.309303,
+    "lon": 2.60379,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Pont-Sainte-Maxence",
+      "Compiègne"
+    ]
+  },
+  {
+    "lat": 44.843508,
+    "lon": 0.228358,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Richelieu",
+      "Saint-Avit-Saint-Nazaire"
+    ]
+  },
+  {
+    "lat": 44.048086,
+    "lon": 1.13193,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Castelsarrasin",
+      "Moissac"
+    ]
+  },
+  {
+    "lat": 44.826696,
+    "lon": -0.182488,
+    "hp": 2,
+    "db": 0,
+    "total": 2,
+    "villes": [
+      "Branne"
+    ]
+  },
+  {
+    "lat": 48.641966,
+    "lon": 1.844673,
+    "hp": 1,
+    "db": 1,
+    "total": 2,
+    "villes": [
+      "Rambouillet",
+      "Les Essarts-le-Roi"
+    ]
+  },
+  {
+    "lat": 48.988461,
+    "lon": 1.159404,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Angerville-la-Campagne",
+      "La Bonneville-sur-Iton"
+    ]
+  },
+  {
+    "lat": 43.206781,
+    "lon": 2.349415,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Carcassonne",
+      "Caux-et-Sauzens"
+    ]
+  },
+  {
+    "lat": 45.389239,
+    "lon": 3.930941,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Usson-en-Forez",
+      "Retournac"
+    ]
+  },
+  {
+    "lat": 43.040943,
+    "lon": 0.372479,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Lortet",
+      "Loures-Barousse"
+    ]
+  },
+  {
+    "lat": 44.187162,
+    "lon": 5.941472,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Le Thor",
+      "Laragne-Montéglin"
+    ]
+  },
+  {
+    "lat": 48.053224,
+    "lon": -3.213388,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Longueville"
+    ]
+  },
+  {
+    "lat": 48.25683,
+    "lon": -1.598083,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Saint-Aubin-d'Aubigné",
+      "Meaux"
+    ]
+  },
+  {
+    "lat": 46.250012,
+    "lon": 0.04239,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Sainte-Soline",
+      "Sauzé-entre-Bois"
+    ]
+  },
+  {
+    "lat": 44.410465,
+    "lon": 0.195897,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Le Mas-d'Agenais",
+      "Saint-Barthélemy-d'Agenais"
+    ]
+  },
+  {
+    "lat": 47.223215,
+    "lon": 2.082045,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Vierzon"
+    ]
+  },
+  {
+    "lat": 45.220535,
+    "lon": -0.573446,
+    "hp": 0,
+    "db": 2,
+    "total": 2,
+    "villes": [
+      "Étauliers",
+      "Montendre"
+    ]
+  },
+  {
+    "lat": 49.209495,
+    "lon": 6.690135,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Creutzwald"
+    ]
+  },
+  {
+    "lat": 49.816153,
+    "lon": 2.701834,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Rosières-en-Santerre"
+    ]
+  },
+  {
+    "lat": 46.988535,
+    "lon": 3.160778,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Nevers"
+    ]
+  },
+  {
+    "lat": 47.6224,
+    "lon": -1.453652,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Issé"
+    ]
+  },
+  {
+    "lat": 47.153309,
+    "lon": 0.228399,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Grigny"
+    ]
+  },
+  {
+    "lat": 42.612385,
+    "lon": 9.45385,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Biguglia"
+    ]
+  },
+  {
+    "lat": 45.822963,
+    "lon": 0.447077,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Chasseneuil-sur-Bonnieure"
+    ]
+  },
+  {
+    "lat": 48.196392,
+    "lon": 6.428957,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Golbey"
+    ]
+  },
+  {
+    "lat": 44.723963,
+    "lon": -1.199455,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Lège-Cap-Ferret"
+    ]
+  },
+  {
+    "lat": 49.831943,
+    "lon": 1.085558,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Anneville-sur-Scie"
+    ]
+  },
+  {
+    "lat": 44.566998,
+    "lon": 2.257289,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Decazeville"
+    ]
+  },
+  {
+    "lat": 43.659948,
+    "lon": 6.122456,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Régusse"
+    ]
+  },
+  {
+    "lat": 44.635894,
+    "lon": 3.479777,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Monts-de-Randon"
+    ]
+  },
+  {
+    "lat": 48.651542,
+    "lon": -4.323465,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Plounéour-Brignogan-plages"
+    ]
+  },
+  {
+    "lat": 46.392551,
+    "lon": 6.542114,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Publier"
+    ]
+  },
+  {
+    "lat": 48.0122,
+    "lon": 7.133334,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Aschbach"
+    ]
+  },
+  {
+    "lat": 48.019121,
+    "lon": 2.720474,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Châlette-sur-Loing"
+    ]
+  },
+  {
+    "lat": 41.944274,
+    "lon": 9.373109,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Ventiseri"
+    ]
+  },
+  {
+    "lat": 46.135096,
+    "lon": -1.118438,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Aytré"
+    ]
+  },
+  {
+    "lat": 49.660693,
+    "lon": 3.298927,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Tergnier"
+    ]
+  },
+  {
+    "lat": 45.552815,
+    "lon": 5.963965,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Joigny"
+    ]
+  },
+  {
+    "lat": 46.217954,
+    "lon": 2.516003,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Entraigues"
+    ]
+  },
+  {
+    "lat": 45.856305,
+    "lon": -0.545719,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Saint-Hilaire-de-Villefranche"
+    ]
+  },
+  {
+    "lat": 45.289081,
+    "lon": 5.49129,
+    "hp": 1,
+    "db": 0,
+    "total": 1,
+    "villes": [
+      "Tullins"
+    ]
+  },
+  {
+    "lat": 46.863155,
+    "lon": 1.423741,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Beauvoisin"
+    ]
+  },
+  {
+    "lat": 44.362777,
+    "lon": 0.723972,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Cambes"
+    ]
+  },
+  {
+    "lat": 45.807869,
+    "lon": -0.053232,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Lignières"
+    ]
+  },
+  {
+    "lat": 47.83493,
+    "lon": -0.198425,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Parcé-sur-Sarthe"
+    ]
+  },
+  {
+    "lat": 49.063018,
+    "lon": 7.217662,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Gros-Réderching"
+    ]
+  },
+  {
+    "lat": 45.293624,
+    "lon": 1.436412,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Voutezac"
+    ]
+  },
+  {
+    "lat": 49.750369,
+    "lon": 0.396705,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Fécamp"
+    ]
+  },
+  {
+    "lat": 49.061455,
+    "lon": 3.571962,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Passy-sur-Marne"
+    ]
+  },
+  {
+    "lat": 42.89454,
+    "lon": 2.166288,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Quillan"
+    ]
+  },
+  {
+    "lat": 48.514551,
+    "lon": 3.72271,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Romilly-sur-Seine"
+    ]
+  },
+  {
+    "lat": 45.510463,
+    "lon": -0.003536,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Charron"
+    ]
+  },
+  {
+    "lat": 47.340124,
+    "lon": 4.862767,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Lantenay"
+    ]
+  },
+  {
+    "lat": 48.765612,
+    "lon": 7.2622,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Phalsbourg"
+    ]
+  },
+  {
+    "lat": 43.552245,
+    "lon": 0.396252,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Estipouy"
+    ]
+  },
+  {
+    "lat": 45.59269,
+    "lon": -0.713711,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Cravans"
+    ]
+  },
+  {
+    "lat": 48.235969,
+    "lon": 3.558277,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Villeneuve-l'Archevêque"
+    ]
+  },
+  {
+    "lat": 46.611148,
+    "lon": 4.987015,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Simandre"
+    ]
+  },
+  {
+    "lat": 47.205322,
+    "lon": 5.355344,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Villers-les-Pots"
+    ]
+  },
+  {
+    "lat": 46.847957,
+    "lon": 5.36667,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Bellevesvre"
+    ]
+  },
+  {
+    "lat": 48.266001,
+    "lon": -3.570037,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Carhaix-Plouguer"
+    ]
+  },
+  {
+    "lat": 48.564745,
+    "lon": 6.504482,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Hériménil"
+    ]
+  },
+  {
+    "lat": 46.928833,
+    "lon": 3.957873,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Avaux"
+    ]
+  },
+  {
+    "lat": 48.485717,
+    "lon": -1.126921,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Louvigné-du-Désert"
+    ]
+  },
+  {
+    "lat": 49.501461,
+    "lon": 2.90126,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Cambronne-lès-Ribécourt"
+    ]
+  },
+  {
+    "lat": 48.812433,
+    "lon": -3.45979,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Perros-Guirec"
+    ]
+  },
+  {
+    "lat": 48.433111,
+    "lon": 2.764486,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Vulaines-sur-Seine"
+    ]
+  },
+  {
+    "lat": 47.612971,
+    "lon": 2.884066,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Batilly-en-Puisaye"
+    ]
+  },
+  {
+    "lat": 43.981459,
+    "lon": 4.046647,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Canaules-et-Argentières"
+    ]
+  },
+  {
+    "lat": 45.150076,
+    "lon": 1.953467,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Rivière"
+    ]
+  },
+  {
+    "lat": 48.100347,
+    "lon": -0.366527,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Sainte-Suzanne-et-Chammes"
+    ]
+  },
+  {
+    "lat": 47.874267,
+    "lon": -3.762632,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Pont-Aven"
+    ]
+  },
+  {
+    "lat": 47.724167,
+    "lon": 1.568392,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Avaray"
+    ]
+  },
+  {
+    "lat": 46.440514,
+    "lon": 1.67879,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Bressolles"
+    ]
+  },
+  {
+    "lat": 44.716118,
+    "lon": 4.334257,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Aizac"
+    ]
+  },
+  {
+    "lat": 45.872382,
+    "lon": 6.717548,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Saint-Gervais-les-Bains"
+    ]
+  },
+  {
+    "lat": 47.790189,
+    "lon": 3.580299,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Auxerre"
+    ]
+  },
+  {
+    "lat": 46.594633,
+    "lon": 4.057848,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Gueugnon"
+    ]
+  },
+  {
+    "lat": 47.287222,
+    "lon": 3.363569,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Nancray"
+    ]
+  },
+  {
+    "lat": 48.72217,
+    "lon": 1.401489,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Luray"
+    ]
+  },
+  {
+    "lat": 42.46701,
+    "lon": 2.860044,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Le Perthus"
+    ]
+  },
+  {
+    "lat": 48.037118,
+    "lon": -4.677278,
+    "hp": 0,
+    "db": 1,
+    "total": 1,
+    "villes": [
+      "Plogoff"
+    ]
+  }
+]
